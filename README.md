@@ -1,25 +1,21 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
-
-
+The Ruthenian UD treebank includes texts written in the territories of modern Belarus, Lithuania, Ukraine, and Poland in ca. 1380-1650. A sample of legal and nonfiction texts is drawn from the Ruthenian Corpus.
+ 
 # Introduction
 
-...
-
+The Ruthenian UD treebank includes texts written in "prosta mova" ("ruska mova", Old Belarusian, Old Ukrainian), a Western descendant of Old East Slavic spoken in the territories of modern Belarus, Lithuania, Ukraine, and Poland. A sample of legal and nonfiction texts written in ca. 1380-1650 is drawn from the Ruthenian Corpus, a historical language corpus resource currently being compiled by an independent research partnership.
 
 # Acknowledgments
 
-...
+We are grateful to Maria Ermolova, Vladimir Shatin, and Natalia Iordani for comments and discussions on the earlier versions of morphological markup.
 
 ## References
-
-* (citation)
 
 
 # Changelog
 
-* 2021-05-15 v2.8
+* 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
 
 
@@ -29,12 +25,12 @@ Data available since: UD v2.8
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: legal nonfiction
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
-Contributors: Lyashevskaya, Olga; Skachedubova, Maria
+Lemmas: not available
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
+Contributors: Lyashevskaya, Olga; Sitchinava, Dmitri; Shvedova, Maria
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
