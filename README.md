@@ -21,7 +21,7 @@ We are grateful to Maria Ermolova, Vladimir Shatin, and Natalia Iordani for comm
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.8
+Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: legal nonfiction
