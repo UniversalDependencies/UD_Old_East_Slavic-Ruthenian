@@ -1,7 +1,7 @@
 # Summary
 
 The Ruthenian UD treebank includes texts written in the territories of modern Belarus, Lithuania, Ukraine, and Poland in ca. 1380-1650. A sample of legal and nonfiction texts is drawn from the Ruthenian Corpus.
- 
+
 # Introduction
 
 The Ruthenian UD treebank includes texts written in "prosta mova" ("ruska mova", Old Belarusian, Old Ukrainian), a Western descendant of Old East Slavic spoken in the territories of modern Belarus, Lithuania, Ukraine, and Poland. A sample of legal and nonfiction texts written in ca. 1380-1650 is drawn from the Ruthenian Corpus, a historical language corpus resource currently being compiled by an independent research partnership.
@@ -30,7 +30,7 @@ UPOS: manual native
 XPOS: not available
 Features: manual native
 Relations: manual native
-Contributors: Lyashevskaya, Olga; Sitchinava, Dmitri; Shvedova, Maria
+Contributors: Lyashevskaya, Olga; Sichinava, Dmitry; Shvedova, Maria
 Contributing: elsewhere
 Contact: olesar@yandex.ru
 ===============================================================================
