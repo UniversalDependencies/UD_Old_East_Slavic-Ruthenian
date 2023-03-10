@@ -73,7 +73,7 @@
 # sent_id = StatutVKL1566-4
 # text = На первей маемъ мы Господаръ часъ певный зложити и то листы нашими по всихъ таковыхъ повѣтехъ ознаймити, гдѣ въ кождомъ повѣтѣ княжата панове рада наша, также рицерство и шляхта вси, хто кольвекъ якого стану будетъ тамъ имѣнья свои мѣти, зъѣхатися мають до двора, которій на посродку того повѣту будетъ, и тые которые ся зъѣдутъ не ждучи никого, хтобы въ повѣтѣ имѣнье маючи пріѣхати не хотѣлъ, ку тому року мають выбрати зо всее шляхты того повѣту братьи своее на кождый врядъ таковый, на судейство чотырохъ людей добрихъ, на подсудство другихъ чотырохъ, на писарство третихъ чотырохъ людей добрыхъ, цнотливыхъ, ростропныхъ въ правѣ у мѣстныхъ, роду шляхецского, въ томъ повѣтѣ добрѣ оселыхъ, не иное вѣры только Хрестіянское; и выбравшы ихъ, тыхъ выбраныхъ черезъ листы свои намъ Господарю ознаймити мають, а мы съ тыхъ всихъ дванадцати особъ выберемъ трехъ до того повѣту на врядъ земскій, на судъ судою и подсудка и писара.
 1	На	на	ADP	_	_	2	case	_	_
-2	первей	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	OOV=Yes|_
+2	первей	первей	ADV	_	Degree=Cmp	3	advmod	_	_
 3	маемъ	мети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	мы	я	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 5	Господаръ	господаръ	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	vocative	_	_
@@ -81,7 +81,7 @@
 7	певный	певный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
 8	зложити	зложити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
 9	и	и	CCONJ	_	_	17	cc	_	_
-10	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	expl	_	OOV=Yes|_
+10	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	expl	_	_
 11	листы	листъ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	iobj	_	_
 12	нашими	нашъ	DET	_	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	_
 13	по	по	ADP	_	_	16	case	_	_
@@ -106,7 +106,7 @@
 32	вси	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	31	det	_	SpaceAfter=No
 33	,	,	PUNCT	_	_	42	punct	_	_
 34	хто	хто	PRON	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	42	nsubj	_	_
-35	кольвекъ	кольвекъ	PART	_	_	34	advmod	_	OOV=Yes|_
+35	кольвекъ	кольвекъ	PART	_	_	34	advmod	_	_
 36	якого	який	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	37	det	_	_
 37	стану	станъ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
 38	будетъ	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	42	aux	_	_
@@ -186,7 +186,7 @@
 112	въ	въ	ADP	_	_	113	case	_	_
 113	правѣ	право	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	111	obl	_	_
 114	у	въ	ADP	_	_	115	case	_	_
-115	мѣстныхъ	местный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	111	obl	_	OOV=Yes|SpaceAfter=No
+115	мѣстныхъ	местный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	111	obl	_	SpaceAfter=No
 116	,	,	PUNCT	_	_	117	punct	_	_
 117	роду	родъ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	107	conj	_	_
 118	шляхецского	шляхетский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	117	amod	_	SpaceAfter=No
@@ -195,7 +195,7 @@
 121	томъ	той	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	122	det	_	_
 122	повѣтѣ	поветъ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	124	obl	_	_
 123	добрѣ	добре	ADV	_	Degree=Pos	124	advmod	_	_
-124	оселыхъ	оселый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	107	conj	_	OOV=Yes|SpaceAfter=No
+124	оселыхъ	оселый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	107	conj	_	SpaceAfter=No
 125	,	,	PUNCT	_	_	128	punct	_	_
 126	не	не	PART	_	Polarity=Neg	128	advmod	_	_
 127	иное	иный	DET	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot	128	det	_	_
@@ -235,7 +235,7 @@
 161	,	,	PUNCT	_	_	163	punct	_	_
 162	на	на	ADP	_	_	163	case	_	_
 163	судъ	судъ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	153	obl	_	_
-164	судою	судоя	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	154	appos	_	OOV=Yes|_
+164	судою	судья	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Typo=Yes	154	appos	_	_
 165	и	и	CCONJ	_	_	166	cc	_	_
 166	подсудка	подсудокъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	164	conj	_	_
 167	и	и	CCONJ	_	_	168	cc	_	_
@@ -324,7 +324,7 @@
 23	Князства	князство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
 24	Литовского	литовский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	SpaceAfter=No
 25	,	,	PUNCT	_	_	27	punct	_	_
-26	водлугъ	водлугъ	ADP	_	_	27	case	_	OOV=Yes|_
+26	водлугъ	водлугъ	ADP	_	_	27	case	_	_
 27	жалобы	жалоба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	38	obl	_	_
 28	и	и	CCONJ	_	_	29	cc	_	_
 29	отпору	отпоръ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	conj	_	SpaceAfter=No
@@ -408,7 +408,7 @@
 107	сторонѣ	сторона	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	106	iobj	_	SpaceAfter=No
 108	,	,	PUNCT	_	_	111	punct	_	_
 109	а	а	CCONJ	_	_	111	cc	_	_
-110	ни	ни	CCONJ	CC	Polarity=Neg	111	cc	_	OOV=Yes|_
+110	ни	ни	CCONJ	CC	Polarity=Neg	111	cc	_	_
 111	боячися	боятися	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	44	conj	_	_
 112	казни	казнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	111	obj	_	_
 113	помсты	помста	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	112	conj	_	_
@@ -419,7 +419,7 @@
 118	самого	самъ	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Emp	119	det	_	_
 119	Бога	богъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	133	obj	_	_
 120	и	и	CCONJ	_	_	123	cc	_	_
-121	его	его	DET	PRP$	Poss=Yes|PronType=Prs	123	det	_	OOV=Yes|_
+121	его	его	DET	PRP$	Poss=Yes|PronType=Prs	123	det	_	_
 122	светую	святый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	123	amod	_	_
 123	справедливость	справедливость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	119	conj	_	_
 124	и	и	CCONJ	_	_	125	cc	_	_
@@ -433,7 +433,7 @@
 132	очима	око	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Dual	133	obl	_	_
 133	маючи	мети	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	44	conj	_	SpaceAfter=No
 134	,	,	PUNCT	_	_	139	punct	_	_
-135	тежъ	тежъ	CCONJ	CC	_	139	cc	_	OOV=Yes|_
+135	тежъ	тежъ	CCONJ	CC	_	139	cc	_	_
 136	роковъ	рокъ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	139	obj	_	_
 137	николи	николи	ADV	RB	Degree=Pos	139	advmod	_	_
 138	не	не	PART	_	Polarity=Neg	139	advmod	_	_
@@ -477,7 +477,7 @@
 3	земскій	земский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
 4	маеть	мети	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	по	по	ADP	_	_	7	case	_	_
-6	Руску	руску	ADV	_	Degree=Pos	15	obl	_	OOV=Yes|_
+6	Руску	руску	ADV	_	Degree=Pos	15	advmod	_	_
 7	литерами	литера	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	15	iobj	_	_
 8	и	и	CCONJ	_	_	9	cc	_	_
 9	словы	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	7	conj	_	_
@@ -516,7 +516,7 @@
 9	Троицы	тройца	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
 10	единому	единый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	acl	_	_
 11	на	на	ADP	_	_	12	case	_	_
-12	томъ	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	OOV=Yes|SpaceAfter=No
+12	томъ	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	37	punct	_	_
 14	ижъ	ижъ	SCONJ	_	_	37	mark	_	_
 15	справедливе	справедливе	ADV	_	Degree=Pos	37	advmod	_	_
@@ -651,7 +651,7 @@
 144	самого	самъ	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	145	det	_	_
 145	Бога	богъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	155	obj	_	_
 146	и	и	CCONJ	_	_	149	cc	_	_
-147	его	его	DET	PRP$	Poss=Yes|PronType=Prs	149	det	_	OOV=Yes|_
+147	его	его	DET	PRP$	Poss=Yes|PronType=Prs	149	det	_	_
 148	светую	святый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	149	amod	_	_
 149	справедливость	справедливость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	145	conj	_	_
 150	и	и	CCONJ	_	_	151	cc	_	_
@@ -707,7 +707,7 @@
 27	трафило	трафити	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
 28	се	се	PRON	_	Clitic=Yes|PronType=Prs|Reflex=Yes	27	expl	_	_
 29	бы	бы	AUX	_	Mood=Cnd	27	aux	_	_
-30	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	OOV=Yes|_
+30	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	_
 31	въ	въ	ADP	_	_	32	case	_	_
 32	небытности	небытность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
 33	нашой	нашъ	DET	_	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det	_	SpaceAfter=No
@@ -723,7 +723,7 @@
 43	,	,	PUNCT	_	_	42	punct	_	_
 44	мають	мети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 45	о	о	ADP	_	_	46	case	_	_
-46	томъ	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	48	obl	_	OOV=Yes|_
+46	томъ	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	48	obl	_	_
 47	дати	дати	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	xcomp	_	_
 48	знати	знати	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	47	xcomp	_	_
 49	воеводѣ	воевода	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	48	iobj	_	_
@@ -793,7 +793,7 @@
 113	,	,	PUNCT	_	_	117	punct	_	_
 114	яко	яко	SCONJ	_	_	117	mark	_	_
 115	и	и	PART	_	_	116	advmod	_	_
-116	первымъ	первый	ADJ	_	Case=Dat|Number=Plur|NumForm=Word|NumType=Ord	117	iobj	_	OOV=Yes|_
+116	первымъ	первый	ADJ	ORD	Case=Dat|Number=Plur|NumForm=Word|NumType=Ord	117	iobj	_	_
 117	выменено	выменити	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	111	acl	_	SpaceAfter=No
 118	,	,	PUNCT	_	_	117	punct	_	_
 119	обрати	обрати	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	104	xcomp	_	_
@@ -842,7 +842,7 @@
 162	будуть	быти	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	161	aux	_	SpaceAfter=No
 163	,	,	PUNCT	_	_	161	punct	_	_
 164	не	не	PART	_	Polarity=Neg	165	advmod	_	_
-165	отволочнѣ	отволочне	ADV	RB	Degree=Pos	166	advmod	_	OOV=Yes|_
+165	отволочнѣ	отволочне	ADV	RB	Degree=Pos	166	advmod	_	_
 166	установити	установити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	44	xcomp	_	SpaceAfter=No
 167	.	.	PUNCT	_	_	44	punct	_	SpacesAfter=\r\n
 
@@ -913,7 +913,7 @@
 63	,	,	PUNCT	_	_	62	punct	_	_
 64	присегнути	присягнути	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	43	xcomp	_	SpaceAfter=No
 65	,	,	PUNCT	_	_	70	punct	_	_
-66	тожъ	тожъ	CCONJ	CC	_	70	cc	_	OOV=Yes|_
+66	тожъ	тожъ	CCONJ	CC	_	70	cc	_	_
 67	потомъ	потомъ	ADV	_	Degree=Pos	70	advmod	_	_
 68	врядомъ	урадъ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	70	obj	_	_
 69	своимъ	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	68	det	_	_
@@ -996,7 +996,7 @@
 4	славное	славный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
 5	памети	память	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 6	король	король	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
-7	его	его	DET	PRP$	Poss=Yes|PronType=Prs	8	det	_	OOV=Yes|_
+7	его	его	DET	PRP$	Poss=Yes|PronType=Prs	8	det	_	_
 8	м[и]л[о]сть	милость	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	appos	_	_
 9	и	и	CCONJ	CC	_	11	cc	_	_
 10	великий	великий	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
@@ -1028,7 +1028,7 @@
 36	самых	самъ	DET	DT	Case=Gen|Number=Plur|PronType=Emp	34	det	_	_
 37	зъ	зъ	ADP	IN	_	40	case	_	_
 38	старого	старый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
-39	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	40	det	_	OOV=Yes|_
+39	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	40	det	_	_
 40	статуту	статутъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
 41	и	и	CCONJ	CC	_	45	cc	_	_
 42	зь	зъ	ADP	IN	_	45	case	_	_
@@ -1065,7 +1065,7 @@
 73	за	за	ADP	IN	_	79	case	_	_
 74	сполною	спольный	ADJ	JJL	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	79	amod	_	_
 75	на	на	ADP	IN	_	76	case	_	_
-76	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	79	nmod	_	OOV=Yes|_
+76	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	79	nmod	_	_
 77	всихъ	весь	DET	DT	Case=Gen|Number=Plur|PronType=Tot	78	det	_	_
 78	становъ	станъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	79	nmod	_	_
 79	згодою	згода	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	71	obl	_	_
@@ -1085,7 +1085,7 @@
 93	и	и	CCONJ	CC	_	94	cc	_	_
 94	учъстивымъ	учтивый	ADJ	JJL	Case=Ins|Degree=Pos|Number=Plur	90	conj	_	SpaceAfter=No
 95	,	,	PUNCT	PUNCT	_	85	punct	_	_
-96	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	97	obj	_	OOV=Yes|_
+96	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	97	obj	_	_
 97	узычити	узычити	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	71	xcomp	_	_
 98	и	и	CCONJ	CC	_	99	cc	_	_
 99	позволити	позволити	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	97	conj	_	SpaceAfter=No
@@ -1103,7 +1103,7 @@
 111	суд[ь]и	судья	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	139	nsubj:pass	_	_
 112	земъские	земский	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	111	amod	_	SpaceAfter=No
 113	,	,	PUNCT	PUNCT	_	116	punct	_	_
-114	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	116	cc	_	OOV=Yes|_
+114	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	116	cc	_	_
 115	естъ	быти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	114	fixed	_	_
 116	судья	судья	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	111	appos	_	SpaceAfter=No
 117	,	,	PUNCT	PUNCT	_	118	punct	_	_
@@ -1143,10 +1143,10 @@
 151	отправовали	отправовати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	111	acl:relcl	_	SpaceAfter=No
 152	,	,	PUNCT	PUNCT	_	173	punct	_	_
 153	яко	яко	SCONJ	IN	_	173	mark	_	_
-154	то	то	PRON	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	173	nsubj	_	OOV=Yes|_
+154	то	то	PRON	DT	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	173	nsubj	_	_
 155	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	173	iobj	_	_
 156	привильями	привилей	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	173	iobj	_	_
-157	его	его	DET	PRP$	Poss=Yes|PronType=Prs	159	det	_	OOV=Yes|_
+157	его	его	DET	PRP$	Poss=Yes|PronType=Prs	159	det	_	_
 158	королевское	королевский	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	159	amod	_	_
 159	м[и]л[о]сти	милость	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	156	nmod	_	SpaceAfter=No
 160	,	,	PUNCT	PUNCT	_	169	punct	_	_
@@ -1216,7 +1216,7 @@
 224	и	и	CCONJ	CC	_	228	cc	_	_
 225	тепер	теперъ	ADV	RB	Degree=Pos	228	advmod	_	_
 226	они	они	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	228	nsubj	_	_
-227	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	228	obj	_	OOV=Yes|_
+227	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	228	obj	_	_
 228	уживають	уживати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	220	conj	_	SpaceAfter=No
 229	.	.	PUNCT	PUNCT	_	71	punct	_	SpacesAfter=\r\n
 
@@ -1224,7 +1224,7 @@
 # text = А ижъбы то им и на потомные вечные часы непорушне трвало, яко то собе привильями и тымъ же статутомъ и первей обваровано мели, такъ и теперъ хочемъ то мети и уставуемъ, ижъ кгды бы который з врядниковъ тыхъ земъскихъ, судья, подсудокъ або писаръ умеръ, тогды другие врядники, живо позосталые, мають нам, г[о]с[по]д[а]ру, о томъ через листъ свой знати дати то, кгды быхмо были в здешнемъ паньстве нашомъ, великомъ князстве литовъскомъ.
 1	А	а	CCONJ	CC	_	29	cc	_	_
 2	ижъбы	ижбы	SCONJ	IN	Mood=Cnd	11	mark	_	_
-3	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	OOV=Yes|_
+3	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	11	nsubj	_	_
 4	им	они	PRON	PRP	Case=Dat|Number=Plur|Person=3|PronType=Prs	11	iobj	_	_
 5	и	и	PART	UH	_	9	advmod	_	_
 6	на	на	ADP	IN	_	9	case	_	_
@@ -1251,7 +1251,7 @@
 27	и	и	CCONJ	CC	_	28	cc	_	_
 28	теперъ	теперъ	ADV	RB	Degree=Pos	29	advmod	_	_
 29	хочемъ	хотети	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-30	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	31	obj	_	OOV=Yes|_
+30	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	31	obj	_	_
 31	мети	мети	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	xcomp	_	_
 32	и	и	CCONJ	CC	_	33	cc	_	_
 33	уставуемъ	уставовати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	SpaceAfter=No
@@ -1277,7 +1277,7 @@
 53	врядники	урадникъ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	58	nsubj	_	SpaceAfter=No
 54	,	,	PUNCT	PUNCT	_	56	punct	_	_
 55	живо	живо	ADV	UH	Degree=Pos	56	advmod	_	_
-56	позосталые	позосталый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	53	acl	_	OOV=Yes|SpaceAfter=No
+56	позосталые	позосталый	ADJ	JJL	Case=Nom|Degree=Pos|Number=Plur	53	acl	_	SpaceAfter=No
 57	,	,	PUNCT	PUNCT	_	56	punct	_	_
 58	мають	мети	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	_
 59	нам	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	58	iobj	_	SpaceAfter=No
@@ -1285,13 +1285,13 @@
 61	г[о]с[по]д[а]ру	господаръ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	59	appos	_	SpaceAfter=No
 62	,	,	PUNCT	PUNCT	_	61	punct	_	_
 63	о	о	ADP	IN	_	64	case	_	_
-64	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	68	obl	_	OOV=Yes|_
+64	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	68	obl	_	_
 65	через	черезъ	ADP	IN	_	66	case	_	_
 66	листъ	листъ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	68	obl	_	_
 67	свой	свой	DET	PRP$	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	66	det	_	_
-68	знати	знать	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	69	xcomp	_	OOV=Yes|_
+68	знати	знати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	69	xcomp	_	_
 69	дати	дати	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	58	xcomp	_	_
-70	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	68	obj	_	OOV=Yes|SpaceAfter=No
+70	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	68	obj	_	SpaceAfter=No
 71	,	,	PUNCT	PUNCT	_	74	punct	_	_
 72	кгды	кгды	ADV	WRB	Degree=Pos	74	advmod	_	_
 73	быхмо	быти	AUX	IN	Mood=Cnd|Number=Plur|Person=1	74	aux	_	_
@@ -1312,7 +1312,7 @@
 2	гдѣ	где	SCONJ	IN	_	6	mark	_	_
 3	бы	бы	AUX	RP	Mood=Cnd	6	aux	_	_
 4	се	се	PRON	PRP	Clitic=Yes|PronType=Prs|Reflex=Yes	6	expl	_	_
-5	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	OOV=Yes|_
+5	то	то	PRON	DT	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
 6	трафило	трафити	VERB	VBC	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	_
 7	в	въ	ADP	IN	_	8	case	_	_
 8	небытности	небытность	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
@@ -1323,7 +1323,7 @@
 13	,	,	PUNCT	PUNCT	_	6	punct	_	_
 14	тогды	тогды	ADV	RB	Degree=Pos	17	advmod	_	_
 15	о	о	ADP	IN	_	16	case	_	_
-16	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	OOV=Yes|_
+16	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	19	obl	_	_
 17	мають	мети	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 18	дати	дати	VERB	VB	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
 19	ведати	ведати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
@@ -1429,7 +1429,7 @@
 75	часом	часъ	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	83	nmod	_	SpaceAfter=No
 76	,	,	PUNCT	PUNCT	_	79	punct	_	_
 77	на	на	ADP	IN	_	78	case	_	_
-78	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	79	obl	_	OOV=Yes|_
+78	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	79	obl	_	_
 79	зложонымъ	зложити	VERB	JJL	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	75	acl	_	SpaceAfter=No
 80	,	,	PUNCT	PUNCT	_	79	punct	_	_
 81	за	за	ADP	IN	_	83	case	_	_
@@ -1450,7 +1450,7 @@
 9	повете	поветъ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
 10	обволанъ	обволати	VERB	VBNH	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	xcomp	_	_
 11	и	и	CCONJ	CC	_	12	cc	_	_
-12	объголошонъ	обголосити	VERB	NN	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	_	OOV=Yes|_
+12	объголошонъ	обголосити	VERB	NN	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	conj	_	_
 13	тымъ	той	DET	DT	Case=Ins|Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
 14	обычаемъ	обычай	NOUN	VBC	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	iobj	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	27	punct	_	_
@@ -1500,19 +1500,19 @@
 25	се	се	PRON	DT	Clitic=Yes|PronType=Prs|Reflex=Yes	32	expl	_	_
 26	до	до	ADP	IN	_	28	case	_	_
 27	того	той	DET	DT	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	28	det	_	_
-28	обранья	обранье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	obl	_	OOV=Yes|_
+28	обранья	обранье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
 29	на	на	ADP	IN	_	30	case	_	_
 30	день	день	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
 31	зложоный	зложити	VERB	JJL	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	nmod	_	_
 32	зъедуть	зъехати	VERB	VBC	Aspect=Perf|VerbForm=Inf|Voice=Act	22	acl:relcl	_	SpaceAfter=No
 33	,	,	PUNCT	PUNCT	_	34	punct	_	_
-34	колько	колько	NUM	CD	Case=Nom|NumForm=Word|NumType=Card	32	obj	_	OOV=Yes|_
+34	колько	колько	NUM	CD	Case=Nom|NumForm=Word|NumType=Card	32	obj	_	_
 35	ихъ	они	PRON	PRP	Case=Gen|Number=Plur|Person=3|PronType=Prs	34	nsubj	_	_
 36	будеть	быти	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	34	cop	_	SpaceAfter=No
 37	,	,	PUNCT	PUNCT	_	42	punct	_	_
 38	вжо	ужо	ADV	RB	Degree=Pos	42	advmod	_	_
 39	инъших	инший	DET	DT	Case=Gen|Number=Plur|PronType=Tot	40	amod	_	_
-40	неприбылых	неприбылый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	42	nsubj	_	OOV=Yes|_
+40	неприбылых	неприбылый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	42	nsubj	_	_
 41	не	не	PART	NEG	Polarity=Neg	42	advmod	_	_
 42	ждучи	ждати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	44	advcl	_	SpaceAfter=No
 43	,	,	PUNCT	PUNCT	_	42	punct	_	_
@@ -1560,7 +1560,7 @@
 85	,	,	PUNCT	PUNCT	_	87	punct	_	_
 86	не	не	PART	NEG	Polarity=Neg	87	advmod	_	_
 87	змышлене	змышлене	ADV	RB	Degree=Pos	84	conj	_	_
-88	оселых	оселый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	57	conj	_	OOV=Yes|_
+88	оселых	оселый	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	57	conj	_	_
 89	обрати	обрати	VERB	NN	Aspect=Perf|VerbForm=Inf|Voice=Act	69	xcomp	_	_
 90	и	и	CCONJ	CC	_	104	cc	_	_
 91	намъ	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	104	iobj	_	SpaceAfter=No
@@ -1613,7 +1613,7 @@
 30	вряд	урадъ	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	47	obl	_	_
 31	до	до	ADP	IN	_	32	case	_	_
 32	живота	животъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	47	obl	_	_
-33	его	его	DET	PRP$	Poss=Yes|PronType=Prs	32	det	_	OOV=Yes|_
+33	его	его	DET	PRP$	Poss=Yes|PronType=Prs	32	det	_	_
 34	альбо	альбо	CCONJ	CC	_	36	cc	_	_
 35	до	до	ADP	IN	_	36	case	_	_
 36	вывышенья	вывышенье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	conj	_	_
@@ -1659,7 +1659,7 @@
 23	писару	писаръ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	21	conj	_	_
 24	вжо	ужо	ADV	RB	Degree=Pos	29	advmod	_	_
 25	инших	инший	DET	DT	Case=Gen|Number=Plur|PronType=Tot	26	det	_	_
-26	елеитовъ	елеитъ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	31	obj	_	OOV=Yes|_
+26	елеитовъ	електъ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Typo=Yes	31	obj	_	_
 27	[!]	!	PUNCT	PUNCT	_	26	punct	_	_
 28	не	не	PART	NEG	Polarity=Neg	29	advmod	_	_
 29	потреба	потреба	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -1692,7 +1692,7 @@
 56	и	и	CCONJ	CC	_	65	cc	_	_
 57	намъ	мы	PRON	PRP	Case=Dat|Number=Plur|Person=1|PronType=Prs	65	iobj	_	_
 58	имена	имя	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	65	obj	_	_
-59	их	ихъ	DET	DT	Poss=Yes|PronType=Prs	58	det	_	OOV=Yes|_
+59	их	ихъ	DET	DT	Poss=Yes|PronType=Prs	58	det	_	_
 60	на	на	ADP	IN	_	61	case	_	_
 61	писме	письмо	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	65	obl	_	_
 62	за	за	ADP	IN	_	63	case	_	_
@@ -1836,7 +1836,7 @@
 8	поветехъ	поветъ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	obl	_	_
 9	около	около	ADP	IN	_	10	case	_	_
 10	обиранья	обиранье	NOUN	NNP	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
-11	предъречоных	предречоный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	OOV=Yes|_
+11	предъречоных	предречоный	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
 12	врядниковъ	урадникъ	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
 13	справоватисе	справоватися	VERB	VBC	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
 14	и	и	CCONJ	CC	_	15	cc	_	_
@@ -1858,7 +1858,7 @@
 11	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 12	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
-14	н.[айме]	наймъ	NOUN	NN	Abbr=Yes	12	appos	_	SpaceAfter=No
+14	н.[айме]	имя	NOUN	NN	Abbr=Yes	12	appos	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	14	punct	_	_
 16	присегаю	присягати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
 17	пану	панъ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	_
@@ -1873,7 +1873,7 @@
 26	в	въ	ADP	IN	_	28	case	_	_
 27	томъ	той	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	28	amod	_	_
 28	повете	поветъ	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	64	obl	_	_
-29	(н.[айме])	наймъ	NOUN	NN	Abbr=Yes	28	parataxis	_	_
+29	(н.[айме])	имя	NOUN	NN	Abbr=Yes	28	parataxis	_	_
 30	водле	водле	ADP	IN	_	31	case	_	_
 31	бога	богъ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	64	obl	_	_
 32	справедливе	справедливе	ADV	RB	Degree=Pos	64	advmod	_	_
@@ -1888,7 +1888,7 @@
 41	князству	князство	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	39	iobj	_	_
 42	литовъскому	литовский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	SpaceAfter=No
 43	,	,	PUNCT	PUNCT	_	45	punct	_	_
-44	водлугъ	водлугъ	ADP	JJL	_	45	case	_	OOV=Yes|_
+44	водлугъ	водлугъ	ADP	JJL	_	45	case	_	_
 45	жалобы	жалоба	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	64	obl	_	_
 46	и	и	CCONJ	CC	_	47	cc	_	_
 47	отпору	отпоръ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	45	conj	_	_
@@ -1896,7 +1896,7 @@
 49	,	,	PUNCT	PUNCT	_	53	punct	_	_
 50	а	а	CCONJ	CC	_	53	cc	_	_
 51	не	не	PART	NEG	Polarity=Neg	53	advmod	_	_
-52	водлугъ	водлугъ	ADP	JJL	_	53	case	_	OOV=Yes|_
+52	водлугъ	водлугъ	ADP	JJL	_	53	case	_	_
 53	ведомости	ведомость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	45	conj	_	_
 54	своее	свой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	53	det	_	SpaceAfter=No
 55	,	,	PUNCT	PUNCT	_	58	punct	_	_
@@ -1994,7 +1994,7 @@
 147	самого	самъ	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Emp	148	det	_	_
 148	бога	богъ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	161	obj	_	_
 149	и	и	CCONJ	CC	_	152	cc	_	_
-150	его	его	DET	PRP$	Poss=Yes|PronType=Prs	152	det	_	OOV=Yes|_
+150	его	его	DET	PRP$	Poss=Yes|PronType=Prs	152	det	_	_
 151	светую	святый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	152	amod	_	_
 152	справедливость	справедливость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	148	conj	_	_
 153	и	и	CCONJ	CC	_	154	cc	_	_
@@ -2007,7 +2007,7 @@
 160	очима	око	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	161	obl	_	_
 161	маючи	мети	VERB	VBC	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	139	conj	_	SpaceAfter=No
 162	,	,	PUNCT	PUNCT	_	167	punct	_	_
-163	тежъ	тежъ	CCONJ	CC	_	167	cc	_	OOV=Yes|_
+163	тежъ	тежъ	CCONJ	CC	_	167	cc	_	_
 164	роковъ	рокъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	167	obj	_	_
 165	николи	николи	ADV	RB	Degree=Pos	167	advmod	_	_
 166	не	не	PART	NEG	Polarity=Neg	167	advmod	_	_
@@ -2026,7 +2026,7 @@
 1	А	а	CCONJ	CC	_	13	cc	_	_
 2	якъ	якъ	SCONJ	IN	_	6	mark	_	_
 3	на	на	ADP	IN	_	4	case	_	_
-4	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	OOV=Yes|_
+4	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	_
 5	справедливе	справедливе	ADV	NN	Degree=Pos	6	advmod	_	_
 6	присегаю	присягати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 7	-	-	PUNCT	PUNCT	_	6	punct	_	_
@@ -2092,7 +2092,7 @@
 11	"	"	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No
 12	Я	я	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
-14	н.[айме]	найме	ADV	RB	Degree=Pos	12	appos	_	OOV=Yes|SpaceAfter=No
+14	н.[айме]	имя	NOUN	NN	Abbr=Yes	12	appos	_	SpaceAfter=No
 15	,	,	PUNCT	PUNCT	_	14	punct	_	_
 16	присегаю	присягати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
 17	пану	панъ	NOUN	NN	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	16	iobj	_	_
@@ -2102,7 +2102,7 @@
 21	тройцы	тройца	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	obl	_	_
 22	единому	единый	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	18	acl	_	_
 23	на	на	ADP	IN	_	24	case	_	_
-24	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	OOV=Yes|SpaceAfter=No
+24	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	SpaceAfter=No
 25	,	,	PUNCT	PUNCT	_	49	punct	_	_
 26	ижъ	ижъ	SCONJ	IN	_	49	mark	_	_
 27	справедливе	справедливе	ADV	NN	Degree=Pos	49	advmod	_	_
@@ -2113,7 +2113,7 @@
 32	права	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	conj	_	_
 33	писаного	писати	VERB	VBNH	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	32	amod	_	_
 34	и	и	CCONJ	CC	_	36	cc	_	_
-35	водлугъ	водлугъ	ADP	IN	_	36	case	_	OOV=Yes|_
+35	водлугъ	водлугъ	ADP	IN	_	36	case	_	_
 36	мовенья	мовенье	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	conj	_	_
 37	и	и	CCONJ	CC	_	38	cc	_	_
 38	споровъ	споръ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	36	conj	_	_
@@ -2174,13 +2174,13 @@
 # text = А книгъ первъшихъ, кгды хто выписовъ альбо видимусов якихъ потребовати будеть, тежъ ихъ справедливе и верне, яко в книгахъ записано будеть, з ведомостью суд[ь]и и подсудъка выдавати буду, не маючи баченья на высокие и подлые станы, на достойностяхъ седячихъ, богатого, на въбогого, на приятеля кровного и заховалого, ани на неприятеля, на тутошнего, ани на гостя, не с приязни, не з вазни, не з боязни, не за посулы и дары, ани боячисе казни, помъсты и погрозокъ, не ждучи нагороженья, але самого бога и его светую справедливость и право посполитое передъ очима маючи и сумненье свое добре, побожне справуючи - такъ ми, боже, поможы.
 1	А	а	CCONJ	CC	_	31	cc	_	_
 2	книгъ	книга	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	31	obj	_	_
-3	первъшихъ	первший	ADJ	JJL	Case=Gen|Number=Plur|NumForm=Word|NumType=Ord	2	amod	_	OOV=Yes|SpaceAfter=No
+3	первъшихъ	первший	ADJ	JJL	Case=Gen|Number=Plur|NumForm=Word|NumType=Ord	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	11	punct	_	_
 5	кгды	кгды	ADV	WRB	Degree=Pos	11	advmod	_	_
 6	хто	хто	PRON	WP	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	_
 7	выписовъ	выписъ	NOUN	VBC	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
 8	альбо	альбо	CCONJ	CC	_	9	cc	_	_
-9	видимусов	видимусъ	NOUN	X	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	OOV=Yes|_
+9	видимусов	видимусъ	NOUN	X	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	conj	_	_
 10	якихъ	який	DET	WPA	Case=Gen|Number=Plur|PronType=Ind	7	det	_	_
 11	потребовати	потребовати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	31	advcl	_	_
 12	будеть	быти	AUX	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux	_	SpaceAfter=No
@@ -2274,7 +2274,7 @@
 100	самого	самъ	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Emp	101	det	_	_
 101	бога	богъ	NOUN	NN	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	111	obj	_	_
 102	и	и	CCONJ	CC	_	105	cc	_	_
-103	его	его	DET	PRP$	Poss=Yes|PronType=Prs	105	det	_	OOV=Yes|_
+103	его	его	DET	PRP$	Poss=Yes|PronType=Prs	105	det	_	_
 104	светую	святый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	105	amod	_	_
 105	справедливость	справедливость	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	101	conj	_	_
 106	и	и	CCONJ	CC	_	107	cc	_	_
@@ -2350,7 +2350,7 @@
 # sent_id = Sapega-Speech-StatutVKL1588-2
 # text = Обачывали то усихъ вековъ люди мудрые, же в кождой речы посполитой чоловеку почъстивому ничого не маеть быти дорожшого надъ вольность, а неволею такъ се маеть гыдити, же не только скарбами, але и смертью ее одъ себе отганяти есть повиненъ.
 1	Обачывали	обачивати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	то	то	PRON	PRP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	OOV=Yes|_
+2	то	то	PRON	PRP	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	_
 3	усихъ	весь	DET	DT	Case=Gen|Number=Plur|PronType=Tot	4	det	_	_
 4	вековъ	векъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	obl:tmod	_	_
 5	люди	люди	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -2372,7 +2372,7 @@
 21	вольность	вольность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
 22	,	,	PUNCT	PUNCT	_	27	punct	_	_
 23	а	а	CCONJ	CC	_	27	cc	_	_
-24	неволею	неволей	ADV	RB	Degree=Pos	27	advmod	_	OOV=Yes|_
+24	неволею	неволею	ADV	RB	Degree=Pos	27	advmod	_	_
 25	такъ	такъ	ADV	RB	Degree=Pos	28	advmod	_	_
 26	се	се	PRON	PRP	Clitic=Yes|PronType=Prs|Reflex=Yes	28	expl	_	_
 27	маеть	мети	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
@@ -2417,7 +2417,7 @@
 19	,	,	PUNCT	PUNCT	_	26	punct	_	_
 20	абы	абы	SCONJ	IN	Mood=Cnd	26	mark	_	_
 21	подъ	подъ	ADP	IN	_	24	case	_	_
-22	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	24	det	_	OOV=Yes|_
+22	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	24	det	_	_
 23	окрутное	окрутный	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
 24	опанованье	опанованье	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	26	obl	_	_
 25	не	не	PART	NEG	Polarity=Neg	26	advmod	_	_
@@ -2430,11 +2430,11 @@
 32	будучи	быти	AUX	VBC	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	33	aux:pass	_	_
 33	злуплени	злупити	VERB	VBC	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	43	advcl	_	SpaceAfter=No
 34	,	,	PUNCT	PUNCT	_	33	punct	_	_
-35	водлугъ	водлугъ	ADP	NN	_	36	case	_	OOV=Yes|_
+35	водлугъ	водлугъ	ADP	NN	_	36	case	_	_
 36	воли	воля	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	obl	_	_
 37	и	и	CCONJ	CC	_	38	cc	_	_
 38	мысли	мысль	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	conj	_	_
-39	ихъ	ихъ	DET	PRP	Poss=Yes|PronType=Prs	36	det	_	OOV=Yes|_
+39	ихъ	ихъ	DET	PRP	Poss=Yes|PronType=Prs	36	det	_	_
 40	яко	яко	SCONJ	IN	_	41	case	_	_
 41	невольники	невольникъ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	44	obl	_	_
 42	не	не	PART	NEG	Polarity=Neg	43	advmod	_	_
@@ -2445,12 +2445,12 @@
 # sent_id = Sapega-Speech-StatutVKL1588-4
 # text = Але вже мало бы и на томъ было, ижъбы чоловекъ з неволи от посторонного неприятеля былъ воленъ, кгды бы домового неприятеля надъ собою терьпети муселъ.
 1	Але	але	CCONJ	CC	_	3	cc	_	_
-2	вже	уже	PART	UH	_	3	advmod	_	OOV=Yes|_
+2	вже	уже	PART	UH	_	3	advmod	_	_
 3	мало	мало	ADV	RB	Degree=Pos	0	root	_	_
 4	бы	бы	AUX	RP	Mood=Cnd	3	aux	_	_
 5	и	и	PART	UH	_	7	advmod	_	_
 6	на	на	ADP	IN	_	7	case	_	_
-7	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	OOV=Yes|_
+7	томъ	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	_	_
 8	было	быти	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	18	punct	_	_
 10	ижъбы	ижбы	SCONJ	IN	Mood=Cnd	18	mark	_	_
@@ -2515,7 +2515,7 @@
 38	,	,	PUNCT	PUNCT	_	44	punct	_	_
 39	бо	бо	SCONJ	IN	_	44	mark	_	_
 40	для	для	ADP	IN	_	41	case	_	_
-41	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	44	obl	_	OOV=Yes|_
+41	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	44	obl	_	_
 42	права	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	nsubj:pass	_	_
 43	суть	быти	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	44	aux:pass	_	_
 44	постановлены	постановити	VERB	VBNH	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	24	advcl	_	SpaceAfter=No
@@ -2525,7 +2525,7 @@
 48	и	и	CCONJ	CC	_	49	cc	_	_
 49	потужному	потужный	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	47	conj	_	_
 50	не	не	PART	NEG	Polarity=Neg	51	advmod	_	_
-51	все	все	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	54	obj	_	OOV=Yes|_
+51	все	все	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	54	obj	_	_
 52	было	быти	AUX	VBC	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	53	cop	_	_
 53	вольно	вольный	ADJ	JJH	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	44	advcl	_	_
 54	чынити	чинити	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	53	csubj	_	SpaceAfter=No
@@ -2542,7 +2542,7 @@
 7	невольниками	невольникъ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	3	ccomp	_	_
 8	правъ	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
 9	для	для	ADP	IN	_	10	case	_	_
-10	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	OOV=Yes|SpaceAfter=No
+10	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	15	punct	_	_
 12	абысьмы	абымъ	SCONJ	IN	Analyt=Yes|Mood=Cnd|Number=Plur|Person=1	15	mark	_	_
 13	вольности	вольность	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
@@ -2561,7 +2561,7 @@
 7	нетъ	нетъ	VERB	NEG	Polarity=Neg	56	advcl	_	_
 8	мильшого	мильший	ADJ	X	Case=Gen|Degree=Sup|Gender=Neut|Number=Sing	6	amod	_	_
 9	надъ	надъ	ADP	IN	_	10	case	_	_
-10	тое	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	OOV=Yes|SpaceAfter=No
+10	тое	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	21	punct	_	_
 12	кгды	кгды	SCONJ	IN	_	21	mark	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	18	punct	_	_
@@ -2580,7 +2580,7 @@
 26	на	на	ADP	IN	_	28	case	_	_
 27	доброй	добрый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
 28	славе	слава	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	_
-29	его	его	DET	PRP$	Poss=Yes|PronType=Prs	28	det	_	OOV=Yes|_
+29	его	его	DET	PRP$	Poss=Yes|PronType=Prs	28	det	_	_
 30	змазати	змазати	VERB	VBC	Aspect=Perf|VerbForm=Inf|Voice=Act	46	xcomp	_	_
 31	албо	альбо	CCONJ	CC	_	38	cc	_	_
 32	на	на	ADP	IN	_	33	case	_	_
@@ -2588,7 +2588,7 @@
 34	и	и	CCONJ	CC	_	36	cc	_	_
 35	на	на	ADP	IN	_	36	case	_	_
 36	здоров[ъ]ю	здоровье	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	33	conj	_	_
-37	его	его	DET	PRP$	Poss=Yes|PronType=Prs	36	det	_	OOV=Yes|_
+37	его	его	DET	PRP$	Poss=Yes|PronType=Prs	36	det	_	_
 38	образити	образити	VERB	VBC	Aspect=Perf|VerbForm=Inf|Voice=Act	30	conj	_	_
 39	албо	альбо	CCONJ	CC	_	45	cc	_	_
 40	теж	тежъ	ADV	RB	_	45	advmod	_	_
@@ -2660,7 +2660,7 @@
 106	,	,	PUNCT	PUNCT	_	114	punct	_	_
 107	а	а	CCONJ	CC	_	114	cc	_	_
 108	на	на	ADP	IN	_	109	case	_	_
-109	том	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	114	obl	_	OOV=Yes|_
+109	том	то	PRON	DT	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	114	obl	_	_
 110	всем	весь	DET	DT	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	109	det	_	_
 111	жадного	жадный	DET	JJL	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg	112	det	_	_
 112	ущирбку	ущербокъ	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	114	obj	_	_
@@ -2671,7 +2671,7 @@
 # sent_id = Sapega-Speech-StatutVKL1588-8
 # text = И то ест наша волност[ь], которою се мы межи иншыми народы хрестиянскими хвалимъ, же пана, ижбы водле воли своее, а не водле правъ наших пановал, над собою не маем, а яко славы учстивое, такъ живота и маетности волно уживаем.
 1	И	и	CCONJ	CC	_	5	cc	_	_
-2	то	то	PRON	IN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	OOV=Yes|_
+2	то	то	PRON	IN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
 3	ест	быти	AUX	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	наша	нашъ	DET	DT	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	_
 5	волност[ь]	вольность	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
@@ -2766,7 +2766,7 @@
 44	мы	я	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	49	nsubj	_	_
 45	бысмо	быти	AUX	VBC	Analyt=Yes|Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	49	aux	_	_
 46	неволниками	невольникъ	NOUN	NN	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	49	xcomp	_	_
-47	его	его	DET	PRP$	Poss=Yes|PronType=Prs	46	det	_	OOV=Yes|_
+47	его	его	DET	PRP$	Poss=Yes|PronType=Prs	46	det	_	_
 48	быти	быти	AUX	NN	Aspect=Imp|VerbForm=Inf|Voice=Act	46	cop	_	_
 49	мусели	мусити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	SpaceAfter=No
 50	.	.	PUNCT	PUNCT	_	32	punct	_	_
@@ -2789,7 +2789,7 @@
 14	под	подъ	ADP	IN	_	15	case	_	_
 15	панованьемъ	панованье	NOUN	NN	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	obl	_	_
 16	королей	король	NOUN	NN	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
-17	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	18	det	_	OOV=Yes|_
+17	ихъ	ихъ	DET	DT	Poss=Yes|PronType=Prs	18	det	_	_
 18	м[и]л[о]сти	милость	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	appos	_	_
 19	и	и	CCONJ	CC	_	21	cc	_	_
 20	великихъ	великий	ADJ	JJL	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
@@ -2820,7 +2820,7 @@
 45	волности	вольность	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	obj	_	_
 46	своее	свой	DET	PRP$	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	45	det	_	_
 47	во	въ	ADP	IN	_	48	case	_	_
-48	всем	все	PRON	DT	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	49	obl	_	OOV=Yes|_
+48	всем	все	PRON	DT	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot	49	obl	_	_
 49	постерегаем	постерегати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	33	conj	_	SpaceAfter=No
 50	,	,	PUNCT	PUNCT	_	76	punct	_	_
 51	бо	бо	SCONJ	IN	_	76	mark	_	_
@@ -2853,7 +2853,7 @@
 78	одно	одинъ	NUM	DT	Case=Nom|Gender=Neut|Number=Sing|NumForm=Word|NumType=Card	71	conj	_	_
 79	толко	только	PART	UH	_	78	advmod	_	SpaceAfter=No
 80	,	,	PUNCT	PUNCT	_	84	punct	_	_
-81	колко	колько	NUM	WP	Case=Acc|NumForm=Word|NumType=Card	84	obj	_	OOV=Yes|_
+81	колко	колько	NUM	WP	Case=Acc|NumForm=Word|NumType=Card	84	obj	_	_
 82	ему	онъ	PRON	NN	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	84	iobj	_	_
 83	право	право	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	84	nsubj	_	_
 84	допущает	допущати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	78	acl:relcl	_	SpaceAfter=No
@@ -2902,9 +2902,9 @@
 39	свои	свой	DET	PRP$	Animacy=Inan|Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	38	det	_	_
 40	гамовалъ	гамовати	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	conj	_	_
 41	и	и	CCONJ	CC	_	45	cc	_	_
-42	водлугъ	водлугъ	ADP	IN	_	43	case	_	OOV=Yes|_
+42	водлугъ	водлугъ	ADP	IN	_	43	case	_	_
 43	права	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	obl	_	_
-44	писаного	писаный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	OOV=Yes|_
+44	писаного	писаный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	43	amod	_	_
 45	справовалсе	справоватися	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	40	conj	_	SpaceAfter=No
 46	,	,	PUNCT	PUNCT	_	50	punct	_	_
 47	а	а	CCONJ	CC	_	50	cc	_	_
@@ -2936,7 +2936,7 @@
 73	,	,	PUNCT	PUNCT	_	80	punct	_	_
 74	бо	бо	SCONJ	IN	_	80	mark	_	_
 75	яко	яко	SCONJ	IN	_	80	cc	_	_
-76	одинъ	одинъ	DET	CD	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	77	det	_	OOV=Yes|_
+76	одинъ	одинъ	DET	CD	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	77	det	_	_
 77	сенаторъ	сенаторъ	NOUN	NN	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	80	nsubj	_	_
 78	рымский	римский	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	77	amod	_	_
 79	другого	другий	DET	JJL	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	80	obj	_	_
@@ -2984,7 +2984,7 @@
 2	если	если	SCONJ	IN	_	5	mark	_	_
 3	которому	который	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	4	det	_	_
 4	народу	народъ	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
-5	встыдъ	встыдъ	VERB	PRED	_	11	advcl	_	OOV=Yes|_
+5	встыдъ	встыдъ	NOUN	PRED	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	advcl	_	_
 6	правъ	право	NOUN	NN	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obj	_	_
 7	своихъ	свой	DET	PRP$	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
 8	не	не	PART	NEG	Polarity=Neg	9	advmod	_	_
@@ -3028,10 +3028,10 @@
 3	тая	той	DET	DT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
 4	трудность	трудность	NOUN	NN	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
 5	передъ	передъ	ADP	IN	_	6	case	_	_
-6	тым	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	OOV=Yes|_
+6	тым	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	_
 7	непомалу	непомалу	ADV	RB	Degree=Pos	10	advmod	_	_
 8	до	до	ADP	IN	_	9	case	_	_
-9	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	OOV=Yes|_
+9	того	то	PRON	DT	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	10	obl	_	_
 10	заважала	заважати	VERB	VBC	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	16	punct	_	_
 12	же	же	SCONJ	IN	_	16	mark	_	_
@@ -3063,7 +3063,7 @@
 38	служечы	служити	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	33	conj	_	SpaceAfter=No
 39	,	,	PUNCT	PUNCT	_	33	punct	_	_
 40	важыломъсе	важитися	VERB	VBC	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
-41	того	то	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	46	obj	_	OOV=Yes|_
+41	того	то	PRON	DT	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	46	obj	_	_
 42	тую	той	DET	DT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	43	det	_	_
 43	працу	праца	NOUN	NN	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	46	obj	_	_
 44	на	на	ADP	IN	_	45	case	_	_
@@ -3096,7 +3096,7 @@
 71	,	,	PUNCT	PUNCT	_	85	punct	_	_
 72	к[г]ды	кгды	SCONJ	IN	_	85	mark	_	_
 73	жъ	жъ	PART	UH	_	85	advmod	_	_
-74	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	84	obj	_	OOV=Yes|_
+74	то	то	PRON	DT	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	84	obj	_	_
 75	вжо	ужо	ADV	RB	Degree=Pos	85	advmod	_	_
 76	в	въ	ADP	IN	_	77	case	_	_
 77	рукахъ	рука	NOUN	NN	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	84	obl	_	_
@@ -3214,7 +3214,7 @@
 # sent_id = Sapega-Speech-StatutVKL1588-15
 # text = С тымъ се ласце и милости вашм[о]стей братеръской поручаю.
 1	С	съ	ADP	IN	_	2	case	_	_
-2	тымъ	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	OOV=Yes|_
+2	тымъ	то	PRON	DT	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	9	obl	_	_
 3	се	се	PRON	PRP	Clitic=Yes|PronType=Prs|Reflex=Yes	9	expl	_	_
 4	ласце	ласка	NOUN	NN	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	iobj	_	_
 5	и	и	CCONJ	CC	_	6	cc	_	_
