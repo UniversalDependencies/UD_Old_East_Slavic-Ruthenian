@@ -15,6 +15,9 @@ We are grateful to Maria Ermolova, Vladimir Shatin, and Natalia Iordani for comm
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Texts of Polotsk letters added; lemmas added; grammar & syntax corrected.
+
 * 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
 
@@ -25,7 +28,7 @@ Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: legal nonfiction
-Lemmas: not available
+Lemmas: manual native
 UPOS: manual native
 XPOS: not available
 Features: manual native
