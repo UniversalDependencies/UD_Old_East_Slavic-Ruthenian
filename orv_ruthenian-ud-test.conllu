@@ -765,7 +765,7 @@
 85	зложити	зложити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	61	conj	_	SpaceAfter=No
 86	,	,	PUNCT	_	_	89	punct	_	_
 87	на	на	ADP	_	_	88	case	_	_
-88	который	который	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	89	obl	_	_
+88	который	который	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	89	obl	_	_
 89	зъѣхавшися	зъехатися	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	104	advcl	_	_
 90	вси	весь	DET	_	Case=Nom|Number=Plur|PronType=Tot	91	det	_	_
 91	станы	станъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	104	nsubj	_	_
@@ -4536,7 +4536,7 @@
 16	котелник	котельникъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	15	appos	_	wf="котелник"|SpaceAfter=No
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	Иван	Иванъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	conj	_	wf="Иван"
-19	Ржова	Ржовъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	18	flat:name	_	wf="Ржова"|SpaceAfter=No
+19	Ржова	Ржова	PROPN	_	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	18	flat:name	_	wf="Ржова"|SpaceAfter=No
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	Семен	Семенъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	conj	_	wf="Семен"
 22	Иголка	Иголка	PROPN	_	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing	21	flat:name	_	wf="Иголка"|SpaceAfter=No
@@ -6126,8 +6126,8 @@
 6	по	по	ADP	_	_	7	case	_	wf="по"
 7	Ваку	Вака	PROPN	_	Case=Acc|Gender=Fem|NameType=Geo|Number=Sing	0	root	_	wf="Ваку"
 8	по	по	ADP	_	_	10	case	_	wf="по"
-9	старыи	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	wf="старыи"
-10	рубежь	рубежъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	appos	_	wf="рубежь"|SpaceAfter=No
+9	старыи	старый	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	wf="старыи"
+10	рубежь	рубежъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	7	appos	_	wf="рубежь"|SpaceAfter=No
 11	,	,	PUNCT	_	_	19	punct	_	_
 12	а	а	CCONJ	_	_	19	cc	_	wf="а"
 13	по	по	ADP	_	_	14	case	_	wf="по"
@@ -6372,7 +6372,7 @@
 # text = А ѡт Шатеевъ оуверхъ алижь до Хурмокголы и до Лепиниковъ.
 1	А	а	CCONJ	_	_	4	cc	_	wf="А"
 2	ѡт	отъ	ADP	_	_	3	case	_	wf="ѡт"
-3	Шатеевъ	Шатѣи	PROPN	_	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	4	obl	_	wf="Шатеевъ"
+3	Шатеевъ	Шатѣи	PROPN	_	Case=Gen|Gender=Masc|NameType=Geo|Number=Plur	4	obl	_	wf="Шатеевъ"
 4	оуверхъ	вверхъ	ADP	_	_	0	root	_	wf="оуверхъ"
 5	алижь	алижъ	PART	_	_	4	advmod	_	wf="алижь"
 6	до	до	ADP	_	_	7	case	_	wf="до"
@@ -6439,9 +6439,9 @@
 2	Новыи	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	wf="Новыи"
 3	городъ	городъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	wf="городъ"
 4	на	на	ADP	_	_	5	case	_	wf="на"
-5	Вельи	велья	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	wf="Вельи"
+5	Вельи	Велья	PROPN	_	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	8	obl	_	wf="Вельи"
 6	противъ	противъ	ADP	_	_	7	case	_	wf="противъ"
-7	Шатеевъ	Шатѣевъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	8	obl	_	wf="Шатеевъ"
+7	Шатеевъ	Шатѣи	PROPN	_	Case=Gen|Gender=Masc|NameType=Geo|Number=Plur	8	obl	_	wf="Шатеевъ"
 8	поставили	поставити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="поставили"
 9	есмы	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмы"
 10	кн(ѧ)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	wf="кнѧзю"
@@ -7064,7 +7064,7 @@
 20	свои	свой	DET	_	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	wf="свои"
 21	вѣсы	вѣсъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	wf="вѣсы"
 22	въ	въ	ADP	_	_	23	case	_	wf="въ"
-23	старыи	старый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	wf="старыи"|SpaceAfter=No
+23	старыи	старый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	21	amod	_	wf="старыи"|SpaceAfter=No
 24	.	.	PUNCT	_	_	5	punct	_	_
 
 # newpar
@@ -7137,7 +7137,7 @@
 65	Лука	Лука	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	61	conj	_	wf="Лука"
 66	Попович	Поповичь	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	65	flat:name	_	wf="Попович"|SpaceAfter=No
 67	,	,	PUNCT	_	_	68	punct	_	_
-68	Климѧта	Климятъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	22	conj	_	wf="Климѧта"
+68	Климѧта	Климята	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	22	conj	_	wf="Климѧта"
 69	Мѧсникович	Мясниковичь	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	68	flat:name	_	wf="Мѧсникович"|SpaceAfter=No
 70	,	,	PUNCT	_	_	71	punct	_	_
 71	Ингнатъ	Ингнатъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	22	conj	_	wf="Ингнатъ"
@@ -7164,7 +7164,7 @@
 92	Федьковъ	федьковъ	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	93	amod	_	wf="Федьковъ"
 93	брат	братъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	88	appos	_	wf="брат"|SpaceAfter=No
 94	,	,	PUNCT	_	_	95	punct	_	_
-95	Захарьѧ	Захарей	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	88	conj	_	wf="Захарьѧ"
+95	Захарьѧ	Захарья	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	88	conj	_	wf="Захарьѧ"
 96	Кудрѧвыи	кудрявый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	93	amod	_	wf="Кудрѧвыи"|SpaceAfter=No
 97	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -10388,7 +10388,7 @@
 7	Полоцку	Полоцкъ	PROPN	_	Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	2	obl	_	wf="Полоцку"|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	въ	въ	ADP	_	_	10	case	_	wf="въ"
-10	понедѣлник	понедѣльникъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	obl	_	wf="понедѣлник"
+10	понедѣлник	понедѣльникъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	wf="понедѣлник"
 11	передъ	передъ	ADP	_	_	13	case	_	wf="передъ"
 12	[с](вѧ)т(о)го	святой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	wf="свѧтого"
 13	Семивон(а)	Семивонъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	10	nmod	_	wf="Семивона"
@@ -11157,7 +11157,7 @@
 # sent_id = texts__polotsk__67-7
 # text = И Чернѧта хотелъ тотъ слишок ѡткулупити проч(ь).
 1	И	и	CCONJ	_	_	3	cc	_	wf="И"
-2	Чернѧта	Чернятъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	_	wf="Чернѧта"
+2	Чернѧта	Чернята	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	_	wf="Чернѧта"
 3	хотелъ	хотѣти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="хотелъ"
 4	тотъ	тотъ	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	wf="тотъ"
 5	слишок	слишекъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	wf="слишок"
@@ -11277,7 +11277,7 @@
 19	см(е)рти	смерть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	wf="смерти"|SpaceAfter=No
 20	,	,	PUNCT	_	_	27	punct	_	_
 21	и	и	CCONJ	_	_	27	cc	_	wf="и"
-22	Чернѧта	Чернятъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	27	nsubj	_	wf="Чернѧта"
+22	Чернѧта	Чернята	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	27	nsubj	_	wf="Чернѧта"
 23	его	онъ	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	wf="его"
 24	оу	въ	ADP	_	_	26	case	_	wf="оу"
 25	томъ	тотъ	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	26	det	_	wf="томъ"
@@ -11362,12 +11362,12 @@
 # text = И послалъ Чернѧта с Олександромъ на тыи люд(и), при ком ѡни оударил(и) оу руку.
 1	И	и	CCONJ	_	_	2	cc	_	wf="И"
 2	послалъ	послати	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послалъ"
-3	Чернѧта	Чернятъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	2	obj	_	wf="Чернѧта"
+3	Чернѧта	Чернята	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	nsubj	_	wf="Чернѧта"
 4	с	съ	ADP	_	_	5	case	_	wf="с"
 5	Олександромъ	Олександръ	PROPN	_	Case=Ins|Gender=Masc|NameType=Giv|Number=Sing	2	obl	_	wf="Олександромъ"
 6	на	на	ADP	_	_	8	case	_	wf="на"
-7	тыи	тотъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	wf="тыи"
-8	люд(и)	человѣкъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	obl	_	wf="люди"|SpaceAfter=No
+7	тыи	тотъ	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	8	det	_	wf="тыи"
+8	люд(и)	человѣкъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	wf="люди"|SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	при	при	ADP	_	_	11	case	_	wf="при"
 11	ком	кто	PRON	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Rel	13	obl	_	wf="ком"
@@ -11383,7 +11383,7 @@
 2	тыи	тотъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	wf="тыи"
 3	люди	человѣкъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	wf="люди"
 4	ѡправили	оправити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡправили"
-5	Чернѧту	Чернятъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	4	obj	_	wf="Чернѧту"|SpaceAfter=No
+5	Чернѧту	Чернята	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	4	obj	_	wf="Чернѧту"|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	нашего	нашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	wf="нашего"
 8	полочанин(а)	полочанинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	appos	_	wf="полочанина"|SpaceAfter=No
