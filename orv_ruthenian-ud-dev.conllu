@@ -3,7 +3,7 @@
 # sent_id = polotsk__68-1
 # text = Ѡт намѣсник(а) полочьког(о) и ѡт всех муж полочан ѡт мал(а) и до велик(а) поклон всем ратьманом болшим и всем местицем рижаном малу и велику.
 1	Ѡт	отъ	ADP	_	_	2	case	_	wf="Ѡт"
-2	намѣсник(а)	наместникъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	0	root	_	wf="намѣсника"
+2	намѣсник(а)	наместникъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	wf="намѣсника"
 3	полочьког(о)	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	wf="полочького"
 4	и	и	CCONJ	_	_	7	cc	_	wf="и"
 5	ѡт	отъ	ADP	_	_	7	case	_	wf="ѡт"
@@ -11,11 +11,11 @@
 7	муж	мужъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	conj	_	wf="муж"
 8	полочан	полочанинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	conj	_	wf="полочан"
 9	ѡт	отъ	ADP	_	_	10	case	_	wf="ѡт"
-10	мал(а)	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	amod	_	wf="мала"
-11	и	и	CCONJ	_	_	10	cc	_	wf="и"
-12	до	до	ADP	_	_	14	case	_	wf="до"
-13	велик(а)	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	amod	_	wf="велика"
-14	поклон	поклонъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	conj	_	wf="поклон"
+10	мал(а)	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	nmod	_	wf="мала"
+11	и	и	CCONJ	_	_	13	cc	_	wf="и"
+12	до	до	ADP	_	_	13	case	_	wf="до"
+13	велик(а)	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	nmod	_	wf="велика"
+14	поклон	поклонъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	wf="поклон"
 15	всем	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	16	det	_	wf="всем"
 16	ратьманом	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	14	nmod	_	wf="ратьманом"
 17	болшим	болший	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	16	amod	_	wf="болшим"
@@ -23,18 +23,18 @@
 19	всем	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	20	det	_	wf="всем"
 20	местицем	местичъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	16	conj	_	wf="местицем"
 21	рижаном	рижанинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	20	appos	_	wf="рижаном"
-22	малу	малый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	20	amod	_	wf="малу"
+22	малу	малый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	20	nmod	_	wf="малу"
 23	и	и	CCONJ	_	_	24	cc	_	wf="и"
 24	велику	великий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	22	conj	_	wf="велику"|SpaceAfter=No
-25	.	.	PUNCT	_	_	2	punct	_	_
+25	.	.	PUNCT	_	_	14	punct	_	_
 
 # newpar
 # sent_id = polotsk__68-2
 # text = Што же есте прислали грамот(у) и свою печат(ь) и пишет(е) мъ и молитесѧ про свои дети, штобы имъ добро и волно на ваших рукахъ ходити, а кривды имъ не чинити, имъ дали тую волю, што же oy нас ходѧт по своеи воли, а на ваших рукахъ.
 1	Што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	5	det	_	wf="Што"
 2	же	же	PART	_	_	4	advmod	_	_
-3	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есте"
-4	прислали	прислати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="прислали"
+3	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есте"
+4	прислали	прислати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="прислали"
 5	грамот(у)	грамота	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	wf="грамоту"
 6	и	и	CCONJ	_	_	8	cc	_	wf="и"
 7	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	wf="свою"
@@ -106,8 +106,8 @@
 17	велику	великий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	conj	_	wf="велику"|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	штобы	штобы	SCONJ	_	Mood=Cnd	21	mark	_	wf="штобы"
-20	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	wf="есте"
-21	пустили	пустити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	ccomp	_	wf="пустили"
+20	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	wf="есте"
+21	пустили	пустити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	ccomp	_	wf="пустили"
 22	нашю	нашъ	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	wf="нашю"
 23	брат(ь)ю	братья	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	wf="братью"
 24	на	на	ADP	_	_	26	case	_	wf="на"
@@ -116,7 +116,7 @@
 27	,	,	PUNCT	_	_	30	punct	_	_
 28	имъ	они	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	iobj	_	wf="имъ"
 29	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	30	aux	_	wf="бы"
-30	ходити	ходити	VERB	_	VerbForm=Inf|Voice=Act	21	conj	_	wf="ходити"
+30	ходити	ходити	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	21	conj	_	wf="ходити"
 31	доброволно	добровольно	ADV	_	Degree=Pos	30	advmod	_	wf="доброволно"|SpaceAfter=No
 32	,	,	PUNCT	_	_	36	punct	_	_
 33	а	а	CCONJ	_	_	36	cc	_	wf="а"
@@ -196,8 +196,8 @@
 
 # sent_id = polotsk__71-2
 # text = Слышали есмо, ижь, дѣи, нашее братьи мног(о) выбегло изъ Жемоити, которіи в сии ж годъ на побитьи поимани были.
-1	Слышали	слышати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Слышали"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"|SpaceAfter=No
+1	Слышали	слышати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Слышали"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"|SpaceAfter=No
 3	,	,	PUNCT	_	_	11	punct	_	_
 4	ижь	иже	SCONJ	_	_	11	mark	_	wf="ижь"|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -212,13 +212,13 @@
 14	,	,	PUNCT	_	_	22	punct	_	_
 15	которіи	который	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	22	nsubj:pass	_	wf="которіи"
 16	в	въ	ADP	_	_	19	case	_	wf="в"
-17	сии	сей	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	19	det	_	wf="сии"
+17	сии	сей	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	19	det	_	wf="сии"
 18	ж	жъ	PART	_	_	17	advmod	_	wf="ж"
 19	годъ	годъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	22	obl	_	wf="годъ"
 20	на	на	ADP	_	_	21	case	_	wf="на"
 21	побитьи	побитье	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	22	obl	_	wf="побитьи"
-22	поимани	поимати	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	wf="поимани"
-23	были	быти	AUX	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	22	cop	_	wf="были"|SpaceAfter=No
+22	поимани	поимати	VERB	_	Analyt=Yes|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	advcl	_	wf="поимани"
+23	были	быти	AUX	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	22	aux:pass	_	wf="были"|SpaceAfter=No
 24	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = polotsk__71-3
@@ -264,7 +264,7 @@
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	пановѣ	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	vocative	_	wf="пановѣ"|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	говорили	говорити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"
+7	говорили	говорити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"
 8	кн(ѧ)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	wf="кнѧзю"
 9	мештерю	мештеръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	8	appos	_	wf="мештерю"|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
@@ -341,9 +341,9 @@
 16	ц(е)ркви	церковь	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	13	obl	_	wf="церкви"
 17	оу	въ	ADP	_	_	18	case	_	wf="оу"
 18	мурованои	муровати	VERB	_	Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	appos	_	wf="мурованои"
-19	въ	въ	ADP	_	_	20	case	_	wf="въ"
-20	С(вѧ)т(е)мъ	святый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	wf="Свѧтемъ"
-21	Софеи	Софея	PROPN	_	Case=Loc|Gender=Masc|NameType=Giv|Number=Sing	20	appos	_	wf="Софеи"|SpaceAfter=No
+19	въ	въ	ADP	_	_	21	case	_	wf="въ"
+20	С(вѧ)т(е)мъ	святый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	wf="Свѧтемъ"
+21	Софеи	Софея	PROPN	_	Case=Loc|Gender=Masc|NameType=Giv|Number=Sing	16	appos	_	wf="Софеи"|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = polotsk__74-3
@@ -356,10 +356,10 @@
 6	приѧтелеи	приятель	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	appos	_	wf="приѧтелеи"|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	штобы	штобы	SCONJ	_	Mood=Cnd	11	mark	_	wf="штобы"
-9	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есте"
+9	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есте"
 10	намъ	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	11	iobj	_	wf="намъ"
-11	поволили	поволити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="поволили"
-12	изъвисти	извести	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	obj	_	wf="изъвисти"
+11	поволили	поволити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="поволили"
+12	изъвисти	известь	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	13	obj	_	wf="изъвисти"
 13	купити	купити	VERB	_	VerbForm=Inf|Voice=Act	11	xcomp	_	wf="купити"|SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
 15	занеже	занеже	SCONJ	_	_	16	mark	_	wf="занеже"
@@ -486,7 +486,7 @@
 25	ц(е)рк(о)вь	церковь	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	28	obj	_	wf="церковь"
 26	С(вѧ)т(о)го	святый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	wf="Свѧтого"
 27	Николу	Никола	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	25	nmod	_	wf="Николу"
-28	накрыли	накрыти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="накрыли"|SpaceAfter=No
+28	накрыли	накрыти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="накрыли"|SpaceAfter=No
 29	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = polotsk__75-4
@@ -519,7 +519,7 @@
 26	наши	нашъ	DET	_	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	27	det	_	wf="наши"
 27	дѣти	детя	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	23	appos	_	wf="дѣти"|SpaceAfter=No
 28	,	,	PUNCT	_	_	27	punct	_	_
-29	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	11	conj	_	wf="дали"
+29	дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	11	conj	_	wf="дали"
 30	по	по	ADP	_	_	33	case	_	wf="по"
 31	тому	то	PRON	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	29	obl	_	wf="тому"
 32	же	же	PART	_	_	31	advmod	_	wf="же"
@@ -579,11 +579,11 @@
 # text = + Ѡ С(вѧ)т(е)мъ Д(у)се возлюбленным дѣтем нашим ратманомъ ризьскымъ
 1	+	+	SYM	_	_	6	parataxis	_	_
 2	Ѡ	о	ADP	_	_	4	case	_	wf="Ѡ"
-3	С(вѧ)т(е)мъ	святый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	wf="Свѧтемъ"
+3	С(вѧ)т(е)мъ	святый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	wf="Свѧтемъ"
 4	Д(у)се	духъ	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	5	obl	_	wf="Дусе"
 5	возлюбленным	возлюбленный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Plur	6	acl	_	wf="возлюбленным"
 6	дѣтем	детя	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	0	root	_	wf="дѣтем"
-7	нашим	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	wf="нашим"
+7	нашим	нашъ	DET	_	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	wf="нашим"
 8	ратманомъ	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	6	appos	_	wf="ратманомъ"
 9	ризьскымъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	wf="ризьскымъ"
 
@@ -603,7 +603,7 @@
 3	Васильевичу	Васильевичъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Pat|Number=Sing	2	flat:name	_	wf="Васильевичу"
 4	шесть	шесть	NUM	_	Case=Nom|NumForm=Word|NumType=Card	5	nummod:gov	_	wf="шесть"
 5	ч(о)л(о)в(е)ковъ	чоловекъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	0	root	_	wf="чоловековъ"
-6	данников	данник	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	wf="данников"
+6	данников	данникъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	wf="данников"
 7	на	на	ADP	_	_	8	case	_	wf="на"
 8	Псꙋи	Псуй	PROPN	_	Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	5	orphan	_	wf="Псꙋи"|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -757,7 +757,7 @@
 8	полоцкого	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	wf="полоцкого"|SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	кнѧзем	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	0	root	_	wf="кнѧзем"
-11	ризкимъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	7	amod	_	wf="ризкимъ"
+11	ризкимъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	wf="ризкимъ"
 12	и	и	CCONJ	_	_	13	cc	_	wf="и"
 13	суд(ь)ѧмъ	судья	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	10	conj	_	wf="судьѧмъ"|SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
@@ -769,9 +769,9 @@
 2	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	iobj	_	wf="нам"
 3	зде	зде	ADV	_	Degree=Pos	1	advmod	_	wf="зде"
 4	на	на	ADP	_	_	5	case	_	wf="на"
-5	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	wf="имѧ"
+5	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	wf="имѧ"
 6	поночанин	полочанинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	wf="поночанин"
-7	Бобоедъ	Бобоедъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	6	appos	_	wf="Бобоедъ"|SpaceAfter=No
+7	Бобоедъ	Бобоедъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	5	nmod	_	wf="Бобоедъ"|SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	што	што	SCONJ	_	_	15	mark	_	wf="што"
 10	сѧ	ся	PRON	_	Analyt=Yes|PronType=Prs|Reflex=Yes	15	expl	_	wf="сѧ"
@@ -821,10 +821,10 @@
 3	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	obj	_	wf="вас"|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	_
 5	штобы	штобы	SCONJ	_	Mood=Cnd	9	mark	_	wf="штобы"
-6	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="есте"
+6	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="есте"
 7	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	wf="ему"
 8	тое	той	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	obj	_	wf="тое"
-9	заплатили	заплатити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="заплатили"|SpaceAfter=No
+9	заплатили	заплатити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="заплатили"|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	а	а	CCONJ	_	_	12	cc	_	wf="а"
 12	оучинили	учинити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	9	conj	_	wf="оучинили"
@@ -901,8 +901,8 @@
 # newpar
 # sent_id = polotsk__98-3
 # text = Дали есмо Ивану Булавичу на Ѡстровне ꙋ его ж землицы и в суседов его ꙋ- в Ысачка ꙋ Вилодеева, а в Офонасове и в Морхинича земли на Ѡстровне бобры гонити на себе.
-1	Дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Дали"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+1	Дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Дали"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	Ивану	Иванъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	1	iobj	_	wf="Ивану"
 4	Булавичу	Булавичъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Pat|Number=Sing	3	flat:name	_	wf="Булавичу"
 5	на	на	ADP	_	_	6	case	_	wf="на"
@@ -981,7 +981,7 @@
 # text = А бедчаном нашого бобровника не водити в Сомницꙋ, въ его землю, покуле его земля.
 1	А	а	CCONJ	_	_	6	cc	_	wf="А"
 2	бедчаном	бедчанинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	wf="бедчаном"
-3	нашого	нашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det	_	wf="нашого"
+3	нашого	нашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="нашого"
 4	бобровника	бобровникъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	obj	_	wf="бобровника"
 5	не	не	PART	_	Polarity=Neg	6	advmod	_	wf="не"
 6	водити	водити	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="водити"
@@ -1003,8 +1003,8 @@
 1	А	а	CCONJ	_	_	5	cc	_	wf="А"
 2	и	и	CCONJ	_	_	1	fixed	_	wf="и"
 3	борть	борть	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	wf="борть"
-4	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмо"
-5	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмо"
+5	дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
 6	Ивану	Иванъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	5	iobj	_	wf="Ивану"
 7	на	на	ADP	_	_	8	case	_	wf="на"
 8	Вшачы	Ушача	PROPN	_	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	5	obl	_	wf="Вшачы"|SpaceAfter=No
@@ -1039,8 +1039,8 @@
 # sent_id = polotsk__98-9
 # text = А дали есмо ему вечно.
 1	А	а	CCONJ	_	_	2	cc	_	wf="А"
-2	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
-3	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есмо"
+2	дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
+3	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есмо"
 4	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	wf="ему"
 5	вечно	вечно	ADV	_	Degree=Pos	2	advmod	_	wf="вечно"|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
@@ -1082,8 +1082,8 @@
 # newpar
 # sent_id = polotsk__101-2
 # text = Послал есмо к вам свои послы ѡ вашем добрѣ и ѡ нашом.
-1	Послал	послати	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послал"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+1	Послал	послати	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послал"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	к	къ	ADP	_	_	4	case	_	wf="к"
 4	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl	_	wf="вам"
 5	свои	свой	DET	_	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	wf="свои"
@@ -1120,8 +1120,8 @@
 4	людеи	чоловекъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	2	obl	_	wf="людеи"|SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	што	што	SCONJ	_	_	8	mark	_	wf="што"
-7	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есте"
-8	пограбили	пограбити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="пограбили"
+7	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есте"
+8	пограбили	пограбити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="пограбили"
 9	правых	правый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	10	amod	_	wf="правых"
 10	людеи	чоловекъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	wf="людеи"
 11	полочан	полочанинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	appos	_	wf="полочан"|SpaceAfter=No
@@ -1146,13 +1146,13 @@
 8	хто	хто	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	11	nsubj	_	wf="хто"
 9	кому	хто	PRON	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Rel	11	iobj	_	wf="кому"
 10	будеть	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	cop	_	wf="будеть"
-11	виноват	виноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	ccomp	_	wf="виноват"|SpaceAfter=No
+11	виноват	виноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	acl	_	wf="виноват"|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	ино	ино	CCONJ	_	_	17	cc	_	wf="ино"
 14	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	17	aux	_	wf="бы"
 15	тому	то	PRON	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	17	iobj	_	wf="тому"
-16	было	быти	AUX	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	5	aux	_	wf="было"
-17	право	право	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	16	conj	_	wf="право"|SpaceAfter=No
+16	было	быти	AUX	_	Analyt=Yes|Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	17	cop	_	wf="было"
+17	право	право	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	advcl	_	wf="право"|SpaceAfter=No
 18	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = polotsk__101-6
@@ -1173,7 +1173,7 @@
 14	што	што	SCONJ	_	_	17	mark	_	wf="што"
 15	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	17	aux	_	wf="бы"
 16	рекомо	рещи	VERB	_	Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	wf="рекомо"
-17	взѧто	узяти	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	ccomp	_	wf="взѧто"
+17	взѧто	узяти	VERB	_	Analyt=Yes|Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	ccomp	_	wf="взѧто"
 18	оу	у	ADP	_	_	19	case	_	wf="оу"
 19	нег(о)	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obl	_	wf="него"
 20	30	30	NUM	_	Case=Nom|NumForm=Digit|NumType=Card	21	nummod	_	_
@@ -1306,7 +1306,7 @@
 13	великог(о)	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	wf="великого"
 14	кн(ѧ)зѧ	князь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	wf="кнѧзѧ"
 15	державѣ	держава	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	12	iobj	_	wf="державѣ"
-16	ваших	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	wf="ваших"
+16	ваших	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	17	det	_	wf="ваших"
 17	купцев	купецъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	wf="купцев"|SpaceAfter=No
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	и	и	CCONJ	_	_	21	cc	_	wf="и"
@@ -1337,18 +1337,18 @@
 4	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	obj	_	wf="вас"|SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
 6	штобы	штобы	SCONJ	_	Mood=Cnd	12	mark	_	wf="штобы"
-7	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есте"
+7	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есте"
 8	правым	правый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	9	amod	_	wf="правым"
 9	людем	чоловекъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	12	iobj	_	wf="людем"
-10	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	det	_	wf="ихъ"
+10	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	det	_	wf="ихъ"
 11	товаръ	товаръ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	wf="товаръ"
-12	вернули	вернути	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	ccomp	_	wf="вернули"|SpaceAfter=No
+12	вернули	вернути	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	ccomp	_	wf="вернули"|SpaceAfter=No
 13	,	,	PUNCT	_	_	22	punct	_	_
 14	а	а	CCONJ	_	_	22	cc	_	wf="а"
 15	хто	хто	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	18	nsubj	_	wf="хто"
 16	будет(ь)	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	18	cop	_	wf="будеть"
 17	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	18	iobj	_	wf="вам"
-18	виноват	виноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	21	acl	_	wf="виноват"|SpaceAfter=No
+18	виноват	виноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	21	acl:relcl	_	wf="виноват"|SpaceAfter=No
 19	,	,	PUNCT	_	_	18	punct	_	_
 20	на	на	ADP	_	_	21	case	_	wf="на"
 21	том	той	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	22	obl	_	wf="том"
@@ -1374,7 +1374,7 @@
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	ижь	иже	SCONJ	_	_	11	mark	_	wf="ижь"
 10	быхом	быти	AUX	Aor	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	wf="быхом"
-11	ѡбослали	обослати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	7	ccomp	_	wf="ѡбослали"
+11	ѡбослали	обослати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	7	ccomp	_	wf="ѡбослали"
 12	к	къ	ADP	_	_	14	case	_	wf="к"
 13	великому	великий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	wf="великому"
 14	кн(ѧ)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	wf="кнѧзю"|SpaceAfter=No
@@ -1432,7 +1432,7 @@
 8	к	къ	ADP	_	_	10	case	_	wf="к"
 9	нашеи	нашъ	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det	_	wf="нашеи"
 10	ц(е)ркви	церковь	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	wf="церкви"
-11	С(вѧ)тому	святый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	wf="Свѧтому"
+11	С(вѧ)тому	святый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	wf="Свѧтому"
 12	Николѣ	Никола	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	10	appos	_	wf="Николѣ"|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	_
 14	што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	15	obj	_	wf="што"
@@ -1469,12 +1469,12 @@
 # text = А тымъ было ѡбрѧжать ц(е)рк(о)вь: кое крыть, кое муровать, ино ваши нѣмци собѣ корыстують.
 1	А	а	CCONJ	_	_	4	cc	_	wf="А"
 2	тымъ	той	PRON	_	Case=Ins|Gender=Neut|Number=Plur|PronType=Dem	4	iobj	_	wf="тымъ"
-3	было	быти	AUX	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	4	aux	_	wf="было"
-4	ѡбрѧжать	ображати	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="ѡбрѧжать"
+3	было	быти	AUX	_	Analyt=Yes|Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	4	aux	_	wf="было"
+4	ѡбрѧжать	ображати	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	0	root	_	wf="ѡбрѧжать"
 5	ц(е)рк(о)вь	церковь	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	wf="церковь"|SpaceAfter=No
 6	:	:	PUNCT	_	_	8	punct	_	_
 7	кое	кой	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Int	8	obj	_	wf="кое"
-8	крыть	крыть	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	4	ccomp	_	wf="крыть"|SpaceAfter=No
+8	крыть	крыти	VERB	_	VerbForm=Inf|Voice=Act	4	parataxis	_	wf="крыть"|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	кое	кой	DET	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	11	obj	_	wf="кое"
 11	муровать	муровати	VERB	_	VerbForm=Inf|Voice=Act	8	conj	_	wf="муровать"|SpaceAfter=No
@@ -1497,13 +1497,13 @@
 6	дѣтеи	детя	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	3	appos	_	wf="дѣтеи"|SpaceAfter=No
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	штобы	штобы	SCONJ	_	Mood=Cnd	15	mark	_	wf="штобы"
-9	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	wf="есте"
+9	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	wf="есте"
 10	своимъ	свой	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	11	det	_	wf="своимъ"
 11	нѣмцемъ	немецъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	wf="нѣмцемъ"
 12	в	въ	ADP	_	_	13	case	_	wf="в"
 13	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	15	obl	_	wf="то"
 14	не	не	PART	_	Polarity=Neg	15	advmod	_	wf="не"
-15	велѣли	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="велѣли"
+15	велѣли	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="велѣли"
 16	въступатсѧ	вступатися	VERB	_	VerbForm=Inf|Voice=Mid	15	xcomp	_	wf="въступатсѧ"|SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	въ	въ	ADP	_	_	19	case	_	wf="въ"
@@ -1521,7 +1521,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	то	то	SCONJ	_	_	10	mark	_	wf="то"
 9	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	10	aux	_	wf="бы"
-10	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
+10	дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
 11	нашему	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	wf="нашему"
 12	попу	попъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	wf="попу"
 13	Ивану	Иванъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	12	appos	_	wf="Ивану"|SpaceAfter=No
@@ -1612,7 +1612,7 @@
 1	+	+	SYM	_	_	7	parataxis	_	_
 2	Ратманом	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	wf="Ратманом"
 3	ризкимъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	wf="ризкимъ"
-4	всьмъ	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	5	det	_	wf="всьмъ"
+4	всьмъ	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	2	det	_	wf="всьмъ"
 5	полочанѣ	полочанинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	wf="полочанѣ"
 6	чоломъ	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	iobj	_	wf="чоломъ"
 7	бьют(ь)	бити	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="бьють"|SpaceAfter=No
@@ -1627,8 +1627,8 @@
 # newpar
 # sent_id = polotsk__104-2
 # text = Послали есмо Коурила к вамъ по колоколы, и по скалвы, и про вѣсь нарѧдъ.
-1	Послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+1	Послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	Коурила	Курилъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	1	obj	_	wf="Коурила"
 4	к	къ	ADP	_	_	5	case	_	wf="к"
 5	вамъ	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	1	obl	_	wf="вамъ"
@@ -1774,7 +1774,7 @@
 27	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	30	nsubj	_	wf="ты"
 28	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	30	aux	_	wf="бы"
 29	мене	я	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	30	obj	_	wf="мене"
-30	ѡтлезль	отлезти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	24	conj	_	wf="ѡтлезль"|SpaceAfter=No
+30	ѡтлезль	отлезти	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	24	conj	_	wf="ѡтлезль"|SpaceAfter=No
 31	»	»	PUNCT	_	_	30	punct	_	_
 32	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1953,7 +1953,7 @@
 1	И	и	CCONJ	_	_	4	cc	_	wf="И"
 2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	wf="вы"
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	4	aux	_	wf="бы"
-4	велели	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="велели"
+4	велели	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="велели"
 5	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	det	_	wf="его"
 6	щкотоу	шкода	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	wf="щкотоу"
 7	и	и	CCONJ	_	_	9	cc	_	wf="и"
@@ -1994,7 +1994,7 @@
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	6	aux	_	wf="бы"
 4	ѡ	о	ADP	_	_	5	case	_	wf="ѡ"
 5	томъ	той	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	wf="томъ"
-6	росмотрели	розсмотрети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="росмотрели"|SpaceAfter=No
+6	росмотрели	розсмотрети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="росмотрели"|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = polotsk__105-16
@@ -2006,7 +2006,7 @@
 5	болшого	болший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	wf="болшого"
 6	клопотоу	клопотъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	wf="клопотоу"
 7	не	не	PART	_	Polarity=Neg	8	advmod	_	wf="не"
-8	драли	драти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="драли"|SpaceAfter=No
+8	драли	драти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="драли"|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # newpar
@@ -2073,14 +2073,14 @@
 16	,	,	PUNCT	_	_	26	punct	_	_
 17	што	што	SCONJ	_	_	26	mark	_	wf="што"
 18	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	26	iobj	_	wf="вам"
-19	было	быти	AUX	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	26	aux	_	wf="было"
+19	было	быти	AUX	_	Analyt=Yes|Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	26	aux	_	wf="было"
 20	оу	у	ADP	_	_	21	case	_	wf="оу"
 21	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	26	obl	_	wf="нас"
 22	оу	у	ADP	_	_	23	case	_	wf="оу"
 23	Лоцкꙋ	Лоцкъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	21	nmod	_	wf="Лоцкꙋ"
 24	корчмы	корчма	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	wf="корчмы"
 25	не	не	PART	_	Polarity=Neg	26	advmod	_	wf="не"
-26	держати	держати	VERB	_	VerbForm=Inf|Voice=Act	15	acl	_	wf="держати"|SpaceAfter=No
+26	держати	держати	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	15	acl	_	wf="держати"|SpaceAfter=No
 27	,	,	PUNCT	_	_	33	punct	_	_
 28	ни	ни	CCONJ	_	Polarity=Neg	33	cc	_	wf="ни"
 29	вина	вино	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	33	obj	_	wf="вина"
@@ -2090,7 +2090,7 @@
 33	продавати	продавати	VERB	_	VerbForm=Inf|Voice=Act	26	conj	_	wf="продавати"|SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
 35	а	а	CCONJ	_	_	37	cc	_	wf="а"
-36	ни	ни	CCONJ	_	Polarity=Neg	37	cc	_	wf="ни"
+36	ни	ни	CCONJ	_	Polarity=Neg	35	fixed	_	wf="ни"
 37	пива	пиво	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	29	conj	_	wf="пива"|SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	ни	ни	CCONJ	_	Polarity=Neg	40	cc	_	wf="ни"
@@ -2103,15 +2103,15 @@
 1	А	а	CCONJ	_	_	5	cc	_	wf="А"
 2	про	про	ADP	_	_	3	case	_	wf="про"
 3	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	wf="то"
-4	есмѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмѣ"
-5	посылали	посылати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="посылали"
+4	есмѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмѣ"
+5	посылали	посылати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="посылали"
 6	к	къ	ADP	_	_	7	case	_	wf="к"
 7	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	obl	_	wf="вам"
 8	свои	свой	DET	_	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	wf="свои"
 9	послы	посолъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	wf="послы"|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	на	на	ADP	_	_	12	case	_	wf="на"
-12	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	appos	_	wf="имѧ"
+12	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	wf="имѧ"
 13	Федька	Федька	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	12	nmod	_	wf="Федька"
 14	Булавинича	Булавиничъ	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Pat|Number=Sing	13	flat:name	_	wf="Булавинича"|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -2171,13 +2171,13 @@
 5	того	то	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	wf="того"|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	как	какъ	ADV	_	Degree=Pos	11	advmod	_	wf="как"
-8	есмѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмѣ"
+8	есмѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмѣ"
 9	к	къ	ADP	_	_	10	case	_	wf="к"
 10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obl	_	wf="вам"
-11	посыли	посылати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	acl	_	wf="посыли"|SpaceAfter=No
+11	посыли	посылати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	acl	_	wf="посыли"|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	досыть	досыть	ADV	_	Degree=Pos	16	advmod	_	wf="досыть"
-14	ваших	вашъ	DET	_	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	wf="ваших"
+14	ваших	вашъ	DET	_	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	wf="ваших"
 15	детеи	детя	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	16	obj	_	wf="детеи"
 16	оунимали	унимати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оунимали"|SpaceAfter=No
 17	,	,	PUNCT	_	_	23	punct	_	_
@@ -2193,7 +2193,7 @@
 27	оу	у	ADP	_	_	28	case	_	wf="оу"
 28	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	30	obl	_	wf="нас"
 29	не	не	PART	_	Polarity=Neg	30	advmod	_	wf="не"
-30	держали	держати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	23	conj	_	wf="держали"|SpaceAfter=No
+30	держали	держати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	23	conj	_	wf="держали"|SpaceAfter=No
 31	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = polotsk__107-6
@@ -2238,11 +2238,11 @@
 # text = Оу вашего есмѣ немчина Аврамка корчму вынѧли.
 1	Оу	у	ADP	_	_	2	case	_	wf="Оу"
 2	вашего	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="вашего"
-3	есмѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есмѣ"
+3	есмѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есмѣ"
 4	немчина	немчинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	wf="немчина"
 5	Аврамка	Аврамко	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	4	appos	_	wf="Аврамка"
 6	корчму	корчма	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	wf="корчму"
-7	вынѧли	выняти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вынѧли"|SpaceAfter=No
+7	вынѧли	выняти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вынѧли"|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = polotsk__107-9
@@ -2283,7 +2283,7 @@
 4	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	wf="ихъ"
 5	про	про	ADP	_	_	6	case	_	wf="про"
 6	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	wf="то"
-7	казнили	казнити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"
+7	казнили	казнити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"
 8	по	по	ADP	_	_	10	case	_	wf="по"
 9	их	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	det	_	wf="их"
 10	делом	дело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	7	obl	_	wf="делом"|SpaceAfter=No
@@ -2294,10 +2294,10 @@
 1	А	а	CCONJ	_	_	7	cc	_	wf="А"
 2	иных	иный	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	7	obj	_	wf="иных"
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	7	aux	_	wf="бы"
-4	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
+4	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
 5	ѡт	отъ	ADP	_	_	6	case	_	wf="ѡт"
 6	того	то	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	wf="того"
-7	оущували	ущувати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оущували"|SpaceAfter=No
+7	оущували	ущувати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оущували"|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	штобы	штобы	SCONJ	_	Mood=Cnd	18	mark	_	wf="штобы"
 10	и	и	PART	_	_	18	advmod	_	wf="и"
@@ -2353,9 +2353,9 @@
 # sent_id = polotsk__107-14
 # text = Занже заказали были есте своим торговцем к нам пива не возити.
 1	Занже	занеже	SCONJ	_	_	2	mark	_	wf="Занже"
-2	заказали	заказати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="заказали"
-3	были	быти	AUX	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	aux	_	wf="были"
-4	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есте"
+2	заказали	заказати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="заказали"
+3	были	быти	AUX	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	aux	_	wf="были"
+4	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есте"
 5	своим	свой	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	wf="своим"
 6	торговцем	торговецъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	iobj	_	wf="торговцем"
 7	к	къ	ADP	_	_	8	case	_	wf="к"
@@ -2433,14 +2433,14 @@
 16	,	,	PUNCT	_	_	26	punct	_	_
 17	што	што	SCONJ	_	_	26	mark	_	wf="што"
 18	вамъ	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	26	iobj	_	wf="вамъ"
-19	было	быти	AUX	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	26	aux	_	wf="было"
+19	было	быти	AUX	_	Analyt=Yes|Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	26	aux	_	wf="было"
 20	оу	у	ADP	_	_	21	case	_	wf="оу"
 21	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	26	obl	_	wf="нас"
 22	оу	у	ADP	_	_	23	case	_	wf="оу"
 23	Полоцкꙋ	Полоцкъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	21	nmod	_	wf="Полоцкꙋ"
 24	корчмы	корчма	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	26	obj	_	wf="корчмы"
 25	не	не	PART	_	Polarity=Neg	26	advmod	_	wf="не"
-26	держати	держати	VERB	_	VerbForm=Inf|Voice=Act	15	acl	_	wf="держати"|SpaceAfter=No
+26	держати	держати	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	15	acl	_	wf="держати"|SpaceAfter=No
 27	,	,	PUNCT	_	_	33	punct	_	_
 28	ни	ни	CCONJ	_	Polarity=Neg	33	cc	_	wf="ни"
 29	вина	вино	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	33	obj	_	wf="вина"
@@ -2450,7 +2450,7 @@
 33	продавати	продавати	VERB	_	VerbForm=Inf|Voice=Act	26	conj	_	wf="продавати"|SpaceAfter=No
 34	,	,	PUNCT	_	_	37	punct	_	_
 35	а	а	CCONJ	_	_	37	cc	_	wf="а"
-36	ни	ни	CCONJ	_	Polarity=Neg	37	cc	_	wf="ни"
+36	ни	ни	CCONJ	_	Polarity=Neg	35	fixed	_	wf="ни"
 37	пива	пиво	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	29	conj	_	wf="пива"|SpaceAfter=No
 38	,	,	PUNCT	_	_	40	punct	_	_
 39	ни	ни	CCONJ	_	Polarity=Neg	40	cc	_	wf="ни"
@@ -2478,15 +2478,15 @@
 1	И	и	CCONJ	_	_	5	cc	_	wf="И"
 2	про	про	ADP	_	_	3	case	_	wf="про"
 3	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obl	_	wf="то"
-4	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмо"
-5	послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	wf="есмо"
+5	послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
 6	к	къ	ADP	_	_	7	case	_	wf="к"
 7	вамъ	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	5	obl	_	wf="вамъ"
 8	свои	свой	DET	_	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	wf="свои"
 9	послы	посолъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	wf="послы"|SpaceAfter=No
 10	,	,	PUNCT	_	_	12	punct	_	_
 11	на	на	ADP	_	_	12	case	_	wf="на"
-12	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	wf="имѧ"
+12	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	wf="имѧ"
 13	Федка	Федко	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	12	nmod	_	wf="Федка"
 14	Бꙋлавинич	Булавиничъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	13	flat:name	_	wf="Бꙋлавинич"|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	_
@@ -2509,7 +2509,7 @@
 6	к	къ	ADP	_	_	7	case	_	wf="к"
 7	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	obl	_	wf="нам"
 8	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	wf="свою"
-9	реч(ь)	речъ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	advcl	_	wf="речь"|SpaceAfter=No
+9	реч(ь)	речъ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	wf="речь"|SpaceAfter=No
 10	:	:	PUNCT	_	_	23	punct	_	_
 11	«	«	PUNCT	_	_	23	punct	_	SpaceAfter=No
 12	Кого	хто	PRON	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	15	det	_	wf="Кого"
@@ -2518,7 +2518,7 @@
 15	немчина	немчинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	obj	_	wf="немчина"|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	корчмꙋ	корчма	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	wf="корчмꙋ"
-18	продаа	продавати	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	acl	_	wf="продаа"|SpaceAfter=No
+18	продаа	продавати	VERB	_	Tense=Pres|VerbForm=Conv|Voice=Act	15	acl	_	wf="продаа"|SpaceAfter=No
 19	,	,	PUNCT	_	_	13	punct	_	_
 20	и	и	CCONJ	_	_	23	cc	_	wf="и"
 21	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	23	nsubj	_	wf="вы"
@@ -2546,10 +2546,10 @@
 5	того	то	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	16	obl	_	wf="того"|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	как	какъ	ADV	_	Degree=Pos	11	advmod	_	wf="как"
-8	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмо"
+8	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмо"
 9	к	къ	ADP	_	_	10	case	_	wf="к"
 10	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	obl	_	wf="вам"
-11	посылали	посылати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	acl	_	wf="посылали"|SpaceAfter=No
+11	посылали	посылати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	acl	_	wf="посылали"|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	досыт(ь)	досыть	ADV	_	Degree=Pos	16	advmod	_	wf="досыть"
 14	ваших	вашъ	DET	_	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	wf="ваших"
@@ -2568,7 +2568,7 @@
 27	оу	у	ADP	_	_	28	case	_	wf="оу"
 28	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	30	obl	_	wf="нас"
 29	не	не	PART	_	Polarity=Neg	30	advmod	_	wf="не"
-30	держали	держати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	23	conj	_	wf="держали"|SpaceAfter=No
+30	держали	держати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	23	conj	_	wf="держали"|SpaceAfter=No
 31	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = polotsk__108-7
@@ -2612,12 +2612,12 @@
 # text = Оу вашего есмо немчина оу Аврамка корчмоу вынѧли.
 1	Оу	у	ADP	_	_	4	case	_	wf="Оу"
 2	вашего	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="вашего"
-3	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмо"
+3	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмо"
 4	немчина	немчинъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	8	obl	_	wf="немчина"
 5	оу	у	ADP	_	_	6	case	_	wf="оу"
 6	Аврамка	Аврамко	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	4	appos	_	wf="Аврамка"
 7	корчмоу	корчма	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	wf="корчмоу"
-8	вынѧли	выняти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вынѧли"|SpaceAfter=No
+8	вынѧли	выняти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вынѧли"|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = polotsk__108-10
@@ -2659,7 +2659,7 @@
 4	их	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	wf="их"
 5	про	про	ADP	_	_	6	case	_	wf="про"
 6	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	wf="то"
-7	казнили	казнити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"
+7	казнили	казнити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"
 8	по	по	ADP	_	_	10	case	_	wf="по"
 9	их	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	10	det	_	wf="их"
 10	дѣлом	дело	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	7	obl	_	wf="дѣлом"|SpaceAfter=No
@@ -2731,9 +2731,9 @@
 # sent_id = polotsk__108-15
 # text = А заказали бы есте своим торговцемъ, штобы и пива к нам не везли.
 1	А	а	CCONJ	_	_	2	cc	_	wf="А"
-2	заказали	заказати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="заказали"
+2	заказали	заказати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="заказали"
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	2	aux	_	wf="бы"
-4	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есте"
+4	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есте"
 5	своим	свой	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	wf="своим"
 6	торговцемъ	торговецъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	iobj	_	wf="торговцемъ"|SpaceAfter=No
 7	,	,	PUNCT	_	_	14	punct	_	_
@@ -2795,8 +2795,8 @@
 # newpar
 # sent_id = polotsk__109-2
 # text = Послали есмо мѣстичовъ полоцкихъ Ивана Ворушина а Васильѧ Камъшикꙋви до Риги ѡ своихъ потрѣбахъ.
-1	Послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+1	Послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	мѣстичовъ	местичъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	1	obj	_	wf="мѣстичовъ"
 4	полоцкихъ	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	3	amod	_	wf="полоцкихъ"
 5	Ивана	Иванъ	PROPN	_	Case=Gen|Gender=Masc|NameType=Giv|Number=Sing	3	appos	_	wf="Ивана"
@@ -2828,9 +2828,9 @@
 12	приѧтелеи	приятель	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	9	appos	_	wf="приѧтелеи"|SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	штобы	штобы	SCONJ	_	Mood=Cnd	17	mark	_	wf="штобы"
-15	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	wf="естѣ"
+15	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	wf="естѣ"
 16	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	wf="ихъ"
-17	пропустил(и)	пропустити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	8	ccomp	_	wf="пропустили"
+17	пропустил(и)	пропустити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	8	ccomp	_	wf="пропустили"
 18	и	и	CCONJ	_	_	19	cc	_	wf="и"
 19	далѣи	далей	ADV	_	Degree=Cmp	17	conj	_	wf="далѣи"
 20	Риги	Рига	PROPN	_	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	19	obl	_	wf="Риги"|SpaceAfter=No
@@ -2955,8 +2955,8 @@
 # text = Ино штобы есте велѣли ему паньскому слузѣ безъчестье заплатити, a и том(у) нашем(у) полочанину, которого скололъ.
 1	Ино	ино	CCONJ	_	_	4	cc	_	wf="Ино"
 2	штобы	штобы	SCONJ	_	Mood=Cnd	4	mark	_	wf="штобы"
-3	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есте"
-4	велѣли	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="велѣли"
+3	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есте"
+4	велѣли	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="велѣли"
 5	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	wf="ему"
 6	паньскому	панский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	wf="паньскому"
 7	слузѣ	слуга	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	wf="слузѣ"
@@ -2969,8 +2969,8 @@
 14	нашем(у)	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	wf="нашему"
 15	полочанину	полочанинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	wf="полочанину"|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	которого	который	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	18	det	_	wf="которого"
-18	скололъ	сколоти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	15	appos	_	wf="скололъ"|SpaceAfter=No
+17	которого	который	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Rel	18	obj	_	wf="которого"
+18	скололъ	сколоти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	15	acl:relcl	_	wf="скололъ"|SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = polotsk__110-7
@@ -3012,11 +3012,11 @@
 # text = Ино штобы есте оу винѣ его казнили, какъ вы вѣдаете оу своемъ правѣ, а нашим велѣте безъчестье заплатити.
 1	Ино	ино	CCONJ	_	_	7	cc	_	wf="Ино"
 2	штобы	штобы	SCONJ	_	Mood=Cnd	7	mark	_	wf="штобы"
-3	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
+3	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
 4	оу	въ	ADP	_	_	5	case	_	wf="оу"
 5	винѣ	вина	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	7	obl	_	wf="винѣ"
-6	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	det	_	wf="его"
-7	казнили	казнити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"|SpaceAfter=No
+6	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	wf="его"
+7	казнили	казнити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="казнили"|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
 9	какъ	какъ	ADV	_	Degree=Pos	11	advmod	_	wf="какъ"
 10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	11	nsubj	_	wf="вы"
@@ -3038,7 +3038,7 @@
 2	въсхочете	восхотети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="въсхочете"
 3	ль	ли	PART	_	_	2	advmod	_	wf="ль"
 4	пак	паки	ADV	_	Degree=Pos	7	advmod	_	wf="пак"
-5	нашим	нашъ	DET	_	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	6	det	_	wf="нашим"
+5	нашим	нашъ	DET	_	Case=Dat|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	7	iobj	_	wf="нашим"
 6	безъч[ес]тьѧ	безчестье	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	7	obl	_	wf="безъчестьѧ"
 7	заплатити	заплатити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	wf="заплатити"|SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -3055,10 +3055,10 @@
 1	Да	да	CCONJ	_	_	7	cc	_	wf="Да"
 2	намъ	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	wf="намъ"
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	7	aux	_	wf="бы"
-4	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
+4	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есте"
 5	тымъ	той	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	7	obl	_	wf="тымъ"
 6	же	же	PART	_	_	5	advmod	_	wf="же"
-7	ѡтписали	отписати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтписали"|SpaceAfter=No
+7	ѡтписали	отписати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтписали"|SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	хто	хто	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	15	nsubj	_	wf="хто"
 10	ѡт	отъ	ADP	_	_	11	case	_	wf="ѡт"
@@ -3112,8 +3112,8 @@
 8	слуга	слуга	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	wf="слуга"
 9	Зубѣцъ	Зубецъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing	8	appos	_	wf="Зубѣцъ"
 10	пѣрво	перво	ADV	_	Degree=Pos	12	advmod	_	wf="пѣрво"
-11	былъ	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	12	aux	_	wf="былъ"
-12	збродилъ	збродити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	1	ccomp	_	wf="збродилъ"|SpaceAfter=No
+11	былъ	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	12	aux	_	wf="былъ"
+12	збродилъ	збродити	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	1	ccomp	_	wf="збродилъ"|SpaceAfter=No
 13	:	:	PUNCT	_	_	12	punct	_	_
 14	ѡт	отъ	ADP	_	_	15	case	_	wf="ѡт"
 15	пана	панъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	obl	_	wf="пана"
@@ -3162,10 +3162,10 @@
 # sent_id = polotsk__111-4
 # text = Панъ былъ ему гнѣва ѡтпустилъ.
 1	Панъ	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	wf="Панъ"
-2	былъ	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	5	aux	_	wf="былъ"
+2	былъ	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	5	aux	_	wf="былъ"
 3	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	iobj	_	wf="ему"
 4	гнѣва	гневъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obj	_	wf="гнѣва"
-5	ѡтпустилъ	отпустити	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтпустилъ"|SpaceAfter=No
+5	ѡтпустилъ	отпустити	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтпустилъ"|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = polotsk__111-5
@@ -3207,7 +3207,7 @@
 9	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	wf="его"
 10	и	и	CCONJ	_	_	13	cc	_	wf="и"
 11	грамоты	грамота	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	13	obj	_	wf="грамоты"
-12	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	det	_	wf="ему"
+12	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	iobj	_	wf="ему"
 13	подовалъ	подати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	8	conj	_	wf="подовалъ"
 14	до	до	ADP	_	_	15	case	_	wf="до"
 15	васъ	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	13	obl	_	wf="васъ"|SpaceAfter=No
@@ -3319,8 +3319,8 @@
 12	доброго	добрый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	wf="доброго"
 13	рижанина	рижанинъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	wf="рижанина"
 14	порублу	порубити	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	wf="порублу"
-15	оу	у	ADP	_	_	18	case	_	wf="оу"
-16	тыхъ	той	DET	_	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	18	det	_	wf="тыхъ"
+15	оу	въ	ADP	_	_	18	case	_	wf="оу"
+16	тыхъ	той	DET	_	Case=Loc|Gender=Masc|Number=Plur|PronType=Dem	18	det	_	wf="тыхъ"
 17	дву	два	NUM	_	Case=Loc|Gender=Masc|NumForm=Word|NumType=Card	18	nummod	_	wf="дву"
 18	рублѣхъ	рубль	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	14	nmod	_	wf="рублѣхъ"|SpaceAfter=No
 19	,	,	PUNCT	_	_	14	punct	_	_
@@ -3329,10 +3329,10 @@
 22	два	два	NUM	_	Case=Acc|Gender=Masc|NumForm=Word|NumType=Card	23	nummod	_	wf="два"
 23	рубли	рубль	NOUN	_	Case=Acc|Gender=Masc|Number=Count	28	obj	_	wf="рубли"
 24	ѧ	я	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	wf="ѧ"
-25	былъ	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	28	aux	_	wf="былъ"
+25	былъ	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	28	aux	_	wf="былъ"
 26	на	на	ADP	_	_	27	case	_	wf="на"
 27	конъ	конь	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	28	obl	_	wf="конъ"
-28	послалъ	послати	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	14	advcl	_	wf="послалъ"|SpaceAfter=No
+28	послалъ	послати	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	14	advcl	_	wf="послалъ"|SpaceAfter=No
 29	.	.	PUNCT	_	_	14	punct	_	_
 
 # newdoc id = polotsk__112
@@ -3419,9 +3419,9 @@
 12	,	,	PUNCT	_	_	17	punct	_	_
 13	што	што	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	17	nsubj:pass	_	wf="што"
 14	сѧ	ся	PRON	_	Analyt=Yes|PronType=Prs|Reflex=Yes	17	expl	_	wf="сѧ"
-15	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	17	aux	_	wf="был"
+15	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	17	aux	_	wf="был"
 16	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	iobj	_	wf="ему"
-17	записал	записати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	9	ccomp	_	wf="записал"|SpaceAfter=No
+17	записал	записати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	9	ccomp	_	wf="записал"|SpaceAfter=No
 18	,	,	PUNCT	_	_	17	punct	_	_
 19	чимъ	што	PRON	_	Case=Ins|Gender=Neut|Number=Sing|PronType=Rel	20	obl	_	wf="чимъ"
 20	виноватъ	виноватый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	xcomp	_	wf="виноватъ"|SpaceAfter=No
@@ -3432,11 +3432,11 @@
 # text = Ино штобы естѣ тому полочанину право оучинили, запись тую велитѣ вернути ему.
 1	Ино	ино	CCONJ	_	_	7	cc	_	wf="Ино"
 2	штобы	штобы	SCONJ	_	Mood=Cnd	7	mark	_	wf="штобы"
-3	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="естѣ"
+3	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="естѣ"
 4	тому	той	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	wf="тому"
 5	полочанину	полочанинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	wf="полочанину"
 6	право	право	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	wf="право"
-7	оучинили	учинити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оучинили"|SpaceAfter=No
+7	оучинили	учинити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оучинили"|SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	запись	записъ	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	wf="запись"
 10	тую	той	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	wf="тую"
@@ -3462,9 +3462,9 @@
 13	рижаном	рижанинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	18	obl	_	wf="рижаном"
 14	також	также	ADV	_	Degree=Pos	18	advmod	_	wf="також"
 15	не	не	PART	_	Polarity=Neg	18	advmod	_	wf="не"
-16	будемъ	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	18	aux	_	wf="будемъ"
+16	будемъ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	18	aux	_	wf="будемъ"
 17	права	право	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	18	obj	_	wf="права"
-18	чинити	чинити	VERB	_	VerbForm=Inf|Voice=Act	7	conj	_	wf="чинити"|SpaceAfter=No
+18	чинити	чинити	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	7	conj	_	wf="чинити"|SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = polotsk__112-7
@@ -3574,7 +3574,7 @@
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	6	aux	_	wf="бы"
 4	нашим	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det	_	wf="нашим"
 5	людемъ	чоловекъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	wf="людемъ"
-6	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
+6	дали	дати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
 7	право	право	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	wf="право"|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -3598,12 +3598,12 @@
 16	10-ро	10-ро	NUM	_	Case=Acc|Gender=Neut|NumForm=Combi|NumType=Sets	17	obl	_	wf="ро"
 17	имем	яти	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	wf="имем"
 18	ваших	вашъ	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det	_	wf="ваших"
-19	немець	немецъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	wf="немець"
+19	немець	немецъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	wf="немець"
 20	за	за	ADP	_	_	21	case	_	wf="за"
 21	шию	шия	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	17	obl	_	wf="шию"|SpaceAfter=No
 22	,	,	PUNCT	_	_	26	punct	_	_
 23	штобы	штобы	SCONJ	_	Mood=Cnd	26	mark	_	wf="штобы"
-24	противь	противъ	ADP	_	_	26	case	_	wf="противь"
+24	противь	противъ	ADP	_	_	25	case	_	wf="противь"
 25	нашог(о)	нашъ	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	26	obl	_	wf="нашого"
 26	стало	стати	VERB	_	Gender=Neut|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	17	advcl	_	wf="стало"|SpaceAfter=No
 27	.	.	PUNCT	_	_	3	punct	_	_
@@ -3658,12 +3658,12 @@
 8	пишемъ	писати	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="пишемъ"|SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	_
 10	што	што	SCONJ	_	_	16	mark	_	wf="што"
-11	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	wf="есте"
+11	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	wf="есте"
 12	лѣтось	летось	ADV	_	Degree=Pos	16	advmod	_	wf="лѣтось"
 13	ѡ	о	ADP	_	_	15	case	_	wf="ѡ"
 14	Еване	еванъ	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	15	amod	_	wf="Еване"
 15	дні	день	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	wf="дні"
-16	прізывали	призывати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	8	ccomp	_	wf="прізывали"
+16	прізывали	призывати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	8	ccomp	_	wf="прізывали"
 17	нашю	нашъ	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det	_	wf="нашю"
 18	брат(ь)ю	братья	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	wf="братью"
 19	на	на	ADP	_	_	20	case	_	wf="на"
@@ -3674,12 +3674,12 @@
 # text = Ино что боудоут(ь) наша брат(ь)ѧ перед вами говоріли на ратоуши, и вы бы то попамѣтовали и ѡтписали бы есте к нашемоу ѡспод(а)рю панꙋ Ѡндрею, воеводѣ полоцкомꙋ, и к намъ.
 1	Ино	ино	SCONJ	_	_	8	mark	_	wf="Ино"
 2	что	што	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	5	det	_	wf="что"
-3	боудоут(ь)	быти	AUX	_	VerbForm=Inf|Voice=Act	8	aux	_	wf="боудоуть"
+3	боудоут(ь)	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	aux	_	wf="боудоуть"
 4	наша	нашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	wf="наша"
 5	брат(ь)ѧ	братья	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	wf="братьѧ"
 6	перед	передъ	ADP	_	_	7	case	_	wf="перед"
 7	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2|PronType=Prs	8	obl	_	wf="вами"
-8	говоріли	говорити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	16	advcl	_	wf="говоріли"
+8	говоріли	говорити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	16	advcl	_	wf="говоріли"
 9	на	на	ADP	_	_	10	case	_	wf="на"
 10	ратоуши	ратуша	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	obl	_	wf="ратоуши"|SpaceAfter=No
 11	,	,	PUNCT	_	_	8	punct	_	_
@@ -3687,11 +3687,11 @@
 13	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	16	nsubj	_	wf="вы"
 14	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	16	aux	_	wf="бы"
 15	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	16	obj	_	wf="то"
-16	попамѣтовали	попаметовати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="попамѣтовали"
+16	попамѣтовали	попаметовати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="попамѣтовали"
 17	и	и	CCONJ	_	_	18	cc	_	wf="и"
-18	ѡтписали	отписати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	16	conj	_	wf="ѡтписали"
+18	ѡтписали	отписати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	16	conj	_	wf="ѡтписали"
 19	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	18	aux	_	wf="бы"
-20	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	wf="есте"
+20	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	wf="есте"
 21	к	къ	ADP	_	_	23	case	_	wf="к"
 22	нашемоу	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	23	det	_	wf="нашемоу"
 23	ѡспод(а)рю	осподаръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	18	obl	_	wf="ѡсподарю"
@@ -3750,16 +3750,16 @@
 # text = Изде как приѣхал есмь оу Полотескъ, и купци кн(я)зя великого полочане били нам челом, a повѣдают(ь), што ж кн(я)зь вашь мештерь полочаном оу Ризе торговати не дал, а ещо и товаръ оу них пограбил, и суды ѡтоимал во кн(я)зя вашого мештереве земли, што пѣши пришли к Полоцку.
 1	Изде	изде	ADV	_	Degree=Pos	3	advmod	_	wf="Изде"
 2	как	какъ	ADV	_	Degree=Pos	3	advmod	_	wf="как"
-3	приѣхал	приехати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	13	advcl	_	wf="приѣхал"
-4	есмь	быти	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмь"
+3	приѣхал	приехати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	13	advcl	_	wf="приѣхал"
+4	есмь	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмь"
 5	оу	въ	ADP	_	_	6	case	_	wf="оу"
 6	Полотескъ	Полоцкъ	PROPN	_	Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	3	obl	_	wf="Полотескъ"|SpaceAfter=No
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	и	и	CCONJ	_	_	13	cc	_	wf="и"
 9	купци	купецъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	wf="купци"
 10	кн(я)зя	князь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	wf="князя"
-11	великого	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	wf="великого"
-12	полочане	полочанинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	9	nmod	_	wf="полочане"
+11	великого	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	wf="великого"
+12	полочане	полочанинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	9	appos	_	wf="полочане"
 13	били	бити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="били"
 14	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	iobj	_	wf="нам"
 15	челом	чело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	13	obl	_	wf="челом"|SpaceAfter=No
@@ -3822,7 +3822,7 @@
 7	ѡсп(о)д(а)рю	осподаръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	wf="ѡсподарю"
 8	нашому	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	wf="нашому"
 9	кн(я)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	12	iobj	_	wf="князю"
-10	великом(у)	великий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	wf="великому"
+10	великом(у)	великий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	wf="великому"
 11	соромоту	соромота	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	iobj	_	wf="соромоту"
 12	чинит(ь)	чинити	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	wf="чинить"|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
@@ -3848,7 +3848,7 @@
 4	кн(ѧ)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	wf="кнѧзю"
 5	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	4	det	_	wf="своему"
 6	мештерю	мештеръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	wf="мештерю"
-7	говорили	говорити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"|SpaceAfter=No
+7	говорили	говорити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"|SpaceAfter=No
 8	,	,	PUNCT	_	_	16	punct	_	_
 9	штобы	штобы	SCONJ	_	Mood=Cnd	16	mark	_	wf="штобы"
 10	кн(я)зя	князь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	wf="князя"
@@ -3862,7 +3862,7 @@
 18	а	а	CCONJ	_	_	21	cc	_	wf="а"
 19	торговати	торговати	VERB	_	VerbForm=Inf|Voice=Act	21	xcomp	_	wf="торговати"
 20	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	21	aux	_	wf="бы"
-21	дал	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	16	conj	_	wf="дал"|SpaceAfter=No
+21	дал	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	16	conj	_	wf="дал"|SpaceAfter=No
 22	,	,	PUNCT	_	_	25	punct	_	_
 23	как	какъ	ADV	_	Degree=Pos	25	advmod	_	wf="как"
 24	издавна	издавна	ADV	_	Degree=Pos	25	advmod	_	wf="издавна"
@@ -3892,7 +3892,7 @@
 17	против	противъ	ADV	_	Degree=Pos	18	advmod	_	wf="против"
 18	велим	велети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	wf="велим"
 19	товаръ	товаръ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	wf="товаръ"
-20	оу	у	ADP	_	_	22	case	_	wf="оу"
+20	оу	у	ADP	_	_	21	case	_	wf="оу"
 21	ваших	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	obl	_	wf="ваших"
 22	забавит(и)	забавити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	wf="забавити"|SpaceAfter=No
 23	.	.	PUNCT	_	_	3	punct	_	_
@@ -3903,8 +3903,8 @@
 2	к	къ	ADP	_	_	3	case	_	wf="к"
 3	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	wf="нам"
 4	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	6	aux	_	wf="бы"
-5	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="есте"
-6	отписали	отписати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="отписали"|SpaceAfter=No
+5	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="есте"
+6	отписали	отписати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="отписали"|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # newpar
@@ -3937,7 +3937,7 @@
 7	кн(я)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	10	obl	_	wf="князю"
 8	своему	свой	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	wf="своему"
 9	мештерю	мештеръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	wf="мештерю"
-10	говорили	говорити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"|SpaceAfter=No
+10	говорили	говорити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="говорили"|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = polotsk__118-11
@@ -3946,8 +3946,8 @@
 2	к	къ	ADP	_	_	3	case	_	wf="к"
 3	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	obl	_	wf="нам"
 4	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	6	aux	_	wf="бы"
-5	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="есте"
-6	ѡтписали	отписати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтписали"
+5	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="есте"
+6	ѡтписали	отписати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡтписали"
 7	против	противъ	ADP	_	_	9	case	_	wf="против"
 8	нашои	нашъ	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	wf="нашои"
 9	грамоты	грамота	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	6	obl	_	wf="грамоты"|SpaceAfter=No
@@ -4011,7 +4011,7 @@
 10	за	за	ADP	_	_	11	case	_	wf="за"
 11	море	море	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	12	nmod	_	wf="море"
 12	пут(ь)	путь	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	wf="путь"
-13	ч(и)стъ	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	amod	_	wf="чистъ"|SpaceAfter=No
+13	ч(и)стъ	чистый	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	12	amod	_	wf="чистъ"|SpaceAfter=No
 14	,	,	PUNCT	_	_	2	punct	_	_
 15	а	а	CCONJ	_	_	22	cc	_	wf="а"
 16	оу	у	ADP	_	_	17	case	_	wf="оу"
@@ -4076,9 +4076,9 @@
 26	по	по	ADP	_	_	27	case	_	wf="по"
 27	Гармонову	гармоновъ	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	wf="Гармонову"
 28	ваших	вашъ	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	30	det	_	wf="ваших"
-29	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	wf="есмо"
+29	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	wf="есмо"
 30	купцов	купецъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	31	obj	_	wf="купцов"
-31	пропустили	пропустити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="пропустили"
+31	пропустили	пропустити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="пропустили"
 32	к	къ	ADP	_	_	33	case	_	wf="к"
 33	Витебьску	Витебскъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	31	obl	_	wf="Витебьску"
 34	и	и	CCONJ	_	_	36	cc	_	wf="и"
@@ -4135,8 +4135,8 @@
 # text = А такжо послали есмо слугу своего Дашка и полочанъ до Риги своим дѣлом своими рѣчми.
 1	А	а	CCONJ	_	_	3	cc	_	wf="А"
 2	такжо	также	ADV	_	Degree=Pos	3	advmod	_	wf="такжо"
-3	послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
-4	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"
+3	послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"
 5	слугу	слуга	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	wf="слугу"
 6	своего	свой	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	5	det	_	wf="своего"
 7	Дашка	Дашко	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	5	appos	_	wf="Дашка"
@@ -4146,7 +4146,7 @@
 11	Риги	Рига	PROPN	_	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing	9	obl	_	wf="Риги"
 12	своим	свой	DET	_	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	wf="своим"
 13	дѣлом	дело	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	9	obl	_	wf="дѣлом"
-14	своими	свой	DET	_	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	wf="своими"
+14	своими	свой	DET	_	Case=Ins|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	wf="своими"
 15	рѣчми	речъ	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	9	obl	_	wf="рѣчми"|SpaceAfter=No
 16	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4184,9 +4184,9 @@
 6	приятелеи	приятель	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	3	conj	_	wf="приятелеи"|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	штобы	штобы	SCONJ	_	Mood=Cnd	11	mark	_	wf="штобы"
-9	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есте"
+9	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есте"
 10	их	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	11	obj	_	wf="их"
-11	пропустили	пропустити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	advcl	_	wf="пропустили"
+11	пропустили	пропустити	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	advcl	_	wf="пропустили"
 12	доброволно	добровольно	ADV	_	Degree=Pos	11	advmod	_	wf="доброволно"|SpaceAfter=No
 13	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -4207,7 +4207,7 @@
 # sent_id = polotsk__121-1
 # text = + Сии суд судил пан Ѡндрѣи Сакович, намѣстник полоцкии, и з боѧры полоцкими и с мѣстич(и).
 1	+	+	SYM	_	_	4	parataxis	_	_
-2	Сии	сей	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	wf="Сии"
+2	Сии	сей	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	3	det	_	wf="Сии"
 3	суд	судъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	4	obj	_	wf="суд"
 4	судил	судити	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="судил"
 5	пан	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	wf="пан"
@@ -4478,7 +4478,7 @@
 29	,	,	PUNCT	_	_	28	punct	_	_
 30	неправыи	неправый	ADJ	_	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	31	amod	_	wf="неправыи"
 31	рубежи	рубежъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	34	obj	_	wf="рубежи"
-32	вси	весь	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	31	det	_	wf="вси"
+32	вси	весь	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	33	det	_	wf="вси"
 33	мужи	мужъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	34	nsubj	_	wf="мужи"
 34	положили	положити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	22	ccomp	_	wf="положили"|SpaceAfter=No
 35	,	,	PUNCT	_	_	40	punct	_	_
@@ -4603,7 +4603,7 @@
 3	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	wf="ты"
 4	мнѣ	я	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	wf="мнѣ"|SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
-6	Ѡл(е)ѯ(а)ндро	Олександро	PROPN	_	Case=Loc|Gender=Masc|NameType=Giv|Number=Sing	2	vocative	_	wf="Ѡле"|SpaceAfter=No
+6	Ѡл(е)ѯ(а)ндро	Олександро	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	2	vocative	_	wf="Ѡле"|SpaceAfter=No
 7	,	,	PUNCT	_	_	9	punct	_	_
 8	четвѣртую	четвертый	ADJ	ANUM	Case=Acc|Gender=Fem|Number=Sing|NumForm=Word|NumType=Ord	9	amod	_	wf="четвѣртую"
 9	долю	доля	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	wf="долю"
@@ -4630,8 +4630,8 @@
 4	:	:	PUNCT	_	_	3	punct	_	_
 5	«	«	PUNCT	_	_	7	punct	_	SpaceAfter=No
 6	Не	не	PART	_	Polarity=Neg	7	advmod	_	wf="Не"
-7	давал	давати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="давал"
-8	есми	быти	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есми"|SpaceAfter=No
+7	давал	давати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="давал"
+8	есми	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есми"|SpaceAfter=No
 9	»	»	PUNCT	_	_	7	punct	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4644,19 +4644,19 @@
 5	люди	чоловекъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	wf="люди"|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
 7	на	на	ADP	_	_	8	case	_	wf="на"
-8	мѣстич(и)	местичъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	wf="мѣстичи"
+8	мѣстич(и)	местичъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	appos	_	wf="мѣстичи"
 9	и	и	CCONJ	_	_	11	cc	_	wf="и"
 10	на	на	ADP	_	_	11	case	_	wf="на"
 11	землѧнѣ	землянинъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	conj	_	wf="землѧнѣ"|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
 13	на	на	ADP	_	_	15	case	_	wf="на"
 14	свои	свой	DET	_	Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	wf="свои"
-15	суседи	суседъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obl	_	wf="суседи"|SpaceAfter=No
+15	суседи	суседъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	5	appos	_	wf="суседи"|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	на	на	ADP	_	_	18	case	_	wf="на"
-18	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	wf="имѧ"
+18	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	wf="имѧ"
 19	на	на	ADP	_	_	20	case	_	wf="на"
-20	Пахомъѧ	Пахомей	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	18	appos	_	wf="Пахомъѧ"
+20	Пахомъѧ	Пахомей	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	18	nmod	_	wf="Пахомъѧ"
 21	на	на	ADP	_	_	22	case	_	wf="на"
 22	Ѡдинца	Одинецъ	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Prs|Number=Sing	20	flat:name	_	wf="Ѡдинца"|SpaceAfter=No
 23	,	,	PUNCT	_	_	26	punct	_	_
@@ -4699,8 +4699,8 @@
 6	перед	передъ	ADP	_	_	7	case	_	wf="перед"
 7	собою	себе	PRON	_	Case=Ins|PronType=Prs|Reflex=Yes	5	obl	_	wf="собою"
 8	и	и	CCONJ	_	_	9	cc	_	wf="и"
-9	ѡпросили	опросити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	conj	_	wf="ѡпросили"
-10	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="есмо"
+9	ѡпросили	опросити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	conj	_	wf="ѡпросили"
+10	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="есмо"
 11	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	9	obj	_	wf="ихъ"|SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4718,8 +4718,8 @@
 10	и	и	PART	_	_	11	advmod	_	wf="и"
 11	есть	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	wf="есть"|SpaceAfter=No
 12	,	,	PUNCT	_	_	17	punct	_	_
-13	были	быти	AUX	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	17	cop	_	wf="были"
-14	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	wf="есмо"
+13	были	быти	AUX	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	17	cop	_	wf="были"
+14	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	wf="есмо"
 15	при	при	ADP	_	_	17	case	_	wf="при"
 16	том	той	DET	_	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	17	det	_	wf="том"
 17	рѧду	рядъ	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	11	parataxis	_	wf="рѧду"
@@ -4759,11 +4759,11 @@
 6	людеи	чоловекъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	10	obl	_	wf="людеи"
 7	людованью	людованье	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	wf="людованью"
 8	Евлашка	Евлашко	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	10	obj	_	wf="Евлашка"
-9	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	wf="есмо"
-10	ѡправили	оправити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡправили"
+9	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	wf="есмо"
+10	ѡправили	оправити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="ѡправили"
 11	и	и	CCONJ	_	_	12	cc	_	wf="и"
-12	присудили	присудити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	10	conj	_	wf="присудили"
-13	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есмо"
+12	присудили	присудити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	10	conj	_	wf="присудили"
+13	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есмо"
 14	Евлашку	Евлашко	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	12	iobj	_	wf="Евлашку"
 15	оу	въ	ADP	_	_	17	case	_	wf="оу"
 16	том	той	DET	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	17	det	_	wf="том"
@@ -4880,7 +4880,7 @@
 3	панскии	панский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	wf="панскии"
 4	писарь	писаръ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	2	appos	_	wf="писарь"
 5	на	на	ADP	_	_	6	case	_	wf="на"
-6	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	wf="имѧ"
+6	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	wf="имѧ"
 7	Те[шко]	Тешко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	6	nmod	_	wf="Тешко"|SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -4944,7 +4944,7 @@
 13	доброг(о)	добрый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	wf="доброго"
 14	мѣстича	местичъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	11	appos	_	wf="мѣстича"
 15	на	на	ADP	_	_	16	case	_	wf="на"
-16	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	9	obl	_	wf="имѧ"
+16	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	wf="имѧ"
 17	Грица	Грицъ	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	16	nmod	_	wf="Грица"|SpaceAfter=No
 18	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -4954,7 +4954,7 @@
 2	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="ваша"
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	5	aux	_	wf="бы"
 4	м(и)л(ос)ть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	wf="милость"
-5	послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
+5	послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="послали"
 6	до	до	ADP	_	_	7	case	_	wf="до"
 7	кн(ѧ)зѧ	князь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	5	obl	_	wf="кнѧзѧ"
 8	мештерѧ	мештеръ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	appos	_	wf="мештерѧ"|SpaceAfter=No
@@ -4976,13 +4976,13 @@
 24	том	то	PRON	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	30	obl	_	wf="том"
 25	осп(о)д(а)рь	осподаръ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	30	nsubj	_	wf="осподарь"
 26	нашь	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det	_	wf="нашь"
-27	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	det	_	wf="его"
-28	м(и)л(о)сть	милость	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	appos	_	wf="милость"
+27	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	det	_	wf="его"
+28	м(и)л(о)сть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	25	appos	_	wf="милость"
 29	король	король	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	28	appos	_	wf="король"
 30	вьзвѣдает(ь)	взведати	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	advcl	_	wf="вьзвѣдаеть"
 31	и	и	CCONJ	_	_	32	cc	_	wf="и"
 32	панове	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	29	conj	_	wf="панове"
-33	рада	рада	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	32	nmod	_	wf="рада"
+33	рада	рада	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	32	appos	_	wf="рада"
 34	осподарьская	осподарский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	wf="осподарьская"|SpaceAfter=No
 35	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4993,7 +4993,7 @@
 3	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	6	aux	_	wf="бы"
 4	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	wf="ваша"
 5	м(и)л(о)сть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	wf="милость"
-6	стояли	стояти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="стояли"
+6	стояли	стояти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="стояли"
 7	твердо	твердо	ADV	_	Degree=Pos	6	advmod	_	wf="твердо"|SpaceAfter=No
 8	,	,	PUNCT	_	_	15	punct	_	_
 9	ажбы	ажебы	SCONJ	_	Mood=Cnd	15	mark	_	wf="ажбы"
@@ -5031,8 +5031,8 @@
 7	Полоупѧта	Полупята	PROPN	_	Case=Nom|Gender=Masc|NameType=Prs|Number=Sing	6	flat:name	_	wf="Полоупѧта"
 8	Михаилович	Михайловичъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	6	flat:name	_	wf="Михаилович"|SpaceAfter=No
 9	,	,	PUNCT	_	_	4	punct	_	_
-10	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"
-11	есми	быти	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	wf="есми"
+10	далъ	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="далъ"
+11	есми	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	wf="есми"
 12	великомоу	великий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	wf="великомоу"
 13	Іѡаноу	Иоанъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	10	iobj	_	wf="Іѡаноу"
 14	Пр(е)дтечи	предтеча	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	13	appos	_	wf="Предтечи"
@@ -5151,8 +5151,8 @@
 11	ж	жъ	PART	_	_	10	fixed	_	wf="ж"
 12	тот	тотъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	wf="тот"
 13	Санко	Санко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	14	nsubj:pass	_	wf="Санко"
-14	завоеван	завоевати	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	wf="завоеван"
-15	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	14	cop	_	wf="был"
+14	завоеван	завоевати	VERB	_	Analyt=Yes|Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	wf="завоеван"
+15	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	14	aux:pass	_	wf="был"
 16	на	на	ADP	_	_	18	case	_	wf="на"
 17	С(вя)тои	святый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	wf="Святои"
 18	рецѣ	река	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	14	obl	_	wf="рецѣ"
@@ -5174,8 +5174,8 @@
 # sent_id = polotsk__124-4
 # text = А пошол был к Полоцку на ѡтину.
 1	А	а	CCONJ	_	_	2	cc	_	wf="А"
-2	пошол	пойти	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="пошол"
-3	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	2	aux	_	wf="был"
+2	пошол	пойти	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="пошол"
+3	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	2	aux	_	wf="был"
 4	к	къ	ADP	_	_	5	case	_	wf="к"
 5	Полоцку	Полоцкъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	2	obl	_	wf="Полоцку"
 6	на	на	ADP	_	_	7	case	_	wf="на"
@@ -5207,8 +5207,8 @@
 21	и	и	CCONJ	_	_	20	fixed	_	wf="и"
 22	тыи	той	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	23	det	_	wf="тыи"
 23	люди	чоловекъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	25	nsubj	_	wf="люди"
-24	есть	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	wf="есть"
-25	видели	видети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	11	conj	_	wf="видели"|SpaceAfter=No
+24	есть	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	wf="есть"
+25	видели	видети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	11	conj	_	wf="видели"|SpaceAfter=No
 26	,	,	PUNCT	_	_	25	punct	_	_
 27	как	какъ	ADV	_	Degree=Pos	28	advmod	_	wf="как"
 28	провадили	провадити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	25	ccomp	_	wf="провадили"|SpaceAfter=No
@@ -5225,10 +5225,10 @@
 6	сусѣдом	суседъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	4	obl	_	wf="сусѣдом"|SpaceAfter=No
 7	,	,	PUNCT	_	_	12	punct	_	_
 8	штобы	штобы	SCONJ	_	Mood=Cnd	12	mark	_	wf="штобы"
-9	ес(те)	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есте"
+9	ес(те)	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есте"
 10	того	той	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	wf="того"
 11	ч(о)л(о)в(е)ка	чоловекъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	wf="чоловека"
-12	пусти	пустити	VERB	Aor	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	wf="пусти"|SpaceAfter=No
+12	пусти	пустити	VERB	Aor	Analyt=Yes|Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	wf="пусти"|SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
 14	занож	занеже	SCONJ	_	_	20	mark	_	wf="занож"
 15	ч(о)л(о)в(е)къ	чоловекъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	wf="чоловекъ"
@@ -5294,8 +5294,8 @@
 # newpar
 # sent_id = polotsk__125-2
 # text = + + Ѡт мѣстичов полоцких и ѡт всѣго мьста Полоцкѡг(о) приятелѣмъ нашим, посадникоу ризкомꙋ и всим ратманом и мьстичомъ Ризкаг(о) мьста поклон.
-1	+	+	SYM	_	_	4	parataxis	_	_
-2	+	+	SYM	_	_	4	parataxis	_	_
+1	+	+	SYM	_	_	23	parataxis	_	_
+2	+	+	SYM	_	_	23	parataxis	_	_
 3	Ѡт	отъ	ADP	_	_	4	case	_	wf="Ѡт"
 4	мѣстичов	местичъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	wf="мѣстичов"
 5	полоцких	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	wf="полоцких"
@@ -5303,7 +5303,7 @@
 7	ѡт	отъ	ADP	_	_	9	case	_	wf="ѡт"
 8	всѣго	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	9	det	_	wf="всѣго"
 9	мьста	место	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	4	conj	_	wf="мьста"
-10	Полоцкѡг(о)	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	wf="Полоцкѡго"
+10	Полоцкѡг(о)	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	wf="Полоцкѡго"
 11	приятелѣмъ	приятель	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	23	nmod	_	wf="приятелѣмъ"
 12	нашим	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	wf="нашим"|SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
@@ -5346,7 +5346,7 @@
 # text = И вы бъ, ваша м(и)л(о)сть, наши приятѣли, за того ч(о)лов(е)ка нѣ стояли, выдали бъ есте его и съ ег(о) товаром съ всимъ нашемоу мьстицю Пронкоу.
 1	И	и	CCONJ	_	_	15	cc	_	wf="И"
 2	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	15	nsubj	_	wf="вы"
-3	бъ	бъ	AUX	_	Analyt=Yes|Mood=Cnd	15	discourse	_	wf="бъ"|SpaceAfter=No
+3	бъ	бъ	AUX	_	Analyt=Yes|Mood=Cnd	15	aux	_	wf="бъ"|SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	wf="ваша"
 6	м(и)л(о)сть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	2	appos	_	wf="милость"|SpaceAfter=No
@@ -5358,18 +5358,18 @@
 12	того	той	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	obl	_	wf="того"
 13	ч(о)лов(е)ка	чоловекъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	wf="чоловека"
 14	нѣ	не	PART	_	Polarity=Neg	15	advmod	_	wf="нѣ"
-15	стояли	стояти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="стояли"|SpaceAfter=No
+15	стояли	стояти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="стояли"|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
-17	выдали	выдати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	15	conj	_	wf="выдали"
+17	выдали	выдати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	15	conj	_	wf="выдали"
 18	бъ	бъ	AUX	_	Analyt=Yes|Mood=Cnd	17	aux	_	wf="бъ"
-19	есте	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	wf="есте"
+19	есте	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	wf="есте"
 20	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	wf="его"
 21	и	и	CCONJ	_	_	17	cc	_	wf="и"
 22	съ	съ	ADP	_	_	24	case	_	wf="съ"
 23	ег(о)	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	det	_	wf="его"
 24	товаром	товаръ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	17	obl	_	wf="товаром"
-25	съ	съ	ADP	_	_	28	case	_	wf="съ"
-26	всимъ	весь	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	28	det	_	wf="всимъ"
+25	съ	съ	ADP	_	_	26	case	_	wf="съ"
+26	всимъ	весь	DET	_	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot	24	det	_	wf="всимъ"
 27	нашемоу	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det	_	wf="нашемоу"
 28	мьстицю	местичъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	17	obl	_	wf="мьстицю"
 29	Пронкоу	Пронко	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	28	appos	_	wf="Пронкоу"|SpaceAfter=No
@@ -5411,10 +5411,10 @@
 # sent_id = polotsk__125-6
 # text = А боудете ваша м(и)л(о)сть стояти за виноватца, и мы также вѣдаемъ, какъ свое ѡтнѧти.
 1	А	а	CCONJ	_	_	5	cc	_	wf="А"
-2	боудете	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	aux	_	wf="боудете"
+2	боудете	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	5	aux	_	wf="боудете"
 3	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="ваша"
 4	м(и)л(о)сть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	wf="милость"
-5	стояти	стояти	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="стояти"
+5	стояти	стояти	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	0	root	_	wf="стояти"
 6	за	за	ADP	_	_	7	case	_	wf="за"
 7	виноватца	виноватецъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	wf="виноватца"|SpaceAfter=No
 8	,	,	PUNCT	_	_	5	punct	_	_
@@ -5560,8 +5560,8 @@
 12	а	а	CCONJ	_	_	15	cc	_	wf="а"
 13	коня	конь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	17	obj	_	wf="коня"
 14	тог(о)	той	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	13	det	_	wf="того"
-15	нялися	нятися	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Mid	7	conj	_	wf="нялися"
-16	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	cop	_	wf="естѣ"
+15	нялися	нятися	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Mid	7	conj	_	wf="нялися"
+16	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	wf="естѣ"
 17	ѡтискати	отыскати	VERB	_	VerbForm=Inf|Voice=Act	15	xcomp	_	wf="ѡтискати"|SpaceAfter=No
 18	,	,	PUNCT	_	_	22	punct	_	_
 19	а	а	CCONJ	_	_	22	cc	_	wf="а"
@@ -5570,7 +5570,7 @@
 22	ѡтискати	отыскати	VERB	_	VerbForm=Inf|Voice=Act	17	conj	_	wf="ѡтискати"|SpaceAfter=No
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	ино	ино	CCONJ	_	_	27	cc	_	wf="ино"
-25	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	26	det	_	wf="ваша"
+25	ваша	вашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det	_	wf="ваша"
 26	м(и)л(о)сть	милость	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	wf="милость"
 27	нялис(я)	нятися	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Mid	7	conj	_	wf="нялися"
 28	пенязи	пенязь	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	31	obj	_	wf="пенязи"
@@ -5583,8 +5583,8 @@
 35	а	а	CCONJ	_	_	38	cc	_	wf="а"
 36	пастоуха	пастухъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	38	obj	_	wf="пастоуха"
 37	тог(о)	той	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	36	det	_	wf="того"
-38	оузяли	узяти	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	27	conj	_	wf="оузяли"
-39	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux	_	wf="естѣ"
+38	оузяли	узяти	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	27	conj	_	wf="оузяли"
+39	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux	_	wf="естѣ"
 40	на	на	ADP	_	_	42	case	_	wf="на"
 41	свои	свой	DET	_	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	42	det	_	wf="свои"
 42	руки	рука	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	38	obl	_	wf="руки"|SpaceAfter=No
@@ -5636,10 +5636,10 @@
 21	,	,	PUNCT	_	_	27	punct	_	_
 22	яко	яко	SCONJ	_	_	27	mark	_	wf="яко"
 23	жь	же	PART	_	_	27	advmod	_	wf="жь"
-24	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	wf="естѣ"
+24	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	wf="естѣ"
 25	сами	самъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Emp	27	nsubj	_	wf="сами"
 26	емоу	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	wf="емоу"
-27	инялися	инятися	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Mid	10	advcl	_	wf="инялися"|SpaceAfter=No
+27	инялися	инятися	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Mid	10	advcl	_	wf="инялися"|SpaceAfter=No
 28	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = polotsk__126-8
@@ -5651,14 +5651,14 @@
 5	коня	конь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	4	obj	_	wf="коня"|SpaceAfter=No
 6	,	,	PUNCT	_	_	11	punct	_	_
 7	а	а	CCONJ	_	_	11	cc	_	wf="а"
-8	любо	любо	CCONJ	_	_	11	cc	_	wf="любо"
+8	любо	любо	CCONJ	_	_	7	fixed	_	wf="любо"
 9	пенязѣи	пенязь	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	11	obj	_	wf="пенязѣи"
 10	не	не	PART	_	Polarity=Neg	11	advmod	_	wf="не"
 11	заплатитѣ	заплатити	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	wf="заплатитѣ"|SpaceAfter=No
 12	,	,	PUNCT	_	_	4	punct	_	_
 13	быхомъ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1	15	aux	_	wf="быхомъ"
 14	не	не	PART	_	Polarity=Neg	15	advmod	_	wf="не"
-15	вѣлели	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вѣлели"
+15	вѣлели	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="вѣлели"
 16	ваших	вашъ	DET	_	Case=Gen|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	obj	_	wf="ваших"
 17	забавити	забавити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	wf="забавити"
 18	здесѣ	здесь	ADV	_	Degree=Pos	17	advmod	_	wf="здесѣ"
@@ -5711,12 +5711,12 @@
 4	полоцкии	полоцкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	wf="полоцкии"|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	слуга	слуга	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	appos	_	wf="слуга"
-7	ѡсп(о)д(а)ря	осподаръ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	3	acl	_	wf="ѡсподаря"
+7	ѡсп(о)д(а)ря	осподаръ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	wf="ѡсподаря"
 8	великог(о)	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	wf="великого"
 9	короля	король	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	wf="короля"
 10	на	на	ADP	_	_	11	case	_	wf="на"
-11	имя	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	wf="имя"
-12	Пронко	Пронко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	11	appos	_	wf="Пронко"
+11	имя	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	wf="имя"
+12	Пронко	Пронко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	11	nmod	_	wf="Пронко"
 13	Тꙋпичинич	Тупичиничъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	12	flat:name	_	wf="Тꙋпичинич"|SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	што	што	SCONJ	_	_	17	mark	_	wf="што"
@@ -5817,16 +5817,16 @@
 # text = Ино штобы естѣ тог(о) Тараска выдали Пронкꙋ и со всими его статки.
 1	Ино	ино	CCONJ	_	_	6	cc	_	wf="Ино"
 2	штобы	штобы	SCONJ	_	Mood=Cnd	6	mark	_	wf="штобы"
-3	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="естѣ"
+3	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="естѣ"
 4	тог(о)	той	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	5	det	_	wf="того"
 5	Тараска	Тараско	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	6	obj	_	wf="Тараска"
-6	выдали	выдати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="выдали"
+6	выдали	выдати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="выдали"
 7	Пронкꙋ	Пронко	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	6	iobj	_	wf="Пронкꙋ"
 8	и	и	CCONJ	_	_	12	cc	_	wf="и"
 9	со	съ	ADP	_	_	12	case	_	wf="со"
-10	всими	весь	DET	_	Case=Ins|Gender=Fem|Number=Plur|PronType=Tot	12	det	_	wf="всими"
+10	всими	весь	DET	_	Case=Ins|Gender=Masc|Number=Plur|PronType=Tot	12	det	_	wf="всими"
 11	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	det	_	wf="его"
-12	статки	статокъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	7	conj	_	wf="статки"|SpaceAfter=No
+12	статки	статокъ	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	5	nmod	_	wf="статки"|SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = polotsk__127-6
@@ -5886,7 +5886,7 @@
 4	пололоцких	полоцкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	wf="пололоцких"
 5	кꙋпцевъ	купецъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	0	root	_	wf="кꙋпцевъ"
 6	ратъманѡм	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	wf="ратъманѡм"
-7	рискым	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	wf="рискым"
+7	рискым	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	wf="рискым"
 8	[п]ок[л]ѡ[н]	поклонъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	5	appos	_	wf="поклѡн"
 9	и	и	CCONJ	_	_	11	cc	_	wf="и"
 10	вѣрнаа	верный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	wf="вѣрнаа"
@@ -5929,23 +5929,23 @@
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	и	и	CCONJ	_	_	12	cc	_	wf="и"
 10	теперьво	теперво	ADV	_	Degree=Pos	12	advmod	_	wf="теперьво"
-11	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есмо"
-12	послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	7	conj	_	wf="послали"
+11	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="есмо"
+12	послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	7	conj	_	wf="послали"
 13	к	къ	ADP	_	_	14	case	_	wf="к"
 14	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	12	obl	_	wf="вам"
 15	хвалшь	фалшъ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	advcl	_	wf="хвалшь"
 16	в	въ	ADP	_	_	17	case	_	wf="в"
 17	селедцѣхъ	селедецъ	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	15	obl	_	wf="селедцѣхъ"
-18	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	wf="свою"
+18	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	wf="свою"
 19	братью	братья	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	wf="братью"|SpaceAfter=No
 20	,	,	PUNCT	_	_	27	punct	_	_
 21	и	и	CCONJ	_	_	27	cc	_	wf="и"
 22	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	27	nsubj	_	wf="вы"
 23	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	27	aux	_	wf="бы"
-24	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	wf="естѣ"
+24	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	wf="естѣ"
 25	тѣхъ	той	DET	_	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	26	det	_	wf="тѣхъ"
 26	хвальшьников	хвалшникъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	27	obj	_	wf="хвальшьников"
-27	казнили	казнити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	12	conj	_	wf="казнили"
+27	казнили	казнити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	12	conj	_	wf="казнили"
 28	по	по	ADP	_	_	30	case	_	wf="по"
 29	своемꙋ	свой	DET	_	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	30	det	_	wf="своемꙋ"
 30	правꙋ	право	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	27	obl	_	wf="правꙋ"
@@ -5954,9 +5954,9 @@
 33	а	а	CCONJ	_	_	36	cc	_	wf="а"
 34	нашеи	нашъ	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	35	det	_	wf="нашеи"
 35	братьи	братья	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	36	iobj	_	wf="братьи"
-36	вѣлѣли	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	27	conj	_	wf="вѣлѣли"
+36	вѣлѣли	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	27	conj	_	wf="вѣлѣли"
 37	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	36	aux	_	wf="бы"
-38	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	_	wf="естѣ"
+38	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	36	aux	_	wf="естѣ"
 39	ихъ	они	PRON	_	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	40	det	_	wf="ихъ"
 40	щкотꙋ	шкода	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	41	obj	_	wf="щкотꙋ"
 41	заплатити	заплатити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	wf="заплатити"|SpaceAfter=No
@@ -5973,7 +5973,7 @@
 7	приедеть	приехати	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	wf="приедеть"
 8	к	къ	ADP	_	_	9	case	_	wf="к"
 9	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	7	obl	_	wf="вам"
-10	нашь	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	wf="нашь"
+10	нашь	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	wf="нашь"
 11	с	съ	ADP	_	_	12	case	_	wf="с"
 12	воском	воскъ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	wf="воском"
 13	с	съ	ADP	_	_	14	case	_	wf="с"
@@ -6033,8 +6033,8 @@
 31	томъ	то	PRON	_	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	32	nmod	_	wf="томъ"
 32	фальши	фалшъ	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	35	obl	_	wf="фальши"
 33	не	не	PART	_	Polarity=Neg	35	advmod	_	wf="не"
-34	бꙋдемь	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	35	aux	_	wf="бꙋдемь"
-35	послати	послати	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	wf="послати"|SpaceAfter=No
+34	бꙋдемь	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	35	aux	_	wf="бꙋдемь"
+35	послати	послати	VERB	_	Analyt=Yes|Aspect=Perf|VerbForm=Inf|Voice=Act	0	root	_	wf="послати"|SpaceAfter=No
 36	,	,	PUNCT	_	_	38	punct	_	_
 37	оужь	уже	ADV	_	Degree=Pos	38	advmod	_	wf="оужь"
 38	пошлем	послати	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	35	advcl	_	wf="пошлем"
@@ -6080,8 +6080,8 @@
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	паном	панъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	10	appos	_	wf="паном"
 14	ратманом	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	13	appos	_	wf="ратманом"
-15	ризким	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	13	acl	_	wf="ризким"
-16	всим	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	17	det	_	wf="всим"
+15	ризким	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	wf="ризким"
+16	всим	весь	DET	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Tot	14	det	_	wf="всим"
 17	поклон	поклонъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	wf="поклон"
 18	и	и	CCONJ	_	_	19	cc	_	wf="и"
 19	поздровѣнье	поздровенье	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	17	conj	_	wf="поздровѣнье"|SpaceAfter=No
@@ -6099,8 +6099,8 @@
 7	нашь	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	wf="нашь"
 8	полочанин	полочанинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	wf="полочанин"
 9	на	на	ADP	_	_	10	case	_	wf="на"
-10	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	wf="имѧ"
-11	Сѣргѣи	Сергей	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	10	appos	_	wf="Сѣргѣи"
+10	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	8	nmod	_	wf="имѧ"
+11	Сѣргѣи	Сергей	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	10	nmod	_	wf="Сѣргѣи"
 12	Мошнѣвич	Мошневичъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Pat|Number=Sing	11	flat:name	_	wf="Мошнѣвич"|SpaceAfter=No
 13	,	,	PUNCT	_	_	19	punct	_	_
 14	што	што	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	19	nsubj	_	wf="што"
@@ -6108,8 +6108,8 @@
 16	там	тамъ	ADV	_	Degree=Pos	19	advmod	_	wf="там"
 17	в	въ	ADP	_	_	18	case	_	wf="в"
 18	Ризѣ	Рига	PROPN	_	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing	19	obl	_	wf="Ризѣ"
-19	дал	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	8	acl	_	wf="дал"
-20	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	19	aux	_	wf="был"
+19	дал	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	8	acl	_	wf="дал"
+20	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	19	aux	_	wf="был"
 21	конѧ	конь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	23	obj	_	wf="конѧ"
 22	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	wf="своего"
 23	паствити	паствити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	wf="паствити"
@@ -6168,9 +6168,9 @@
 6	писали	писати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="писали"|SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
 8	штобы	штобы	SCONJ	_	Mood=Cnd	11	mark	_	wf="штобы"
-9	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="естѣ"
+9	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="естѣ"
 10	право	право	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	wf="право"
-11	вчинили	учинити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	advcl	_	wf="вчинили"|SpaceAfter=No
+11	вчинили	учинити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	advcl	_	wf="вчинили"|SpaceAfter=No
 12	:	:	PUNCT	_	_	13	punct	_	_
 13	велели	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	conj	_	wf="велели"
 14	тог(о)	той	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	wf="того"
@@ -6182,8 +6182,8 @@
 # text = И дрꙋгоичикроть писали есмо, и вы не хотѣли ничог(о) права оучинити.
 1	И	и	CCONJ	_	_	3	cc	_	wf="И"
 2	дрꙋгоичикроть	другойчикроть	ADV	_	Degree=Pos	3	advmod	_	wf="дрꙋгоичикроть"
-3	писали	писати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="писали"
-4	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"|SpaceAfter=No
+3	писали	писати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="писали"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"|SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	и	и	CCONJ	_	_	9	cc	_	wf="и"
 7	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	9	nsubj	_	wf="вы"
@@ -6207,7 +6207,7 @@
 9	:	:	PUNCT	_	_	11	punct	_	_
 10	не	не	PART	_	Polarity=Neg	11	advmod	_	wf="не"
 11	хочѣтѣ	хотети	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	wf="хочѣтѣ"
-12	нашим	нашъ	DET	_	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det	_	wf="нашим"
+12	нашим	нашъ	DET	_	Case=Dat|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	14	iobj	_	wf="нашим"
 13	права	право	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	14	obj	_	wf="права"
 14	чинити	чинити	VERB	_	VerbForm=Inf|Voice=Act	11	xcomp	_	wf="чинити"
 15	на	на	ADP	_	_	17	case	_	wf="на"
@@ -6237,8 +6237,8 @@
 5	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	obj	_	wf="вас"|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	ижбы	ижбы	SCONJ	_	Mood=Cnd	9	mark	_	wf="ижбы"
-8	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="естѣ"
-9	велели	велети	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	4	advcl	_	wf="велели"
+8	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="естѣ"
+9	велели	велети	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	4	advcl	_	wf="велели"
 10	тог(о)	той	DET	_	Case=Gen|Gender=Masc|Number=Sing|PronType=Dem	11	det	_	wf="того"
 11	конѧ	конь	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	12	obj	_	wf="конѧ"
 12	заплатити	заплатити	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	wf="заплатити"|SpaceAfter=No
@@ -6324,8 +6324,8 @@
 # newpar
 # sent_id = polotsk__130-2
 # text = Послали есмо до вашеи м(и)л(о)сти брат(ь)ю свою, Митка Троуфановича а Павла Медвѣдѧ, а иныхъ с ними.
-1	Послали	послати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
-2	есмо	быти	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+1	Послали	послати	VERB	_	Analyt=Yes|Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Послали"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	до	до	ADP	_	_	5	case	_	wf="до"
 4	вашеи	вашъ	DET	_	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	wf="вашеи"
 5	м(и)л(о)сти	милость	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	1	obl	_	wf="милости"
@@ -6348,10 +6348,10 @@
 # text = И што боудоутъ вашеи м(и)л(о)сти говорити наша братья, и вы бы имъ вѣрили.
 1	И	и	CCONJ	_	_	6	cc	_	wf="И"
 2	што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	6	obj	_	wf="што"
-3	боудоутъ	быти	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="боудоутъ"
+3	боудоутъ	быти	AUX	_	Analyt=Yes|Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	wf="боудоутъ"
 4	вашеи	вашъ	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det	_	wf="вашеи"
 5	м(и)л(о)сти	милость	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	wf="милости"
-6	говорити	говорити	VERB	_	VerbForm=Inf|Voice=Act	0	root	_	wf="говорити"
+6	говорити	говорити	VERB	_	Analyt=Yes|VerbForm=Inf|Voice=Act	0	root	_	wf="говорити"
 7	наша	нашъ	DET	_	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	wf="наша"
 8	братья	братья	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	vocative	_	wf="братья"|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
@@ -6359,7 +6359,7 @@
 11	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2|PronType=Prs	14	nsubj	_	wf="вы"
 12	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	14	aux	_	wf="бы"
 13	имъ	они	PRON	_	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	iobj	_	wf="имъ"
-14	вѣрили	верити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	conj	_	wf="вѣрили"|SpaceAfter=No
+14	вѣрили	верити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	6	conj	_	wf="вѣрили"|SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # newpar
@@ -6369,7 +6369,7 @@
 2	полоцкые	полоцкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	wf="полоцкые"
 3	и	и	CCONJ	_	_	4	cc	_	wf="и"
 4	мѣстичи	местичъ	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	1	conj	_	wf="мѣстичи"
-5	вашеи	вашъ	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="вашеи"
+5	вашеи	вашъ	DET	_	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det	_	wf="вашеи"
 6	м(и)л(о)сти	милость	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	7	iobj	_	wf="милости"
 7	кланѧютьс(ѧ)	кланятися	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	wf="кланѧютьсѧ"
 8	и	и	CCONJ	_	_	10	cc	_	wf="и"
@@ -6407,7 +6407,7 @@
 9	ѡт	отъ	ADP	_	_	11	case	_	wf="ѡт"
 10	всег(о)	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot	11	det	_	wf="всего"
 11	поспол(ь)ства	поспольство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	3	conj	_	wf="поспольства"
-12	нашим	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det	_	wf="нашим"
+12	нашим	нашъ	DET	_	Case=Dat|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	wf="нашим"
 13	мілым	милый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	wf="мілым"
 14	пріятелем	приятель	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	0	root	_	wf="пріятелем"
 15	и	и	CCONJ	_	_	16	cc	_	wf="и"
@@ -6431,8 +6431,8 @@
 7	кꙋпцѣх	купецъ	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	2	obl	_	wf="кꙋпцѣх"|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
 9	што	што	SCONJ	_	_	10	mark	_	wf="што"
-10	забавлены	забавити	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	wf="забавлены"
-11	были	быти	AUX	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	10	cop	_	wf="были"
+10	забавлены	забавити	VERB	_	Analyt=Yes|Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	wf="забавлены"
+11	были	быти	AUX	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	10	aux:pass	_	wf="были"
 12	в	у	ADP	_	_	13	case	_	wf="в"
 13	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	obl	_	wf="нас"
 14	ваши	вашъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	wf="ваши"
@@ -6441,8 +6441,8 @@
 17	ино	ино	CCONJ	_	_	21	cc	_	wf="ино"
 18	про	про	ADP	_	_	19	case	_	wf="про"
 19	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	21	obl	_	wf="то"
-20	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	21	aux	_	wf="был"
-21	въздержилъ	вздержати	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	2	conj	_	wf="въздержилъ"
+20	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	21	aux	_	wf="был"
+21	въздержилъ	вздержати	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	2	conj	_	wf="въздержилъ"
 22	ваших	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	23	det	_	wf="ваших"
 23	кꙋпцевъ	купецъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	21	obj	_	wf="кꙋпцевъ"
 24	пан	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	wf="пан"
@@ -6455,11 +6455,11 @@
 31	оспод(и)нъ	осподинъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	27	appos	_	wf="осподинъ"|SpaceAfter=No
 32	,	,	PUNCT	_	_	38	punct	_	_
 33	што	што	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	38	nsubj:pass	_	wf="што"
-34	наши	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	36	nsubj	_	wf="наши"
+34	наши	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	33	det	_	wf="наши"
 35	ꙋ	у	ADP	_	_	36	case	_	wf="ꙋ"
 36	Невгині	Невгиня	PROPN	_	Case=Gen|Gender=Fem|NameType=Giv|Number=Sing	38	obl	_	wf="Невгині"
 37	были	быти	AUX	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	36	cop	_	wf="были"
-38	забавлены	забавити	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	31	acl	_	wf="забавлены"
+38	забавлены	забавити	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	acl	_	wf="забавлены"
 39	и	и	CCONJ	_	_	40	cc	_	wf="и"
 40	посоромочены	посоромотити	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	38	conj	_	wf="посоромочены"|SpaceAfter=No
 41	,	,	PUNCT	_	_	44	punct	_	_
@@ -6470,7 +6470,7 @@
 46	а	а	CCONJ	_	_	47	cc	_	wf="а"
 47	наши	нашъ	DET	_	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	44	conj	_	wf="наши"
 48	ж	жъ	PART	_	_	47	advmod	_	wf="ж"
-49	кони	конь	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	47	nsubj	_	wf="кони"|SpaceAfter=No
+49	кони	конь	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	47	nsubj	_	wf="кони"|SpaceAfter=No
 50	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = polotsk__131-3
@@ -6478,7 +6478,7 @@
 1	Ино	ино	CCONJ	_	_	12	cc	_	wf="Ино"
 2	про	про	ADP	_	_	3	case	_	wf="про"
 3	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obl	_	wf="то"
-4	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	12	aux	_	wf="был"
+4	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	12	aux	_	wf="был"
 5	пан	панъ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	wf="пан"
 6	Ондреи	Ондрей	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	5	appos	_	wf="Ондреи"|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -6486,7 +6486,7 @@
 9	полоцкыи	полоцкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	wf="полоцкыи"|SpaceAfter=No
 10	,	,	PUNCT	_	_	8	punct	_	_
 11	ваших	вашъ	DET	_	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	obj	_	wf="ваших"
-12	въздержал	воздержати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="въздержал"|SpaceAfter=No
+12	въздержал	воздержати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="въздержал"|SpaceAfter=No
 13	,	,	PUNCT	_	_	16	punct	_	_
 14	доколѣ	доколе	SCONJ	_	_	16	mark	_	wf="доколѣ"
 15	грамота	грамота	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	wf="грамота"
@@ -6608,8 +6608,8 @@
 12	Рігоу	Рига	PROPN	_	Case=Acc|Gender=Fem|NameType=Geo|Number=Sing	4	obl	_	wf="Рігоу"|SpaceAfter=No
 13	,	,	PUNCT	_	_	17	punct	_	_
 14	ино	ино	CCONJ	_	_	17	cc	_	wf="ино"
-15	вашим	вашъ	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det	_	wf="вашим"
-16	ч(и)стъ	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	nsubj	_	wf="чистъ"
+15	вашим	вашъ	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	iobj	_	wf="вашим"
+16	ч(и)стъ	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	amod	_	wf="чистъ"
 17	поут(ь)	путь	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	wf="поуть"
 18	мімо	мимо	ADP	_	_	19	case	_	wf="мімо"
 19	Полтескъ	Полоцкъ	PROPN	_	Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	17	nmod	_	wf="Полтескъ"
@@ -6762,8 +6762,8 @@
 5	пишем	писати	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="пишем"|SpaceAfter=No
 6	,	,	PUNCT	_	_	9	punct	_	_
 7	штобы	штобы	SCONJ	_	Mood=Cnd	9	mark	_	wf="штобы"
-8	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="естѣ"
-9	говорили	говорити	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	ccomp	_	wf="говорили"
+8	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	wf="естѣ"
+9	говорили	говорити	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	ccomp	_	wf="говорили"
 10	кн(ѧ)зю	князь	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	wf="кнѧзю"
 11	мѣштѣрꙋ	мештеръ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	10	appos	_	wf="мѣштѣрꙋ"
 12	и	и	CCONJ	_	_	13	cc	_	wf="и"
@@ -6813,7 +6813,7 @@
 29	и	изъ	PART	_	_	32	case	_	wf="и"|SpaceAfter=No
 30	-	-	PUNCT	_	_	32	punct	_	_
 31	старых	старый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur	32	amod	_	wf="старых"
-32	записѣи	записъ	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	34	advcl	_	wf="записѣи"
+32	записѣи	записъ	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	34	obl	_	wf="записѣи"
 33	не	не	PART	_	Polarity=Neg	34	advmod	_	wf="не"
 34	выстꙋпаемъ	выступати	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	20	ccomp	_	wf="выстꙋпаемъ"
 35	ничого	ништо	PRON	_	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg	34	obj	_	wf="ничого"|SpaceAfter=No
@@ -6877,7 +6877,7 @@
 # text = + Посадніком ризкымъ и ратманом и всимъ рижаномъ
 1	+	+	SYM	_	_	2	parataxis	_	_
 2	Посадніком	посадникъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	0	root	_	wf="Посадніком"
-3	ризкымъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	2	advmod	_	wf="ризкымъ"
+3	ризкымъ	рижский	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	wf="ризкымъ"
 4	и	и	CCONJ	_	_	5	cc	_	wf="и"
 5	ратманом	ратманъ	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	2	conj	_	wf="ратманом"
 6	и	и	CCONJ	_	_	8	cc	_	wf="и"
@@ -6941,17 +6941,17 @@
 2	жоне	жена	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	6	iobj	_	wf="жоне"
 3	пана	панъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	wf="пана"
 4	Станькове	станьковъ	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	amod	_	wf="Станькове"
-5	Васце	Васка	PROPN	_	Case=Dat|Gender=Fem|NameType=Giv|Number=Sing	6	vocative	_	wf="Васце"
+5	Васце	Васка	PROPN	_	Case=Dat|Gender=Fem|NameType=Giv|Number=Sing	2	appos	_	wf="Васце"
 6	дал	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дал"
 7	корол(ь)	король	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	wf="король"
 8	Ꙋлꙋ	Ула	PROPN	_	Case=Acc|Gender=Fem|NameType=Geo|Number=Sing	7	appos	_	wf="ꙋлꙋ"|SpaceAfter=No
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	што	што	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel	15	obj	_	wf="што"
-11	был	быти	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	15	aux	_	wf="был"
+11	был	быти	AUX	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	15	aux	_	wf="был"
 12	Жикгимонтъ	Жигимонтъ	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	15	nsubj	_	wf="Жикгимонтъ"
 13	панꙋ	панъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	15	iobj	_	wf="панꙋ"
 14	Станькꙋ	Станько	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	13	appos	_	wf="Станькꙋ"
-15	дал	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	8	acl:relcl	_	wf="дал"|SpaceAfter=No
+15	дал	дати	VERB	_	Analyt=Yes|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	8	acl:relcl	_	wf="дал"|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	_
 17	а	а	CCONJ	_	_	18	cc	_	wf="а"
 18	далъ	дати	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	6	conj	_	wf="далъ"
@@ -7043,10 +7043,10 @@
 19	дали	дати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	2	ccomp	_	wf="дали"
 20	право	право	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	wf="право"
 21	смолнѧнину	смольнянинъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	19	iobj	_	wf="смолнѧнину"
-22	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	det	_	wf="его"
+22	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	det	_	wf="его"
 23	ч(о)л(ове)кꙋ	чоловекъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	21	appos	_	wf="чоловекꙋ"
 24	на	на	ADP	_	_	25	case	_	wf="на"
-25	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	wf="имѧ"
+25	имѧ	имя	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	nmod	_	wf="имѧ"
 26	Пашкоу	Пашко	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	25	nmod	_	wf="Пашкоу"|SpaceAfter=No
 27	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -7124,7 +7124,7 @@
 5	с	съ	ADP	_	_	7	case	_	wf="с"
 6	вашим	вашъ	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det	_	wf="вашим"
 7	биричом	биричъ	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	10	obl	_	wf="биричом"
-8	своег(о)	свой	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	7	det	_	wf="своего"
+8	своег(о)	свой	DET	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	9	det	_	wf="своего"
 9	виноватца	виноватецъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	wf="виноватца"
 10	инѧл	иняти	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="инѧл"|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -7148,9 +7148,9 @@
 2	вашим	вашъ	DET	_	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det	_	wf="вашим"
 3	ли	ли	PART	_	_	7	advmod	_	wf="ли"
 4	вѣдомомъ	ведомо	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	7	obl	_	wf="вѣдомомъ"
-5	будет(ь)	быти	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	_	wf="будеть"
+5	будет(ь)	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	_	wf="будеть"
 6	тое	той	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	obj	_	wf="тое"
-7	оучинил	учинити	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оучинил"|SpaceAfter=No
+7	оучинил	учинити	VERB	_	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оучинил"|SpaceAfter=No
 8	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = polotsk__134-11
@@ -7214,18 +7214,18 @@
 5	пишом	писати	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="пишом"|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	штобы	штобы	SCONJ	_	Mood=Cnd	12	mark	_	wf="штобы"
-8	естѣ	быти	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="естѣ"
+8	естѣ	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	wf="естѣ"
 9	за	за	ADP	_	_	10	case	_	wf="за"
 10	виноватым	виноватый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	wf="виноватым"
 11	нѣ	не	PART	_	Polarity=Neg	12	advmod	_	wf="нѣ"
-12	стояли	стояти	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	ccomp	_	wf="стояли"|SpaceAfter=No
+12	стояли	стояти	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	5	ccomp	_	wf="стояли"|SpaceAfter=No
 13	:	:	PUNCT	_	_	12	punct	_	_
 14	томꙋ	то	PRON	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	19	iobj	_	wf="томꙋ"
 15	бы	бы	AUX	_	Analyt=Yes|Mood=Cnd	19	aux	_	wf="бы"
 16	Пашку	Пашка	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	19	obj	_	wf="Пашку"
 17	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	det	_	wf="его"
 18	вановатца	виноватецъ	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	appos	_	wf="вановатца"
-19	выдали	выдати	VERB	_	Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	12	conj	_	wf="выдали"|SpaceAfter=No
+19	выдали	выдати	VERB	_	Analyt=Yes|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	12	conj	_	wf="выдали"|SpaceAfter=No
 20	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = polotsk__134-13
