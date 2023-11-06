@@ -1,40 +1,44 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Old_East_Slavic-Ruthenian:
-commit 192c515eefd1a54419557c884bf72f4dc99dc424
-Merge: a0ded47 496a524
+commit fbd355ebf5c6fed77cb0ea80e844d9965cc046a5
+Merge: e24b198 f52b86e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 10011 of 10011 words (nodes).
-Size: min(0, log((N/1000)**2)) = 4.60736897687469.
+Size: counted 96803 of 96803 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.14535597107567.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
-Universal POS tags: 16 out of 17 found in the corpus.
+Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 6192 out of 10011 total words have one or more features.
+Features: 61126 out of 96803 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
-Universal relations: 34 out of 37 found in the corpus.
+Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL         50
-Udapi: found 50 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 10011 words.
+               TOTAL        190
+Udapi: found 190 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 96803 words.
 Genres: found 2 out of 17 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-dev.conllu
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-test.conllu
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-train.conllu
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.333492487124818) = 0.0855108941345688
-(weight=0.0512820512820513) * (score{split}=0.34) = 0.0174358974358974
-(weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.950054939566477) = 0.292324596789685
-(weight=0.0769230769230769) * (score{udeprels}=0.918918918918919) = 0.0706860706860707
-(TOTAL score=0.701251576693281) * (availability=1) * (validity=1) = 0.701251576693281
-STARS = 3.5
-UD_Old_East_Slavic-Ruthenian	0.701251576693281	3.5
+(weight=0.256410256410256) * (score{size}=0.661962938879853) = 0.16973408689227
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
+(weight=0.307692307692308) * (score{udapi}=0.980372509116453) = 0.301653079728139
+(weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
+(TOTAL score=0.820409220348346) * (availability=1) * (validity=1) = 0.820409220348346
+STARS = 4
+UD_Old_East_Slavic-Ruthenian	0.820409220348346	4
