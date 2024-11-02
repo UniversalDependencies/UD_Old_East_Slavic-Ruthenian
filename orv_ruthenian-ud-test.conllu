@@ -1,4 +1,5 @@
-# newdoc = litopys.org.ua__statut2__st1566_05.htm
+# newdoc = litopys.org.ua__statut2__st1566_05
+# lang = orv-be
 # title = Другий (Волинський) статут великого князівства литовського 1566 року. Роздѣлъ 4-й о судьяхъ и о судѣхъ
 # note = [Статут Вялікага княства Літоўскага 1566 года. — Мінск, 2003. — С.35-263. За виданням 1855 року.] Это заглавіе [Роздѣлъ 4-й о судьяхъ и о судѣхъ] взято изъ третьей редакцій статута; въ рукописи же второй редакціи заглавіе раздѣла не написано.
 # newpar
@@ -220,8 +221,8 @@
 146	а	а	CCONJ	СС	_	153	cc	_	wf="а"
 147	мы	мы	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	153	nsubj	_	wf="мы"
 148	съ	съ	ADP	IN	_	152	case	_	wf="съ"
-149	тыхъ	той	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Dem	152	det	_	wf="тыхъ"
-150	всихъ	весь	DET	DT	Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	152	det	_	wf="всихъ"
+149	тыхъ	той	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Dem	152	det	_	wf="тыхъ"
+150	всихъ	весь	DET	DT	Case=Gen|Gender=Fem|Number=Plur|PronType=Tot	152	det	_	wf="всихъ"
 151	дванадцати	дванадцать	NUM	CD	Case=Gen|NumForm=Word|NumType=Card	152	nummod	_	wf="дванадцати"
 152	особъ	особа	NOUN	NNA	Case=Gen|Gender=Fem|Number=Plur	153	obl	_	wf="особъ"
 153	выберемъ	выбрати	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	144	conj	_	wf="выберемъ"
@@ -559,7 +560,7 @@
 52	на	на	ADP	IN	_	53	case	_	wf="на"
 53	судехъ	судъ	NOUN	NNI	Case=Loc|Gender=Masc|Number=Plur	48	nmod	_	wf="судехъ"
 54	и	и	CCONJ	СС	_	55	cc	_	wf="и"
-55	освѣдченья	осведченье	NOUN	NNI	Case=Gen|Gender=Neut|Number=Plur	48	conj	_	wf="освѣдченья"
+55	освѣдченья	осведченье	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	48	conj	_	wf="освѣдченья"
 56	и	и	CCONJ	СС	_	57	cc	_	wf="и"
 57	оповѣданья	оповеданье	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	55	conj	_	wf="оповѣданья"
 58	судового	судовый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	55	amod	_	wf="судового"
@@ -591,7 +592,7 @@
 84	маючы	мети	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	81	advcl	_	wf="маючы"
 85	баченья	баченье	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	84	obj	_	wf="баченья"
 86	на	на	ADP	IN	_	91	case	_	wf="на"
-87	высокіе	высокий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	91	amod	_	wf="высокіе"
+87	высокіе	высокий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	91	amod	_	wf="высокіе"
 88	а	а	CCONJ	СС	_	90	cc	_	wf="а"
 89	ни	ни	PART	NEG	Polarity=Neg	90	advmod	_	wf="ни"
 90	подлые	подлый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	87	conj	_	wf="подлые"
@@ -693,7 +694,7 @@
 13	отъ	отъ	ADP	IN	_	14	case	_	wf="отъ"
 14	насъ	мы	PRON	PRP	Case=Gen|Number=Plur|Person=1|PronType=Prs	16	obl	_	wf="насъ"
 15	теперъ	теперъ	ADV	RB	Degree=Pos	16	advmod	_	wf="теперъ"
-16	выбраные	выбрати	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	wf="выбраные"
+16	выбраные	выбрати	VERB	VBNL	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	wf="выбраные"
 17	умеръ	умерети	VERB	VBC	Analyt=Yes|Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	44	advcl	_	wf="умеръ"|SpaceAfter=No
 18	,	,	PUNCT	-COMMA-	_	19	punct	_	_
 19	судья	судья	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	6	appos	_	wf="судья"|SpaceAfter=No
@@ -942,6 +943,7 @@
 16	.	.	PUNCT	-PERIOD-	_	3	punct	_	_
 
 # newdoc = starbel.narod.ru__statut1588.htm
+# lang = orv-be
 # title = Третий статут Великого княжества Литовского 1588 года. Роздѣлъ 4-й о судьяхъ и о судѣхъ
 # note = Вильно, 1588 / Электронное изд. подг. О.Лицкевич. (Минск, 2002-2003: http://starbel.narod.ru/statut1588.htm), источник: Статут Вялiкага княства Лiтоўскага 1588. Тэксты. Даведнiк. Каментарыi. Мн., 1989.
 # newpar
@@ -1679,7 +1681,7 @@
 43	на	на	ADP	IN	_	45	case	_	wf="на"
 44	ономъ	оный	DET	DT	Case=Loc|Gender=Masc|Number=Sing|PronType=Dem	45	det	_	wf="ономъ"
 45	зъезде	зъездъ	NOUN	NNI	Case=Loc|Gender=Masc|Number=Sing	55	obl	_	wf="зъезде"
-46	таковыхъ	таковый	DET	DT	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	53	det	_	wf="таковыхъ"
+46	таковыхъ	таковый	DET	DT	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	53	det	_	wf="таковыхъ"
 47	же	же	PART	RP	_	46	advmod	_	wf="же"|SpaceAfter=No
 48	,	,	PUNCT	-COMMA-	_	51	punct	_	_
 49	яко	яко	SCONJ	IN	_	51	mark	_	wf="яко"
@@ -1908,7 +1910,7 @@
 61	уймуючы	уймовати	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	58	conj	_	wf="уймуючы"|SpaceAfter=No
 62	,	,	PUNCT	-COMMA-	_	58	punct	_	_
 63	буду	быти	AUX	VBC	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	64	aux	_	wf="буду"
-64	судити	судити	VERB	VB	Analyt=Yes|Aspect=Imp|VerbForm=Inf|Voice=Act	16	ccomp	_	wf="судити"|SpaceAfter=No
+64	судити	судити	VERB	VB	Analyt=Yes|VerbForm=Inf|Voice=Act	16	ccomp	_	wf="судити"|SpaceAfter=No
 65	,	,	PUNCT	-COMMA-	_	69	punct	_	_
 66	сознан[ь]я	сознанье	NOUN	NNI	Case=Acc|Gender=Neut|Number=Plur	69	obj	_	wf="сознанья"
 67	и	и	CCONJ	CC	_	68	cc	_	wf="и"
@@ -2209,7 +2211,7 @@
 35	маючи	мети	VERB	VBG	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	31	advcl	_	wf="маючи"
 36	баченья	баченье	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	35	obj	_	wf="баченья"
 37	на	на	ADP	IN	_	41	case	_	wf="на"
-38	высокие	высокий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	41	amod	_	wf="высокие"
+38	высокие	высокий	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	41	amod	_	wf="высокие"
 39	и	и	CCONJ	CC	_	40	cc	_	wf="и"
 40	подлые	подлый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	38	conj	_	wf="подлые"
 41	станы	станъ	NOUN	NNI	Case=Acc|Gender=Masc|Number=Plur	36	nmod	_	wf="станы"|SpaceAfter=No
@@ -2314,6 +2316,7 @@
 11	.	.	PUNCT	-PERIOD-	_	9	punct	_	_
 
 # newdoc = starbel.narod.ru__sapeh2.htm
+# lang = orv-be
 # title = Обращение подканцлера ВКЛ Льва Сапеги к сословиям Великого княжества Литовского по случаю принятия Статута ВКЛ (1588 г.)
 # sent_id = Sapega-Speech-StatutVKL1588-1
 # text = Всимъ вобецъ станомъ Великого князства Литовъского Левъ Сапега, подъканъцлерый Великого князства Литовъского, староста слонимъский, маръковъский и мядельский, повольные и зычливые службы свои оферую.
@@ -3150,12 +3153,12 @@
 36	только	только	PART	RP	_	35	fixed	_	wf="только"
 37	людей	чоловекъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	45	obj	_	wf="людей"
 38	добрыхъ	добрый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	37	amod	_	wf="добрыхъ"
-39	а	а	CCONJ	CC	_	44	cc	_	wf="а"
+39	а	а	CCONJ	CC	_	41	cc	_	wf="а"
 40	тыхъ	той	DET	DT	Case=Gen|Gender=Neut|Number=Plur|PronType=Dem	41	det	_	wf="тыхъ"
-41	правъ	право	NOUN	NNI	Case=Gen|Gender=Neut|Number=Plur	45	obj	_	wf="правъ"
+41	правъ	право	NOUN	NNI	Case=Gen|Gender=Neut|Number=Plur	37	conj	_	wf="правъ"
 42	нашихъ	нашъ	DET	DT	Case=Gen|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs	41	det	_	wf="нашихъ"
 43	добре	добре	ADV	RB	Degree=Pos	44	advmod	_	wf="добре"
-44	умеетныхъ	умеетный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	41	amod	_	wf="умеетныхъ"
+44	умеетныхъ	умеетный	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	41	acl	_	wf="умеетныхъ"
 45	обирали	обирати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	acl	_	wf="обирали"|SpaceAfter=No
 46	,	,	PUNCT	-COMMA-	_	48	punct	_	_
 47	але	але	CCONJ	CC	_	48	cc	_	wf="але"
@@ -3225,6 +3228,7 @@
 10	.	.	PUNCT	-PERIOD-	_	9	punct	_	_
 
 # newdoc id = polotsk__1
+# lang = orv-be
 # newpar
 # sent_id = polotsk__1-1
 # text = Кнѧз(ь) Гердень кланѧетьс(ѧ) всем темь, кто видить сую грамот(у), тие люд(и), што ныне живи суть, а темь, кто напосле приидуть, тѣмь вѣдомо буди, какъ миръ есмы створил(и) промежи местерѧ и с ратьманы рижьскыми, и с полочаны, и видьблѧны тако, како грамот(а) написано, тако имъ надо всею землею ѡтступит(и), што есть Лотыгольскаѧ землѧ, какъ не въступатисѧ на тую землю, што кнѧз(ь) Костѧнтинъ дал местерю съ своею брат(ь)ею, съ своею грамот(ою) и съ печатью, како боле того на ту землю не поискывати.
@@ -3544,6 +3548,7 @@
 29	.	.	PUNCT	-PERIOD-	_	4	punct	_	_
 
 # newdoc id = polotsk__2
+# lang = orv-be
 # newpar
 # sent_id = polotsk__2-1
 # text = Слов(о) Изѧслав(а), кнѧз(ѧ) полочьког(о), къ еп(иско)пу и къ терю, и къ всемь вельневицем, и ратъманом, всемъ горожаном.
@@ -3776,6 +3781,7 @@
 17	.	.	PUNCT	-PERIOD-	_	4	punct	_	_
 
 # newdoc id = polotsk__3
+# lang = orv-be
 # newpar
 # sent_id = polotsk__3-1
 # text = + Поклонъ и бласловлѣнье ѡт Ѧкова, епискупа полотьского, бровстови, намѣстьнику пискуплю, и дѣтемъ моимъ ратманомъ.
@@ -3971,6 +3977,7 @@
 14	.	.	PUNCT	-PERIOD-	_	4	punct	_	_
 
 # newdoc id = polotsk__4
+# lang = orv-be
 # newpar
 # sent_id = polotsk__4-1
 # text = С[е] азъ, Андрѣи Данильѥвичь
@@ -4030,7 +4037,7 @@
 6	вельможа	вельможа	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	4	conj	_	wf="вельможа"|SpaceAfter=No
 7	,	,	PUNCT	-COMMA-	_	2	punct	_	_
 8	да	да	PART	RP	_	9	advmod	_	wf="да"
-9	судить	судити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="судить"
+9	судить	судити	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="судить"
 10	ѥму	онъ	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	iobj	_	wf="ѥму"
 11	С(вѧ)таѧ	святый	ADJ	JJL	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	wf="Свѧтаѧ"
 12	Тро(и)ца	тройца	NOUN	NNI	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	wf="Троица"
@@ -4044,6 +4051,7 @@
 20	.	.	PUNCT	-PERIOD-	_	9	punct	_	_
 
 # newdoc id = polotsk__4pril
+# lang = orv-be
 # newpar
 # sent_id = polotsk__4pril-1
 # text = […]цка посла[т(и)], ино его тамъ полоча[н(е)] ѡсудѧ[т(ь)] по своему праву.
@@ -4417,6 +4425,7 @@
 17	…	…	PUNCT	NFP	_	2	punct	_	_
 
 # newdoc id = polotsk__5
+# lang = orv-be
 # newpar
 # sent_id = polotsk__5-1
 # text = Во имѧ О(т)ца і С(ы)на и С(вя)того Д(у)ха.
@@ -4489,7 +4498,7 @@
 # text = А хто иметь ѡтнимати ѡт С(вѧ)тоѥ Тро(и)ци — или вельможа, или попъ иметь продавати, да будеть клѧтъ в сиі векь и въ будущии.
 1	А	а	CCONJ	СС	_	14	cc	_	wf="А"
 2	хто	хто	PRON	WP	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	3	nsubj	_	wf="хто"
-3	иметь	яти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	wf="иметь"
+3	иметь	яти	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	wf="иметь"
 4	ѡтнимати	отнимати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	wf="ѡтнимати"
 5	ѡт	отъ	ADP	IN	_	7	case	_	wf="ѡт"
 6	С(вѧ)тоѥ	святый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	wf="Свѧтоѥ"
@@ -4500,7 +4509,7 @@
 11	,	,	PUNCT	-COMMA-	_	13	punct	_	_
 12	или	или	CCONJ	СС	_	13	cc	_	wf="или"
 13	попъ	попъ	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	10	conj	_	wf="попъ"
-14	иметь	яти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="иметь"
+14	иметь	яти	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="иметь"
 15	продавати	продавати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	wf="продавати"|SpaceAfter=No
 16	,	,	PUNCT	-COMMA-	_	19	punct	_	_
 17	да	да	PART	RP	_	19	advmod	_	wf="да"
@@ -4515,6 +4524,7 @@
 26	.	.	PUNCT	-PERIOD-	_	14	punct	_	_
 
 # newdoc id = polotsk__5pril
+# lang = orv-be
 # newpar
 # sent_id = polotsk__5pril-1
 # text = Мы, на имѧ Ѡксентеи кожевник, Стефан портнои мастер, Иван Твѣритин, Моисеи котелник, Иван Ржова, Семен Иголка, Тимох котелник, кꙋпци пъсковскии, вызнаваемъ сим нашим листом вси посполито.
@@ -4768,6 +4778,7 @@
 19	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__8
+# lang = orv-be
 # date = 1338-1341
 # newpar
 # sent_id = polotsk__8-1
@@ -5019,7 +5030,7 @@
 # text = [11.] Аже наидуть оу немѣць нечистыи товаръ оу Рускои земли, поити ѥму назадъ с товаромь оу Ригу, тамъ ѥго свои кнѧзь судить.
 1	[11.]	11	NUM	CD	Case=Nom|NumForm=Digit|NumType=Card	3	parataxis	_	_
 2	Аже	аже	SCONJ	IN	_	3	mark	_	wf="Аже"
-3	наидуть	найти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	wf="наидуть"
+3	наидуть	наити	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	wf="наидуть"
 4	оу	у	ADP	IN	_	5	case	_	wf="оу"
 5	немѣць	немецъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	3	obl	_	wf="немѣць"
 6	нечистыи	нечистый	ADJ	JJL	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	wf="нечистыи"
@@ -5040,10 +5051,11 @@
 21	ѥго	онъ	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	wf="ѥго"
 22	свои	свой	DET	PRP$	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	23	det	_	wf="свои"
 23	кнѧзь	князь	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	wf="кнѧзь"
-24	судить	судити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	wf="судить"|SpaceAfter=No
+24	судить	судити	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	wf="судить"|SpaceAfter=No
 25	.	.	PUNCT	-PERIOD-	_	12	punct	_	_
 
 # newdoc id = polotsk__10
+# lang = orv-be
 # newpar
 # sent_id = polotsk__10-1
 # text = А се ѧзъ, вѣликии кнѧзь Ѡндре[и] полоцкии, дал […] есми С(вѧ)т(ои) Троици реку Званицю з гоны з бровыми ѡт Звана ѡзера да до Дрысы.
@@ -5097,10 +5109,10 @@
 5	,	,	PUNCT	-COMMA-	_	4	punct	_	_
 6	которыи	который	DET	WDT	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	7	det	_	wf="которыи"
 7	кн(ѧ)зь	князь	NOUN	NNA	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	wf="кнѧзь"
-8	иметь	яти	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	wf="иметь"
+8	иметь	яти	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	wf="иметь"
 9	ѡтнимати	отнимати	VERB	VB	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	wf="ѡтнимати"|SpaceAfter=No
 10	,	,	PUNCT	-COMMA-	_	8	punct	_	_
-11	судить	судити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="судить"
+11	судить	судити	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="судить"
 12	ему	онъ	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	iobj	_	wf="ему"
 13	С(вѧ)та	святый	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	amod	_	wf="Свѧта"
 14	Тр(ои)ца	тройца	NOUN	NNI	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	wf="Троица"|SpaceAfter=No
@@ -5111,6 +5123,7 @@
 19	.	.	PUNCT	-PERIOD-	_	11	punct	_	_
 
 # newdoc id = polotsk__11
+# lang = orv-be
 # newpar
 # sent_id = polotsk__11-1
 # text = Се аз, князь великий Андрей Ольгердович Полоцкий.
@@ -5335,6 +5348,7 @@
 9	.	.	PUNCT	-PERIOD-	_	5	punct	_	_
 
 # newdoc id = polotsk__15
+# lang = orv-be
 # newpar
 # sent_id = polotsk__15-1
 # text = Ѡтко кнѧгини Андреѥвоѥ и ѡт ѥ, детеи, ѡто кнѧзѧ Семона, ѡто кнѧзѧ Ивана ко всимъ ратъманомъ и ко вьсимъ купьцомъ.
@@ -5409,6 +5423,7 @@
 10	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__16
+# lang = orv-be
 # newpar
 # sent_id = polotsk__16-1
 # text = Владисла, Б(ож)ье м(и)л(о)сти король полскии, литовскии, руски, иных земль г(о)с(по)д(а)рь.
@@ -6657,6 +6672,7 @@
 21	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__32
+# lang = orv-be
 # newpar
 # sent_id = polotsk__32-1
 # text = Ѡт намесника ѡт полочького ѡт Монтигирда і ѡт оусехъ мужъ ѡт полочанъ кнѧзѧ великого Вытовътовымъ повеленьѥмъ къ ратъманомъ.
@@ -6778,6 +6794,7 @@
 1	Ратъманомъ	ратманъ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur	0	root	_	wf="Ратъманомъ"
 
 # newdoc id = polotsk__39
+# lang = orv-be
 # newpar
 # sent_id = polotsk__39-1
 # text = Мы, великии кн(ѧ)зь Витовтъ, дали есмо сию грамот(у) буркгимистру ризском(у) Никгиборкг(у) и всѣмъ нѣмцем, купцем ризским и инымъ всѣм, што ж оу Полоцку полочѧном добрым людемъ цѣловати кр(е)стъ на том, што имъ чинит(и) нѣмцем все оу правду и оу вѣсѣх, и оу торговли, и во всем торговом дѣлѣ; а тако ж оу Ризѣ к полочѧном цѣловати крестъ нѣмцем добрым людемъ на том, што полочѧном чинит(и) все оу правду и оу вѣсѣх, и оу торговли, и во всемъ торговом дѣлѣ.
@@ -6954,6 +6971,7 @@
 1	Сам	самъ	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Emp	0	root	_	wf="Сам"
 
 # newdoc id = polotsk__40
+# lang = orv-be
 # newpar
 # sent_id = polotsk__40-1
 # text = Здороваѥть намѣсник полоцькии і вси полочане посадьниковъ ризьских і всѣхъ ратъманъ.
@@ -7227,6 +7245,7 @@
 8	.	.	PUNCT	-PERIOD-	_	7	punct	_	_
 
 # newdoc id = polotsk__44
+# lang = orv-be
 # newpar
 # sent_id = polotsk__44-1
 # text = Се азъ, воевода полочькии Прижкинтъ, вси боѧре и вси мужи полочан(е), местерева слова и всех ратьманъ хочемъ слушати.
@@ -7284,7 +7303,7 @@
 # text = А ко реченому дни ему опѧть быти.
 1	А	а	CCONJ	СС	_	7	cc	_	wf="А"
 2	ко	къ	ADP	IN	_	4	case	_	wf="ко"
-3	реченому	рещи	VERB	VBNL	Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	wf="реченому"
+3	реченому	рещи	VERB	VBNL	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	amod	_	wf="реченому"
 4	дни	день	NOUN	NNI	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	wf="дни"
 5	ему	онъ	PRON	PRP	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	det	_	wf="ему"
 6	опѧть	опять	ADV	RB	Degree=Pos	7	advmod	_	wf="опѧть"
@@ -7351,7 +7370,7 @@
 # sent_id = polotsk__44-5
 # text = А реченому дни им быти.
 1	А	а	CCONJ	СС	_	5	cc	_	wf="А"
-2	реченому	рещи	VERB	VBNL	Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	wf="реченому"
+2	реченому	рещи	VERB	VBNL	Aspect=Perf|Case=Dat|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	wf="реченому"
 3	дни	день	NOUN	NNI	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	wf="дни"
 4	им	они	PRON	PRP	Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	iobj	_	wf="им"
 5	быти	быти	VERB	VB	VerbForm=Inf|Voice=Act	0	root	_	wf="быти"|SpaceAfter=No
@@ -7367,6 +7386,7 @@
 5	ратьманомъ	ратманъ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur	1	conj	_	wf="ратьманомъ"
 
 # newdoc id = polotsk__48
+# lang = orv-be
 # newpar
 # sent_id = polotsk__48-1
 # text = Излуциль ѥсми грамота на Б(о)зъ милости.
@@ -7759,6 +7779,7 @@
 7	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__49
+# lang = orv-be
 # newpar
 # sent_id = polotsk__49-1
 # text = Мы, ратьмане ризькии, скончали ме съ полочан(ы), на Б(о)жью м(и)л(о)сть надеючес(ѧ), што же полочаном всем немечькымъ купьцем ризьким слично и право дѣѧти всѧкомъ торговем дѣлѣ и торговлею, без всѧѧ хитрости право чинит(и) на обѣ сторон(е) межи собою.
@@ -7886,7 +7907,7 @@
 4	немечьских	немецкий	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	wf="немечьских"
 5	купьцевъ	купецъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	3	obj	_	wf="купьцевъ"
 6	какь	какъ	SCONJ	IN	_	8	case	_	wf="какь"
-7	своѧ	свой	DET	PRP$,Nom1	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det	_	wf="своѧ"
+7	своѧ	свой	DET	PRP$,Nom1	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	wf="своѧ"
 8	брат(ь)ѧ	братья	NOUN	NNI,Nom1	Case=Nom|Gender=Fem|Number=Sing	3	obl	_	wf="братьѧ"|SpaceAfter=No
 9	,	,	PUNCT	-COMMA-	_	12	punct	_	_
 10	и	и	CCONJ	СС	_	12	cc	_	wf="и"
@@ -7937,7 +7958,7 @@
 15	;	;	PUNCT	-COMMA-	_	18	punct	_	_
 16	ратьмане	ратманъ	NOUN	NNA	Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	wf="ратьмане"
 17	его	онъ	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	wf="его"
-18	судѧт(ь)	судити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	wf="судѧть"
+18	судѧт(ь)	судити	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	wf="судѧть"
 19	по	по	ADP	IN	_	21	case	_	wf="по"
 20	своеи	свой	DET	PRP$	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	21	det	_	wf="своеи"
 21	правде	правда	NOUN	NNI	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	wf="правде"|SpaceAfter=No
@@ -8212,6 +8233,7 @@
 22	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__52
+# lang = orv-be
 # newpar
 # sent_id = polotsk__52-1
 # text = А се мы, полочан(е), вси добрыи люд(и) и мал(ы)и, надѣючес(ѧ) на Б(ог)ъ, св(ѧ)т(о)го Софеѧ м(и)л(о)сть и кнѧз(ѧ) великог(о) Витовта здровье, хочем с тобою, кнѧж(е) местерю, любовь держат(и) и с твоею брат(ь)ею, со всеми ридели.
@@ -8657,7 +8679,7 @@
 21	его	онъ	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	obj	_	wf="его"
 22	свои	свой	DET	PRP$	Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	24	nsubj	_	wf="свои"
 23	там	тамъ	ADV	RB	Degree=Pos	24	advmod	_	wf="там"
-24	судѧт(ь)	судити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	wf="судѧть"
+24	судѧт(ь)	судити	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	wf="судѧть"
 25	по	по	ADP	IN	_	27	case	_	wf="по"
 26	своему	свой	DET	PRP$	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	27	det	_	wf="своему"
 27	праву	право	NOUN	NNI	Case=Dat|Gender=Neut|Number=Sing	24	obl	_	wf="праву"|SpaceAfter=No
@@ -8809,6 +8831,7 @@
 25	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__53
+# lang = orv-be
 # newpar
 # sent_id = polotsk__53-1
 # text = Се ѧзъ, великии кн(ѧ)зь Витовтъ, дали есмо сю нашю грамот(у) рижѧном, што жь дано было имъ мѣсто оу Полоцку ц(е)рковъ ставить и ѡтмерено, кдѣ ц(е)рков поставить, што ж бы никто не вступалсѧ в то мѣсто, кдѣ имъ ц(е)рковъ ставить.
@@ -8875,6 +8898,7 @@
 11	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__54
+# lang = orv-be
 # newpar
 # sent_id = polotsk__54-1
 # text = Мы, мужи полочѧн(е), даемъ вѣдати, кто на сию грамот(у) оузрит(ь) или оуслышит(ь) чтучи.
@@ -9516,6 +9540,7 @@
 14	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__55
+# lang = orv-be
 # newpar
 # sent_id = polotsk__55-1
 # text = + Мы, ризкии ратманѣ и вси кꙋпци ризкие, даем вѣдати, хто на сию грамотꙋ оузрит(ь) или чтꙋчи оуслышит(ь).
@@ -10169,6 +10194,7 @@
 14	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__57
+# lang = orv-be
 # newpar
 # sent_id = polotsk__57-1
 # text = Ѡто кнѧз(ѧ) Иван(а) Семенович(а), полоцког(о) намѣсник(а), и ѡто всих мужь полочан кнѧз(ю) мештерюли ризком(у) и всим ратманом ризкимъ поклон.
@@ -10409,6 +10435,7 @@
 27	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__58
+# lang = orv-be
 # newpar
 # sent_id = polotsk__58-1
 # text = + Бл(а)г(о)с(лове)ние архиеп(и)с(ко)па Феѡдося полотьского детемъ моимъ, ратманомъ ризьскимъ.
@@ -10520,6 +10547,7 @@
 5	ризькимъ	рижский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	wf="ризькимъ"
 
 # newdoc id = polotsk__61
+# lang = orv-be
 # newpar
 # sent_id = polotsk__61-1
 # text = Ѡт наместька полоцког(о) Федора приѧтелемъ нашим ратъманом ризькимъ.
@@ -10614,6 +10642,7 @@
 2	ризькимъ	рижский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	wf="ризькимъ"
 
 # newdoc id = polotsk__62
+# lang = orv-be
 # newpar
 # sent_id = polotsk__62-1
 # text = Ѡтъ пана Немира, намѣсник(а) полоцког(о), приѧтелемъ нашимъ ратманомъ.
@@ -10670,7 +10699,7 @@
 # sent_id = polotsk__62-4
 # text = Ѡни молвѧть такъ, што же ислубилъ тотъ Пантелѣи ему за добрыи селедьци.
 1	Ѡни	они	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	wf="Ѡни"
-2	молвѧть	молвити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молвѧть"
+2	молвѧть	молвити	VERB	VBC	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молвѧть"
 3	такъ	такъ	ADV	RB	Degree=Pos	2	advmod	_	wf="такъ"|SpaceAfter=No
 4	,	,	PUNCT	-COMMA-	_	7	punct	_	_
 5	што	што	SCONJ	IN	_	7	mark	_	wf="што"
@@ -10729,6 +10758,7 @@
 3	ратманомъ	ратманъ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur	1	appos	_	wf="ратманомъ"
 
 # newdoc id = polotsk__63
+# lang = orv-be
 # newpar
 # sent_id = polotsk__63-1
 # text = Ѡтъ пана Немира, намесника полоцкого, приятелемъ нашимъ, судьямъ ризькимъ и ратманомъ.
@@ -10838,6 +10868,7 @@
 4	ратъманомъ	ратманъ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Plur	1	conj	_	wf="ратъманомъ"
 
 # newdoc id = polotsk__65
+# lang = orv-be
 # newpar
 # sent_id = polotsk__65-1
 # text = Мы, полочан(е), даемъ вам ведомо, кто ю грамот(оу) оузрит(ь), што же местерь задвиньскии ѡтпустилъ нѧтьци полоцьки и товаръ на рукы кнѧз(ѧ) векого Витовта и наши рук(и).
@@ -10938,6 +10969,7 @@
 16	.	.	PUNCT	-PERIOD-	_	2	punct	_	_
 
 # newdoc id = polotsk__66
+# lang = orv-be
 # newpar
 # sent_id = polotsk__66-1
 # text = + Ѡтто кнѧз(ѧ) Григорьѧ, ѡт намѣстник(а) полоцког(о), и ѡт мужь полочанъ къ ратманом ризьким.
@@ -11032,6 +11064,7 @@
 2	ризким	рижский	ADJ	JJL	Case=Dat|Degree=Pos|Gender=Masc|Number=Plur	1	amod	_	wf="ризким"
 
 # newdoc id = polotsk__67
+# lang = orv-be
 # newpar
 # sent_id = polotsk__67-1
 # text = Ѡт пана Васильѧ Дмитреевич(а) Корсак(а), наместни полоцког(о), ѡт боѧръ полоцких, и ѡт местичовъ, и ѡтто всихъ мужъ полочан ѡт велика и до мал(а) паномъ ратманомъ ризким чолобитье.
@@ -11313,7 +11346,7 @@
 # text = И Ѡлександро молъвит(ь): «Далъ ѧ Тимофею тотъ слишокъ» .
 1	И	и	CCONJ	СС	_	3	cc	_	wf="И"
 2	Ѡлександро	Олександро	PROPN	NPA	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	_	wf="Ѡлександро"
-3	молъвит(ь)	молвити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молъвить"|SpaceAfter=No
+3	молъвит(ь)	молвити	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молъвить"|SpaceAfter=No
 4	:	:	PUNCT	-COLON-	_	6	punct	_	_
 5	«	«	PUNCT	-QUOT-	_	6	punct	_	SpaceAfter=No
 6	Далъ	дати	VERB	VBC	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="Далъ"
@@ -11328,7 +11361,7 @@
 # text = И Чернѧта молвит(ь): «Не знаю ѧ Тимофеѧ оу томъ слишку.
 1	И	и	CCONJ	СС	_	3	cc	_	wf="И"
 2	Чернѧта	Чернята	PROPN	NPA	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	3	nsubj	_	wf="Чернѧта"
-3	молвит(ь)	молвити	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молвить"|SpaceAfter=No
+3	молвит(ь)	молвити	VERB	VBC	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	wf="молвить"|SpaceAfter=No
 4	:	:	PUNCT	-COLON-	_	3	punct	_	_
 5	«	«	PUNCT	-QUOT-	_	7	punct	_	SpaceAfter=No
 6	Не	не	PART	NEG	Polarity=Neg	7	advmod	_	wf="Не"
