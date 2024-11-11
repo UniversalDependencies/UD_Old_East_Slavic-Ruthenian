@@ -1,44 +1,63 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Old_East_Slavic-Ruthenian:
-commit 482cfc8b93c47ea9b2132b094a378fb6ca16f343
+commit 8997532b59ac341b33ec62c404b7850d95e70f11
+Merge: e24beed 6a535af
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 12:45:07 2023 +0100
-Size: counted 96803 of 96803 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.14535597107567.
+Size: counted 111503 of 111503 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.42810299273563.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
-Split: Did not find at least 10000 development words.
+Split: Found at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 61126 out of 96803 total words have one or more features.
+Features: 70158 out of 111503 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        190
-Udapi: found 190 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 96803 words.
+               TOTAL        278
+Udapi: found 278 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 111503 words.
 Genres: found 2 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-test.conllu
+[Line 783 Sent StatutVKL1566-9 Node 96]: [L3 Warning leaf-det] 'det' not expected to have children (96:такового:det --> 102:описано:acl)
+[Line 798 Sent StatutVKL1566-9 Node 111]: [L3 Warning leaf-det] 'det' not expected to have children (111:таковыхъ:det --> 117:выменено:acl)
+[Line 1470 Sent StatutVKL1588-9 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:тымъ:det --> 27:описано:acl)
+[Line 1689 Sent StatutVKL1588-12 Node 46]: [L3 Warning leaf-det] 'det' not expected to have children (46:таковыхъ:det --> 51:описано:acl)
+[Line 1717 Sent StatutVKL1588-12 Node 73]: [L3 Warning leaf-det] 'det' not expected to have children (73:тымъ:det --> 79:доложоно:acl)
+[Line 5975 Sent polotsk__16-21 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:тую:det --> 15:есть:acl)
+[Line 6479 Sent polotsk__16-41 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:оусемъ:det --> 8:ѡдиного:nmod)
+Warnings: 7
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-train.conllu
+[Line 2142 Sent polotsk__148-4 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:ег(о):det --> 29:пан(а):appos)
+[Line 11528 Sent polotsk__199-2 Node 50]: [L3 Warning leaf-det] 'det' not expected to have children (50:тых:det --> 59:переидет(ь):acl)
+[Line 14239 Sent polotsk__211-6 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:его:det --> 8:небожьчика:appos)
+[Line 17995 Sent polotsk__226-2 Node 40]: [L3 Warning leaf-det] 'det' not expected to have children (40:какая:det --> 2:какъ:mark)
+[Line 33338 Sent polotsk__338-6 Node 43]: [L3 Warning leaf-det] 'det' not expected to have children (43:никоторому:det --> 45:нихъ:nmod)
+[Line 36151 Sent polotsk__344-10 Node 31]: [L3 Warning leaf-det] 'det' not expected to have children (31:свое:det --> 32:6:dep)
+[Line 47986 Sent polotsk__379-6 Node 28]: [L3 Warning leaf-det] 'det' not expected to have children (28:всими:det --> 33:архиепископъею:acl)
+[Line 48135 Sent polotsk__379-9 Node 55]: [L3 Warning leaf-det] 'det' not expected to have children (55:тые:det --> 61:подавали:acl)
+[Line 55097 Sent polotsk__398-13 Node 26]: [L3 Warning leaf-det] 'det' not expected to have children (26:того:det --> 24:поднимывали:acl)
+[Line 60555 Sent polotsk__423-23 Node 48]: [L3 Warning leaf-det] 'det' not expected to have children (48:своее:det --> 67:розꙋмеючи:advcl)
+Warnings: 10
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.661962938879853) = 0.16973408689227
-(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.256410256410256) * (score{size}=0.682428850760103) = 0.174981756605155
+(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.980372509116453) = 0.301653079728139
+(weight=0.307692307692308) * (score{udapi}=0.975067935391873) = 0.300020903197499
 (weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.820409220348346) * (availability=1) * (validity=1) = 0.820409220348346
+(TOTAL score=0.840947790453667) * (availability=1) * (validity=1) = 0.840947790453667
 STARS = 4
-UD_Old_East_Slavic-Ruthenian	0.820409220348346	4
+UD_Old_East_Slavic-Ruthenian	0.840947790453667	4
