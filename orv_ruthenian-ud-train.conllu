@@ -99825,11 +99825,11 @@
 9	нє	не	PART	_	Polarity=Neg	12	advmod	_	wf="не"
 10	тамъ	тамъ	ADV	ADVPRO	Degree=Pos|PronType=Dem	12	advmod	_	wf="тамъ"
 11	дву	два	NUM	_	Case=Gen|Gender=Fem|NumForm=Word|NumType=Card	12	nummod	_	wf="дву"
-12	нєде(л)	неѣля	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	obl:tmod	_	wf="недел"
+12	нєде(л)	недѣля	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	6	obl:tmod	_	wf="недел"
 13	и	и	CCONJ	_	_	16	cc	_	wf="и"
 14	нє	не	PART	_	Polarity=Neg	16	advmod	_	wf="не"
 15	чтири	чтыри	NUM	_	Case=Acc|NumForm=Word|NumType=Card	16	nummod:gov	_	wf="чтири"
-16	нєде(л)	неделя	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	wf="недел"
+16	нєде(л)	недѣля	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	12	conj	_	wf="недел"
 17	тоть	тотъ	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	wf="тоть"
 18	Ма(р)ко	Марко	PROPN	_	Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	6	nsubj	_	wf="Марко"
 19	и	и	CCONJ	_	_	21	cc	_	wf="и"
@@ -101738,7 +101738,7 @@
 3	,	,	PUNCT	_	_	2	punct	_	wf=","
 4	боя(з)нь	боязнь	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	wf="боязнь"
 5	бж҃ую	божий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	wf="божую"
-6	препо(м)нѣ/[5]въши	препомнити	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	62	advcl	_	wf="препомнѣвъши"|SpaceAfter=No
+6	препо(м)нѣ/[5]въши	препомнѣти	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	62	advcl	_	wf="препомнѣвъши"|SpaceAfter=No
 7	<.>	.	PUNCT	_	_	18	punct	_	wf="."|SpaceAfter=No
 8	,	,	PUNCT	_	_	18	punct	_	wf=","
 9	а	а	CCONJ	_	_	18	cc	_	wf="а"
