@@ -1259,7 +1259,7 @@
 33	уставуемъ	уставовати	VERB	VBC	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	wf="уставуемъ"|SpaceAfter=No
 34	,	,	PUNCT	-COMMA-	_	58	punct	_	_
 35	ижъ	ижъ	SCONJ	IN	_	58	mark	_	wf="ижъ"
-36	кгды	гды	SCONJ	IN	_	49	mark	_	wf="кгды"
+36	кгды	кгды	SCONJ	IN	_	49	mark	_	wf="кгды"
 37	бы	бы	AUX	RP	Analyt=Yes|Mood=Cnd	49	aux	_	wf="бы"
 38	который	который	DET	DT	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	49	nsubj	_	wf="который"
 39	з	зъ	ADP	IN	_	40	case	_	wf="з"
@@ -2466,7 +2466,7 @@
 17	былъ	быти	AUX	VBC	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	18	cop	_	wf="былъ"
 18	воленъ	вольный	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	acl	_	wf="воленъ"|SpaceAfter=No
 19	,	,	PUNCT	-COMMA-	_	27	punct	_	_
-20	кгды	гды	SCONJ	IN	_	27	mark	_	wf="кгды"
+20	кгды	кгды	SCONJ	IN	_	27	mark	_	wf="кгды"
 21	бы	бы	AUX	RP	Analyt=Yes|Mood=Cnd	27	aux	_	wf="бы"
 22	домового	домовый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	wf="домового"
 23	неприятеля	неприятель	NOUN	NNA	Case=Gen|Gender=Masc|Number=Sing	26	obj	_	wf="неприятеля"
@@ -2566,7 +2566,7 @@
 9	надъ	надъ	ADP	IN	_	10	case	_	wf="надъ"
 10	тое	то	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	8	obl	_	wf="тое"|SpaceAfter=No
 11	,	,	PUNCT	-COMMA-	_	21	punct	_	_
-12	кгды	гды	SCONJ	IN	_	21	mark	_	wf="кгды"|SpaceAfter=No
+12	кгды	кгды	SCONJ	IN	_	21	mark	_	wf="кгды"|SpaceAfter=No
 13	,	,	PUNCT	-COMMA-	_	18	punct	_	_
 14	во	въ	ADP	IN	_	15	case	_	wf="во"
 15	отчызне	отчизна	NOUN	NNI	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	wf="отчызне"
@@ -3097,7 +3097,7 @@
 69	права	право	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	68	nmod	_	wf="права"
 70	показалъ	показати	VERB	VBC	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	60	conj	_	wf="показалъ"|SpaceAfter=No
 71	,	,	PUNCT	-COMMA-	_	85	punct	_	_
-72	к[г]ды	гды	SCONJ	IN	_	85	mark	_	wf="кгды"
+72	к[г]ды	кгды	SCONJ	IN	_	85	mark	_	wf="кгды"
 73	жъ	жъ	PART	RP	_	85	advmod	_	wf="жъ"
 74	то	то	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	84	obj	_	wf="то"
 75	вжо	ужо	ADV	RB	Degree=Pos	85	advmod	_	wf="вжо"
@@ -3509,7 +3509,7 @@
 10	Полочьскаѧ	полоцкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	wf="Полочьскаѧ"
 11	землѧ	земля	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	xcomp	_	wf="землѧ"|SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
-13	со	съ	ADP	_	_	15	case	_	wf="со"
+13	со	съ	ADP	IN	_	15	case	_	wf="со"
 14	всею	весь	DET	_	Case=Ins|Gender=Fem|Number=Sing|PronType=Tot	15	det	_	wf="всею"
 15	правдою	правда	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	6	obl	_	wf="правдою"|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
@@ -4128,7 +4128,7 @@
 
 # sent_id = polotsk__4pril-5
 # text = Про то же исперва рижѧномъ послат(и) свои колоколы и скалвы к Полоцку на свою истраву.
-1	Про	про	ADP	_	_	2	case	_	wf="Про"
+1	Про	про	ADP	IN	_	2	case	_	wf="Про"
 2	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obl	_	wf="то"
 3	же	же	PART	_	_	6	advmod	_	wf="же"
 4	исперва	исперва	ADV	_	Degree=Pos	6	advmod	_	wf="исперва"
@@ -4138,9 +4138,9 @@
 8	колоколы	колоколъ	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	6	obj	_	wf="колоколы"
 9	и	и	CCONJ	_	_	10	cc	_	wf="и"
 10	скалвы	скалва	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	8	conj	_	wf="скалвы"
-11	к	къ	ADP	_	_	12	case	_	wf="к"
+11	к	къ	ADP	IN	_	12	case	_	wf="к"
 12	Полоцку	Полоцкъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Geo|Number=Sing	6	obl	_	wf="Полоцку"
-13	на	на	ADP	_	_	15	case	_	wf="на"
+13	на	на	ADP	IN	_	15	case	_	wf="на"
 14	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	_	wf="свою"
 15	истраву	истрава	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	wf="истраву"|SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_

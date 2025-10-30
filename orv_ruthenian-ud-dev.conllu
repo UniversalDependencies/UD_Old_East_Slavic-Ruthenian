@@ -270,7 +270,7 @@
 8	кн(ѧ)зю	князь	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	wf="кнѧзю"
 9	мештерю	мештеръ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing	8	appos	_	wf="мештерю"|SpaceAfter=No
 10	,	,	PUNCT	-COMMA-	_	12	punct	_	_
-11	штобъ	чтобъ	SCONJ	IN	Mood=Cnd	12	mark	_	wf="штобъ"
+11	штобъ	штобы	SCONJ	IN	Mood=Cnd	12	mark	_	wf="штобъ"
 12	велѣлъ	велети	VERB	VBC	Gender=Masc|Number=Sing|Tense=Past|VerbForm=PartRes|Voice=Act	7	ccomp	_	wf="велѣлъ"
 13	наших	нашъ	DET	PRP$	Case=Gen|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det	_	wf="наших"
 14	людеи	чоловекъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	15	obj	_	wf="людеи"
@@ -2574,7 +2574,7 @@
 15	дѣтеи	детя	NOUN	NNA	Case=Gen|Gender=Neut|Number=Plur	16	obj	_	wf="дѣтеи"
 16	оунимали	унимати	VERB	VBC	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="оунимали"|SpaceAfter=No
 17	,	,	PUNCT	-COMMA-	_	16	punct	_	_
-18	штобь	чтобъ	SCONJ	IN	Mood=Cnd	23	mark	_	wf="штобь"
+18	штобь	штобы	SCONJ	IN	Mood=Cnd	23	mark	_	wf="штобь"
 19	сѧ	ся	PRON	PRP	Analyt=Yes|Clitic=Yes|PronType=Prs|Reflex=Yes	23	expl	_	wf="сѧ"
 20	ѡни	они	PRON	PRP	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	wf="ѡни"
 21	ѡт	отъ	ADP	IN	_	22	case	_	wf="ѡт"
@@ -10009,7 +10009,7 @@
 6	Володимери	Володимерь	PROPN	_	Case=Loc|Gender=Masc|NameType=Giv|Number=Sing	4	nmod	_	wf="Володимери"
 7	Светых	святый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Plur	8	amod	_	wf="Св(е)ты<i>х</i>"
 8	Апостолъ	апостолъ	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	wf="А(пос)т(о)лъ"
-9	двунадесятъ	двунадесятъ	NUM	_	Case=Acc|NumForm=Word|NumType=Card	4	nummod:gov	_	wf="двунадесятъ"
+9	двунадесятъ	дванадесятъ	NUM	_	Case=Acc|NumForm=Word|NumType=Card	4	nummod:gov	_	wf="двунадесятъ"
 10	а	а	CCONJ	_	_	11	cc	_	wf="а"
 11	село	село	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	wf="село"
 12	Менчичи	Менчичи	PROPN	_	Case=Nom|Gender=Masc|NameType=Geo|Number=Plur	11	nmod	_	wf="Менчичи"|SpaceAfter=No
