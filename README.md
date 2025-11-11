@@ -15,15 +15,18 @@ We are grateful to Maria Ermolova, Vladimir Shatin, Natalia Iordani, Oksana Nika
 
 # Changelog
 
+* 2025-11-15 v2.16
+  * Texts of Lokhvitsa town hall book (Old Ukrainian, 1654-1656) added to train
+
 * 2024-11-15 v2.14
   * Texts in Old Ukrainian added to test, dev, and train.
-  * Texts of Lithuanian Metrica Book of inscriptions, Vol. 3 (1440-1498) added to train and dev 
+  * Texts of Lithuanian Metrica Book of inscriptions, Vol. 3 (1440-1498) (Old Belarusian) added to train and dev 
 
 * 2023-11-15 v2.13
   * Texts of Polotsk letters added to dev and train; lemmas & grammar & syntax corrected.
 
 * 2023-05-15 v2.12
-  * Texts of Polotsk letters added; lemmas added; grammar & syntax corrected.
+  * Texts of Polotsk letters (Old Belarusian) added; lemmas added; grammar & syntax corrected.
 
 * 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
@@ -34,6 +37,7 @@ We are grateful to Maria Ermolova, Vladimir Shatin, Natalia Iordani, Oksana Nika
 Data available since: UD v2.11
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: legal nonfiction
 Lemmas: manual native
 UPOS: manual native
