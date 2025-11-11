@@ -1,13 +1,17 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Old_East_Slavic-Ruthenian:
-commit ab3b9368d5ba548aae75b78848956724cae699aa
-Merge: f583c63 70bd0b4
+commit 8ab7f65b0842d12fd9bee911ee2809174c5c1426
+Merge: 21ea4ee 0d12b8b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Size: counted 111502 of 111502 words (nodes).
-Size: min(0, log((N/1000)**2)) = 9.42808505591807.
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'orv_ruthenian'
+Language code (from CoNLL-U file name) = 'orv'
+Found the following data files: orv_ruthenian-ud-dev.conllu, orv_ruthenian-ud-test.conllu, orv_ruthenian-ud-train.conllu
+Size: counted 137333 of 137333 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.84481726698801.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,66 +19,61 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 70488 out of 111502 total words have one or more features.
+Features: 85806 out of 137333 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL        102
-Udapi: found 102 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 111502 words.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-dev.conllu
-[Line 284 Sent polotsk__71-5 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'заню ж' does not have the 'ExtPos' feature
-[Line 1015 Sent polotsk__98-7 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 2109 Sent polotsk__107-2 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 2470 Sent polotsk__108-2 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 2643 Sent polotsk__108-10 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А также и' does not have the 'ExtPos' feature
-[Line 2688 Sent polotsk__108-13 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 2986 Sent polotsk__110-6 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
-[Line 4348 Sent polotsk__121-7 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'как и' does not have the 'ExtPos' feature
-[Line 5235 Sent polotsk__124-5 Node 20]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
-[Line 5684 Sent polotsk__126-8 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'а любо' does not have the 'ExtPos' feature
+[Line 284 Sent polotsk__71-5]: [L3 Warning fixed-without-extpos] Fixed expression 'заню ж' does not have the 'ExtPos' feature
+[Line 1015 Sent polotsk__98-7]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 2109 Sent polotsk__107-2]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 2470 Sent polotsk__108-2]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 2643 Sent polotsk__108-10]: [L3 Warning fixed-without-extpos] Fixed expression 'А также и' does not have the 'ExtPos' feature
+[Line 2688 Sent polotsk__108-13]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 2986 Sent polotsk__110-6]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 4348 Sent polotsk__121-7]: [L3 Warning fixed-without-extpos] Fixed expression 'как и' does not have the 'ExtPos' feature
+[Line 5235 Sent polotsk__124-5]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 5684 Sent polotsk__126-8]: [L3 Warning fixed-without-extpos] Fixed expression 'а любо' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 11
+Warnings: 25
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-test.conllu
-[Line 411 Sent StatutVKL1566-6 Node 109]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 451 Sent StatutVKL1566-6 Node 149]: [L3 Warning fixed-without-extpos] Fixed expression 'якъ то' does not have the 'ExtPos' feature
-[Line 1239 Sent StatutVKL1588-6 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'яко то' does not have the 'ExtPos' feature
-[Line 1819 Sent StatutVKL1588-13 Node 91]: [L3 Warning fixed-without-extpos] Fixed expression 'то ж' does not have the 'ExtPos' feature
-[Line 2385 Sent Sapega-Speech-StatutVKL1588-2 Node 31]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
-[Line 2389 Sent Sapega-Speech-StatutVKL1588-2 Node 35]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
-[Line 2406 Sent Sapega-Speech-StatutVKL1588-3 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
-[Line 2410 Sent Sapega-Speech-StatutVKL1588-3 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
-[Line 2605 Sent Sapega-Speech-StatutVKL1588-7 Node 48]: [L3 Warning fixed-without-extpos] Fixed expression 'тогды то' does not have the 'ExtPos' feature
-[Line 2815 Sent Sapega-Speech-StatutVKL1588-10 Node 37]: [L3 Warning fixed-without-extpos] Fixed expression 'сами собе' does not have the 'ExtPos' feature
+[Line 411 Sent StatutVKL1566-6]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 451 Sent StatutVKL1566-6]: [L3 Warning fixed-without-extpos] Fixed expression 'якъ то' does not have the 'ExtPos' feature
+[Line 1239 Sent StatutVKL1588-6]: [L3 Warning fixed-without-extpos] Fixed expression 'яко то' does not have the 'ExtPos' feature
+[Line 1754 Sent StatutVKL1588-13]: [L3 Warning obl-should-be-nmod] The parent (node [84] 'присягу') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1819 Sent StatutVKL1588-13]: [L3 Warning fixed-without-extpos] Fixed expression 'то ж' does not have the 'ExtPos' feature
+[Line 2385 Sent Sapega-Speech-StatutVKL1588-2]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
+[Line 2389 Sent Sapega-Speech-StatutVKL1588-2]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
+[Line 2406 Sent Sapega-Speech-StatutVKL1588-3]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
+[Line 2410 Sent Sapega-Speech-StatutVKL1588-3]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
+[Line 2605 Sent Sapega-Speech-StatutVKL1588-7]: [L3 Warning fixed-without-extpos] Fixed expression 'тогды то' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 34
+Warnings: 37
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-train.conllu
-[Line 3493 Sent polotsk__160-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 3742 Sent polotsk__161-3 Node 42]: [L3 Warning fixed-without-extpos] Fixed expression 'как бы' does not have the 'ExtPos' feature
-[Line 3951 Sent polotsk__161-8 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 4572 Sent polotsk__163-7 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 4576 Sent polotsk__163-7 Node 32]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 4600 Sent polotsk__163-8 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 5471 Sent polotsk__167-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 6084 Sent polotsk__170-2 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 6107 Sent polotsk__170-3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 6125 Sent polotsk__170-4 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
+[Line 3493 Sent polotsk__160-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 3742 Sent polotsk__161-3]: [L3 Warning fixed-without-extpos] Fixed expression 'как бы' does not have the 'ExtPos' feature
+[Line 3951 Sent polotsk__161-8]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 4572 Sent polotsk__163-7]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 4576 Sent polotsk__163-7]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 4600 Sent polotsk__163-8]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 5471 Sent polotsk__167-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 6084 Sent polotsk__170-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 6107 Sent polotsk__170-3]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 6125 Sent polotsk__170-4]: [L3 Warning fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 201
+Warnings: 261
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.682427552449955) = 0.174981423705117
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.990852182023641) = 0.304877594468813
-(weight=0.0769230769230769) * (score{udeprels}=0.972972972972973) = 0.0748440748440748
-(TOTAL score=0.845301383616295) * (availability=1) * (validity=1) = 0.845301383616295
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.712591635733124) = 0.263922828049305
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
+(TOTAL score=0.791784022577166) * (availability=1) * (validity=1) = 0.791784022577166
 STARS = 4
-UD_Old_East_Slavic-Ruthenian	0.845301383616295	4
+UD_Old_East_Slavic-Ruthenian	0.791784022577166	4
