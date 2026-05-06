@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Old_East_Slavic-Ruthenian:
-commit 8ab7f65b0842d12fd9bee911ee2809174c5c1426
-Merge: 21ea4ee 0d12b8b
+commit e0e6873bf6542158a8cdacadb7491a479a2dba92
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:22:40 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'orv_ruthenian'
 Language code (from CoNLL-U file name) = 'orv'
@@ -25,48 +25,80 @@ Universal relations: 36 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-dev.conllu
-[Line 284 Sent polotsk__71-5]: [L3 Warning fixed-without-extpos] Fixed expression 'заню ж' does not have the 'ExtPos' feature
-[Line 1015 Sent polotsk__98-7]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 2109 Sent polotsk__107-2]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 2470 Sent polotsk__108-2]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 2643 Sent polotsk__108-10]: [L3 Warning fixed-without-extpos] Fixed expression 'А также и' does not have the 'ExtPos' feature
-[Line 2688 Sent polotsk__108-13]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 2986 Sent polotsk__110-6]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
-[Line 4348 Sent polotsk__121-7]: [L3 Warning fixed-without-extpos] Fixed expression 'как и' does not have the 'ExtPos' feature
-[Line 5235 Sent polotsk__124-5]: [L3 Warning fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
-[Line 5684 Sent polotsk__126-8]: [L3 Warning fixed-without-extpos] Fixed expression 'а любо' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 25
-*** PASSED ***
+[Line 284 Sent polotsk__71-5]: [L3 WARNING fixed-without-extpos] Fixed expression 'заню ж' does not have the 'ExtPos' feature
+[Line 1015 Sent polotsk__98-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 2109 Sent polotsk__107-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 2470 Sent polotsk__108-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 2643 Sent polotsk__108-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'А также и' does not have the 'ExtPos' feature
+[Line 2688 Sent polotsk__108-13]: [L3 WARNING fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 2986 Sent polotsk__110-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 4348 Sent polotsk__121-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'как и' does not have the 'ExtPos' feature
+[Line 5235 Sent polotsk__124-5]: [L3 WARNING fixed-without-extpos] Fixed expression 'а и' does not have the 'ExtPos' feature
+[Line 5684 Sent polotsk__126-8]: [L3 WARNING fixed-without-extpos] Fixed expression 'а любо' does not have the 'ExtPos' feature
+[Line 5791 Sent polotsk__127-3]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'пенязи') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5888 Sent polotsk__127-6]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'рижан') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5971 Sent polotsk__128-3]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'хвалшь') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6687 Sent polotsk__131-7]: [L3 SYNTAX obl-should-be-nmod] The parent (node [25] 'записех') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 7370 Sent lit_metr_III_1-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7455 Sent lit_metr_III_1-5]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7622 Sent lit_metr_III_1-6]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7685 Sent lit_metr_III_1-8]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7801 Sent lit_metr_III_2-6]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7830 Sent lit_metr_III_2-6]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 7946 Sent lit_metr_III_2-8]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 8089 Sent lit_metr_III_3-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+[Line 8095 Sent lit_metr_III_3-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 12084 Sent lit_metr_III_3-332]: [L3 WARNING verbform-fin-without-mood] Finite verb 'есмо' lacks the 'Mood' feature
+Warnings: 21
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-test.conllu
-[Line 411 Sent StatutVKL1566-6]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 451 Sent StatutVKL1566-6]: [L3 Warning fixed-without-extpos] Fixed expression 'якъ то' does not have the 'ExtPos' feature
-[Line 1239 Sent StatutVKL1588-6]: [L3 Warning fixed-without-extpos] Fixed expression 'яко то' does not have the 'ExtPos' feature
-[Line 1754 Sent StatutVKL1588-13]: [L3 Warning obl-should-be-nmod] The parent (node [84] 'присягу') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 1819 Sent StatutVKL1588-13]: [L3 Warning fixed-without-extpos] Fixed expression 'то ж' does not have the 'ExtPos' feature
-[Line 2385 Sent Sapega-Speech-StatutVKL1588-2]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
-[Line 2389 Sent Sapega-Speech-StatutVKL1588-2]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
-[Line 2406 Sent Sapega-Speech-StatutVKL1588-3]: [L3 Warning fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
-[Line 2410 Sent Sapega-Speech-StatutVKL1588-3]: [L3 Warning fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
-[Line 2605 Sent Sapega-Speech-StatutVKL1588-7]: [L3 Warning fixed-without-extpos] Fixed expression 'тогды то' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 37
-*** PASSED ***
+[Line 411 Sent StatutVKL1566-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 451 Sent StatutVKL1566-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'якъ то' does not have the 'ExtPos' feature
+[Line 1239 Sent StatutVKL1588-6]: [L3 WARNING fixed-without-extpos] Fixed expression 'яко то' does not have the 'ExtPos' feature
+[Line 1754 Sent StatutVKL1588-13]: [L3 SYNTAX obl-should-be-nmod] The parent (node [84] 'присягу') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 1819 Sent StatutVKL1588-13]: [L3 WARNING fixed-without-extpos] Fixed expression 'то ж' does not have the 'ExtPos' feature
+[Line 2385 Sent Sapega-Speech-StatutVKL1588-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
+[Line 2389 Sent Sapega-Speech-StatutVKL1588-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
+[Line 2406 Sent Sapega-Speech-StatutVKL1588-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'не только' does not have the 'ExtPos' feature
+[Line 2410 Sent Sapega-Speech-StatutVKL1588-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'але и' does not have the 'ExtPos' feature
+[Line 2605 Sent Sapega-Speech-StatutVKL1588-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'тогды то' does not have the 'ExtPos' feature
+[Line 2815 Sent Sapega-Speech-StatutVKL1588-10]: [L3 WARNING fixed-without-extpos] Fixed expression 'сами собе' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 5241 Sent polotsk__11-3]: [L3 SYNTAX obl-should-be-nmod] The parent (node [84] 'рубеж') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 8129 Sent polotsk__49-15]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'нелюбье') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 34
+SYNTAX errors: 3
+*** FAILED *** with 3 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang orv --max-err=10 UD_Old_East_Slavic-Ruthenian/orv_ruthenian-ud-train.conllu
-[Line 3493 Sent polotsk__160-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 3742 Sent polotsk__161-3]: [L3 Warning fixed-without-extpos] Fixed expression 'как бы' does not have the 'ExtPos' feature
-[Line 3951 Sent polotsk__161-8]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 4572 Sent polotsk__163-7]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 4576 Sent polotsk__163-7]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 4600 Sent polotsk__163-8]: [L3 Warning fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
-[Line 5471 Sent polotsk__167-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 6084 Sent polotsk__170-2]: [L3 Warning fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
-[Line 6107 Sent polotsk__170-3]: [L3 Warning fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
-[Line 6125 Sent polotsk__170-4]: [L3 Warning fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 261
-*** PASSED ***
-Validity: 1
+[Line 3493 Sent polotsk__160-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 3742 Sent polotsk__161-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'как бы' does not have the 'ExtPos' feature
+[Line 3951 Sent polotsk__161-8]: [L3 WARNING fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 4572 Sent polotsk__163-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 4576 Sent polotsk__163-7]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 4600 Sent polotsk__163-8]: [L3 WARNING fixed-without-extpos] Fixed expression 'а ни' does not have the 'ExtPos' feature
+[Line 5471 Sent polotsk__167-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 6084 Sent polotsk__170-2]: [L3 WARNING fixed-without-extpos] Fixed expression 'А також' does not have the 'ExtPos' feature
+[Line 6107 Sent polotsk__170-3]: [L3 WARNING fixed-without-extpos] Fixed expression 'А и' does not have the 'ExtPos' feature
+[Line 6125 Sent polotsk__170-4]: [L3 WARNING fixed-without-extpos] Fixed expression 'так и' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 27676 Sent polotsk__265-8]: [L3 SYNTAX obl-should-be-nmod] The parent (node [35] 'силе') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 51114 Sent polotsk__383-6]: [L3 SYNTAX obl-should-be-nmod] The parent (node [24] 'грошми') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 77302 Sent polotsk__462a-10]: [L3 SYNTAX obl-should-be-nmod] The parent (node [53] 'кимъ') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 91365 Sent uk__shaxm_krym__zudech1413-10]: [L3 WARNING verbform-fin-without-mood] Finite verb 'єсмо' lacks the 'Mood' feature
+[Line 124812 Sent RatushnaKniga_1986__ratush64-10]: [L3 SYNTAX obl-should-be-nmod] The parent (node [69] 'хто') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 131361 Sent falsifikat_ukr_031-2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'єсмо' lacks the 'Mood' feature
+[Line 131411 Sent falsifikat_ukr_031-3]: [L3 WARNING verbform-fin-without-mood] Finite verb 'єсмо' lacks the 'Mood' feature
+[Line 131447 Sent falsifikat_ukr_031-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'єсмо' lacks the 'Mood' feature
+[Line 131464 Sent falsifikat_ukr_031-4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'єсмо' lacks the 'Mood' feature
+Warnings: 257
+SYNTAX errors: 4
+*** FAILED *** with 4 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.111111111111111) = 0.0123456790123457
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
@@ -74,6 +106,6 @@ Validity: 1
 (weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
 (weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{udeprels}=0.972972972972973) = 0.108108108108108
-(TOTAL score=0.791784022577166) * (availability=1) * (validity=1) = 0.791784022577166
-STARS = 4
-UD_Old_East_Slavic-Ruthenian	0.791784022577166	4
+(TOTAL score=0.791784022577166) * (availability=1) * (validity=0.01) = 0.00791784022577166
+STARS = 0
+UD_Old_East_Slavic-Ruthenian	0.00791784022577166	0
