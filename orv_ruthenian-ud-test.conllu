@@ -1751,7 +1751,7 @@
 23	местъцу	местце	NOUN	NNI	Case=Loc|Gender=Neut|Number=Sing	21	nmod	_	wf="местъцу"
 24	судовомъ	судовый	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	23	nmod	_	wf="судовомъ"
 25	передъ	передъ	ADP	IN	_	26	case	_	wf="передъ"
-26	воеводою	воевода	NOUN	NNA	Case=Ins|Gender=Masc|Number=Sing	84	obl	_	wf="воеводою"
+26	воеводою	воевода	NOUN	NNA	Case=Ins|Gender=Masc|Number=Sing	89	obl	_	wf="воеводою"
 27	або	або	CCONJ	CC	_	28	cc	_	wf="або"
 28	кашталяномъ	каштелянъ	NOUN	NNA	Case=Ins|Gender=Masc|Number=Plur	26	conj	_	wf="кашталяномъ"|SpaceAfter=No
 29	,	,	PUNCT	-COMMA-	_	39	punct	_	_
@@ -4226,7 +4226,7 @@
 20	ѡдном(у)	одинъ	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	15	obl	_	wf="ѡдному"|SpaceAfter=No
 21	,	,	PUNCT	-COMMA-	_	23	punct	_	_
 22	какъ	какъ	SCONJ	IN	_	23	case	_	wf="какъ"
-23	другом(у)	другий	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	20	obl	_	wf="другому"|SpaceAfter=No
+23	другом(у)	другий	DET	DT	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	20	nmod	_	wf="другому"|SpaceAfter=No
 24	,	,	PUNCT	-COMMA-	_	10	punct	_	_
 25	а	а	CCONJ	СС	_	27	cc	_	wf="а"
 26	вѣсцю	весецъ	NOUN	NNA	Case=Dat|Gender=Masc|Number=Sing	27	iobj	_	wf="вѣсцю"
@@ -5238,7 +5238,7 @@
 80	а	а	CCONJ	СС	_	86	cc	_	wf="а"
 81	с	съ	ADP	IN	_	83	case	_	wf="с"
 82	Белого	белый	ADJ	JJL	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	83	amod	_	wf="Белого"
-83	озера	озеро	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	84	obl	_	wf="озера"
+83	озера	озеро	NOUN	NNI	Case=Gen|Gender=Neut|Number=Sing	84	nmod	_	wf="озера"
 84	рубеж	рубежъ	NOUN	NNI	Case=Nom|Gender=Masc|Number=Sing	86	nsubj	_	wf="рубеж"
 85	в	въ	ADP	IN	_	86	case	_	wf="в"
 86	мох	мохъ	NOUN	NNI	Case=Acc|Gender=Masc|Number=Sing	4	conj	_	wf="мох"
@@ -7693,7 +7693,7 @@
 23	дворѧниновъ	дворянинъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	8	conj	_	wf="дворѧниновъ"
 24	на	на	ADP	IN	_	26	case	_	wf="на"
 25	ѡбе	оба	NUM	CD	Case=Acc|Gender=Fem|NumForm=Word|NumType=Sets	26	nummod	_	wf="ѡбе"
-26	стороне	сторона	NOUN	NNI	Case=Acc|Gender=Fem|Number=Dual	7	obl	_	wf="стороне"|SpaceAfter=No
+26	стороне	сторона	NOUN	NNI	Case=Acc|Gender=Fem|Number=Dual	6	obl	_	wf="стороне"|SpaceAfter=No
 27	,	,	PUNCT	-COMMA-	_	32	punct	_	_
 28	въ	въ	ADP	IN	_	29	case	_	wf="въ"
 29	томъ	то	PRON	DT	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	32	obl	_	wf="томъ"
@@ -8126,7 +8126,7 @@
 25	дворѧнинов	дворянинъ	NOUN	NNA	Case=Gen|Gender=Masc|Number=Plur	16	conj	_	wf="дворѧнинов"
 26	на	на	ADP	IN	_	28	case	_	wf="на"
 27	обѣ	оба	NUM	CD	Case=Acc|Gender=Fem|NumForm=Word|NumType=Sets	28	nummod	_	wf="обѣ"
-28	стороне	сторона	NOUN	NNI	Case=Acc|Gender=Fem|Number=Dual	6	obl	_	wf="стороне"|SpaceAfter=No
+28	стороне	сторона	NOUN	NNI	Case=Acc|Gender=Fem|Number=Dual	5	obl	_	wf="стороне"|SpaceAfter=No
 29	,	,	PUNCT	-COMMA-	_	34	punct	_	_
 30	въ	въ	ADP	IN	_	31	case	_	wf="въ"
 31	тое	то	PRON	DT	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	34	obl	_	wf="тое"
