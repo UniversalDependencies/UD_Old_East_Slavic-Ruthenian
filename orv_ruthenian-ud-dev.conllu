@@ -5788,7 +5788,7 @@
 14	Пронковы	пронковъ	ADJ	JJH	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Variant=Short	13	amod	_	wf="Пронковы"
 15	оу	у	ADP	IN	_	16	case	_	wf="оу"
 16	нѣго	онъ	PRON	PRP	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	conj	_	wf="нѣго"
-17	вси	весь	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	13	obl	_	wf="вси"|SpaceAfter=No
+17	вси	весь	DET	DT	Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	13	det	_	wf="вси"|SpaceAfter=No
 18	.	.	PUNCT	-PERIOD-	_	6	punct	_	_
 
 # newpar
@@ -5885,7 +5885,7 @@
 20	рижан	рижанинъ	NOUN	NNA	Case=Acc|Gender=Masc|Number=Plur	26	obj	_	wf="рижан"
 21	здесѣ	здесь	ADV	RB	Degree=Pos	20	advmod	_	wf="здесѣ"
 22	оу	въ	ADP	IN	_	23	case	_	wf="оу"
-23	Полоцкꙋ	Полоцкъ	PROPN	NPI	Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	20	obl	_	wf="Полоцкꙋ"
+23	Полоцкꙋ	Полоцкъ	PROPN	NPI	Case=Loc|Gender=Masc|NameType=Geo|Number=Sing	21	obl	_	wf="Полоцкꙋ"
 24	и	и	CCONJ	СС	_	26	cc	_	wf="и"
 25	трѣхъ	три	NUM	CD	Case=Gen|Gender=Masc|NumForm=Word|NumType=Card	20	nummod	_	wf="трѣхъ"
 26	забавим	забавити	VERB	VBC	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	parataxis	_	wf="забавим"
@@ -5968,7 +5968,7 @@
 14	вам	вы	PRON	PRP	Case=Dat|Number=Plur|Person=2|PronType=Prs	12	obl	_	wf="вам"
 15	хвалшь	фалшъ	NOUN	NNI	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	wf="хвалшь"
 16	в	въ	ADP	IN	_	17	case	_	wf="в"
-17	селедцѣхъ	селедецъ	NOUN	NNA	Case=Loc|Gender=Masc|Number=Plur	15	obl	_	wf="селедцѣхъ"
+17	селедцѣхъ	селедецъ	NOUN	NNA	Case=Loc|Gender=Masc|Number=Plur	15	nmod	_	wf="селедцѣхъ"
 18	свою	свой	DET	PRP$	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	_	wf="свою"
 19	братью	братья	NOUN	NNI	Case=Acc|Gender=Fem|Number=Sing	15	appos	_	wf="братью"|SpaceAfter=No
 20	,	,	PUNCT	-COMMA-	_	27	punct	_	_
@@ -6683,8 +6683,8 @@
 20	не	не	PART	NEG	Polarity=Neg	21	advmod	_	wf="не"
 21	писан	писати	VERB	VBNH	Case=Nom|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	advcl	_	wf="писан"
 22	Юрьев	Юрьевъ	PROPN	NPA	Case=Nom|Gender=Masc|NameType=Sur|Number=Sing	21	nsubj	_	wf="Юрьев"
-23	ꙋ	въ	ADP	IN	_	24	case	_	wf="ꙋ"
-24	старих	старий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	25	obl	_	wf="старих"
+23	ꙋ	въ	ADP	IN	_	25	case	_	wf="ꙋ"
+24	старих	старий	ADJ	JJL	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur	25	amod	_	wf="старих"
 25	записех	запись	NOUN	NNI	Case=Loc|Gender=Fem|Number=Plur	21	obl	_	wf="записех"|SpaceAfter=No
 26	.	.	PUNCT	-PERIOD-	_	17	punct	_	_
 
@@ -7367,7 +7367,7 @@
 1	Ижъ	ижъ	PART	_	_	33	advmod	_	wf="Ижъ"|SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	_	wf=","
 3	видевше	видети	VERB	_	Aspect=Imp|Tense=Past|VerbForm=Conv|Voice=Act	33	advcl	_	wf="видевше"
-4	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="есмо"
 5	службу	служба	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	wf="службу"
 6	намъ	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	wf="намъ"
 7	верную	верный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	wf="ве<i>р</i>ную"
@@ -7452,7 +7452,7 @@
 # text = А тое есмо дали ему его отчину, тое держанье все, што выслужил, у в отъчину, со всимъ с тымъ, што издавна к тымъ селомъ прислушало и какъ тепере держить, вечно а непорушно, со всими уходы и приходы, ничого на себе не выменяа, селы и приселки, и с нивами, и с пашнями, и с лесы, и з дубровами, и з бортными землями, и с пасеками, и с ловы, и с ловищи, и з бобровыми гоны, и з зеремяны, и с реками, и з озери, и с потоки, и с криницами, и з ставы, и з ставищи, и с мыты, и з болоты, и с рудами, и што в тых именьях собе примыслить, и на новомъ корени посадить, со всими платы, што к тымъ именьямъ прислушаеть и перед тымъ шло службами и тягостью.
 1	А	а	CCONJ	_	_	4	cc	_	wf="А"
 2	тое	тотъ	DET	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	wf="тое"
-3	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есмо"
+3	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	wf="есмо"
 4	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
 5	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	iobj	_	wf="ему"
 6	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	wf="его"
@@ -7619,7 +7619,7 @@
 # text = А дали есмо ему и его жене, и его детемъ, и его ближнимъ, и его сочетъкомъ, вечно а непорушно.
 1	А	а	CCONJ	_	_	2	cc	_	wf="А"
 2	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
-3	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есмо"
+3	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	wf="есмо"
 4	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	wf="ему"
 5	и	и	CCONJ	_	_	7	cc	_	wf="и"
 6	его	онъ	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	det	_	wf="его"
@@ -7682,7 +7682,7 @@
 9	печать	печать	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	wf="печать"
 10	нашу	нашъ	DET	_	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det	_	wf="н(а)шу"
 11	привесили	привесити	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="привеси<i>л</i>и"
-12	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмо"
+12	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	wf="есмо"
 13	к	къ	ADP	_	_	15	case	_	wf="к"
 14	тому	той	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	wf="тому"
 15	листу	листъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	wf="ли<i>с</i>ту"|SpaceAfter=No
@@ -7798,7 +7798,7 @@
 # sent_id = lit_metr_III_2-6
 # text = Видевши есмо намъ службу верную а николи не умешканую пану Немиру Резановича, и мы, подумавши с нашими князми и с паны, с нашою верною радою, дали есмо пану Немири Резановичу и записали села с лесы, зъ дубровами, с полми, со ставы и з ставищи, с криницами, с потоки и з мыты, и з болоты, и з сеножатьми, и з бортными землями, и с ловы, и з гаи, и з бобровыми гоны, ничого на себе не выменяя, тая именья, на имя: Литовиж, село Торговица, Червища, Стволовичи, по тому, как было при великомъ князи Витовте и как тепере Немиря держить.
 1	Видевши	видети	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Act	30	advcl	_	wf="Видевши"
-2	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	wf="есмо"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	wf="есмо"
 3	намъ	мы	PRON	_	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	nmod	_	wf="намъ"
 4	службу	служба	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	wf="службу"
 5	верную	верный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	wf="ве<i>р</i>ную"
@@ -7827,7 +7827,7 @@
 28	радою	рада	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	17	obl	_	wf="радою"|SpaceAfter=No
 29	,	,	PUNCT	_	_	30	punct	_	wf=","
 30	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
-31	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	wf="есмо"
+31	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	wf="есмо"
 32	пану	панъ	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	30	iobj	_	wf="пану"
 33	Немири	Немиря	PROPN	_	Case=Dat|Gender=Masc|NameType=Giv|Number=Sing	32	appos	_	wf="Немири"
 34	Резановичу	Резановичъ	PROPN	_	Case=Dat|Gender=Masc|NameType=Sur|Number=Sing	33	flat:name	_	wf="Резановичу"
@@ -7943,7 +7943,7 @@
 1	А	а	CCONJ	_	_	3	cc	_	wf="А"
 2	то	то	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obj	_	wf="то"
 3	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
-4	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="е<i>с</i>мо"
+4	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	wf="е<i>с</i>мо"
 5	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	iobj	_	wf="ему"
 6	и	и	CCONJ	_	_	7	cc	_	wf="и"
 7	записали	записати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	3	conj	_	wf="записали"
@@ -8086,13 +8086,13 @@
 # sent_id = lit_metr_III_3-2
 # text = Пожаловали есмо пана Немирю Резановича, дали есмо ему сес нашъ листъ на тая именья: на Земно а на Дубно, а на Марковъ Став, а на Сернъ, Мостишин, со всимъ, што к тымъ именьемъ здавна, и с нивами, и с ловищи, и з сеножатьми.
 1	Пожаловали	пожаловати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="Пожаловали"|before=<p>
-2	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
+2	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	wf="есмо"
 3	пана	панъ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	wf="пана"
 4	Немирю	Немиря	PROPN	_	Case=Acc|Gender=Masc|NameType=Giv|Number=Sing	1	iobj	_	wf="Немирю"
 5	Резановича	Резановичъ	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|NameType=Sur|Number=Sing	4	flat:name	_	wf="Резановича"|SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	wf=","
 7	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	1	conj	_	wf="дали"
-8	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есмо"
+8	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	wf="есмо"
 9	ему	онъ	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	iobj	_	wf="ему"
 10	сес	сесъ	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	12	det	_	wf="се<i>с</i>"
 11	нашъ	нашъ	DET	_	Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det	_	wf="н(а)шъ"
@@ -12081,7 +12081,7 @@
 6	Петровичемъ	Петровичъ	PROPN	_	Case=Ins|Gender=Masc|NameType=Sur|Number=Sing	7	nmod	_	wf="Петровичемъ"
 7	Овстил	Овстилъ	PROPN	_	Case=Acc|Gender=Masc|NameType=Geo|Number=Sing	8	obj	_	wf="Овсти<i>л</i>"
 8	дали	дати	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=PartRes|Voice=Act	0	root	_	wf="дали"
-9	есмо	быти	AUX	_	Analyt=Yes|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмо"|SpaceAfter=No
+9	есмо	быти	AUX	_	Analyt=Yes|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	wf="есмо"|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	wf="."|after=</p>
 
 # newpar
